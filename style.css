@@ -3,11 +3,3 @@ Theme Name: My Theme
 Author: Pauline Noël
 Version: 1.0
 */
-
-/* CSS Color variables */
-:root {
-    --background-color: #FFFEF8;
-    --color-primary: #f5c400;
-    --color-dark: #111;
-    --container-width: 1200px;
-}
