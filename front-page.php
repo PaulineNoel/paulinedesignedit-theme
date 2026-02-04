@@ -8,7 +8,7 @@
           <h1>I design digital experiences that <span class="highlight">actually work</span>.</h1>
           <h2>Clean interfaces, thoughtful UX, and websites built to support real business goals.</h2>
           <h3 class="hero-subtitle">
-            I’m a UI/UX Designer & Web Strategist who bridges design, development, and strategy — turning complex ideas into intuitive, high-performing digital products.
+            I’m a UI/UX Designer & Web Strategist who bridges design, development, and strategy — turning complex ideas into intuitive, high-performing digital products.<br>
             Professional, detail-driven, and yes… I enjoy the process too.
           </h3>
           <div class="display-flex two-button-section">
@@ -22,7 +22,21 @@
       </div>
     </section>
 
-    <!-- PROJECTS LOOP -->
+    <!-- Short value proposition -->
+     <section class="container">
+      <h2>Design is not just how it looks. It’s how it performs.</h2>
+      <p>I help companies create websites and platforms that are clear, accessible, conversion-focused, and easy to maintain.<br>
+      No over-engineering. No unnecessary fluff. Just smart design decisions backed by strategy and execution.</p>
+     </section>
+    
+    <!-- Services -->
+     <section class="container">
+      <div class="display-flex-center">
+        div.service-card
+      </div>
+     </section>
+    
+     <!-- PROJECTS LOOP -->
     <section class="home-projects container">
       <h2>Selected Projects</h2>
       <h3>A curated selection of projects where strategy, design, and execution come together.</h3>

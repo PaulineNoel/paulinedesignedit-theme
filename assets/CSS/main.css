@@ -1,13 +1,21 @@
 /* CSS Color variables */
 :root {
+    /* Color */
     --background-color: #FFFEF8;
     --color-blue: #CCDBFD;
     --color-pink: #EFDAFB;
     --color-highlight: #45D6D0;
     --color-text: #161F3A;
+    /* Container */
+    --container-max: 1200px;
+    --container-narrow: 900px;
+    --container-wide: 1440px;
+    /* borders */
+    --radius-md: 30px;
+    --width-lg: 4px;
+    /* Spaces */
+    --space-30: 30px;
 }
-
-
 
 /* Fonts & Layout */
 html,
@@ -45,7 +53,7 @@ p {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: var(--container-max);
     margin: auto;
 }
 
@@ -55,18 +63,18 @@ p {
 
 /* Main elements */
 .btn {
-    border-radius: 30px;
+    border-radius: var(--radius-md);
     padding: 15px 30px;
     text-decoration: none;
     color: var(--color-text);
-    border-width: 4px;
+    border-width: var(--width-lg);
     border-style: solid;
-    margin-top: 30px;
+    margin-top: var(--space-30);
 
 }
 
 .two-button-section-element {
-    margin-right: 20px;
+    margin-right: var(--space-30);
 }
 
 .primary-btn {
@@ -115,7 +123,5 @@ p {
 .project-card {
     padding: 1.5rem;
     border: 1px solid #eee;
-    border-radius: 12px;
+    border-radius: var(--radius-md);
 }
-
-*/
