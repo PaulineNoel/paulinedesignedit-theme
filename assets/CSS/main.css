@@ -24,14 +24,15 @@
 /* CSS Color variables */
 :root {
     /* Color */
-    --background-color: #FFFEF8;
-    --color-blue: #CCDBFD;
-    --color-pink: #EFDAFB;
-    --color-highlight: #45D6D0;
-    --color-text: #161F3A;
+    --color-white: #FDFBFA;
+    --color-blue: #C4EBF1;
+    --color-pink: #F291B3;
+    --color-action-pink: #D92363;
+    --color-main-burgandy: #7D0F1C;
+    --color-text: #1C1C1E;
     /* Container */
     --container-mobile: 90%;
-    --container-max: 1440px;
+    --container-max: 1100px;
     --container-narrow: 900px;
     --container-wide: 1440px;
     /* borders */
@@ -39,13 +40,14 @@
     --width-lg: 4px;
     /* Spaces */
     --space-30: 30px;
+    --space-10: 10px;
 }
 
 /* Fonts & Layout */
 html,
 body {
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
-    background-color: var(--background-color);
+    background-color: var(--color-white);
     margin: 0;
     padding: 0;
     color: var(--color-text);
@@ -57,9 +59,10 @@ body {
     padding-inline: clamp(1rem, 4vw, 2rem);
 }
 
-.display-flex-center {
+.display-flex-center-center {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .display-flex {
@@ -82,6 +85,12 @@ p {
     font: 400 1.125rem/1.7 'Poppins', sans-serif;
 }
 
+hr {
+    color: #FDFBFA !important;
+    border: none;
+    height: var(--space-10);
+}
+
 /* .home {
     padding: 4rem 0rem;
 } */
@@ -91,11 +100,11 @@ p {
     border-radius: var(--radius-md);
     padding: 15px 30px;
     text-decoration: none;
-    color: var(--color-text);
+    color: var(--color-white);
     border-width: var(--width-lg);
     border-style: solid;
-    margin-top: var(--space-30);
-
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .two-button-section-element {
@@ -103,20 +112,19 @@ p {
 }
 
 .primary-btn {
-    background-color: var(--color-blue);
-    border-color: var(--color-blue);
+    background-color: var(--color-action-pink);
+    border-color: var(--color-action-pink);
 }
 
 .secondary-btn {
     border-color: var(--color-pink);
 }
 
-/* hero section */
-
 .highlight {
-    color: var(--color-highlight) !important;
+    color: var(--color-action-pink);
 }
 
+/* hero section */
 .hero-image {
     display: block;
     width: 70%;
@@ -126,9 +134,13 @@ p {
     margin-left: 100px;
 }
 
-
 .home-hero {
     margin-bottom: 4rem;
+
+}
+
+.space-30 {
+    margin-bottom: var(--space-30);
 }
 
 .home-projects h2 {
