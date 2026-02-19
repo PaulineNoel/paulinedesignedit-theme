@@ -2,10 +2,10 @@
 
 <main class="home">
     <!-- HERO (hardcoded) -->
-    <section class="home-hero">
+    <section class="home-hero container">
       <div class="display-flex-center">
         <div class="half-width-container hero-text">
-          <h1>I design digital experiences that <span class="highlight">actually work</span>.</h1>
+          <h1>Designing digital experiences that <span class="highlight">actually work</span>.</h1>
           <h2>Clean interfaces, thoughtful UX, and websites built to support real business goals.</h2>
           <h3 class="hero-subtitle">
             I’m a UI/UX Designer & Web Strategist who bridges design, development, and strategy — turning complex ideas into intuitive, high-performing digital products.<br>
@@ -17,7 +17,7 @@
           </div>
         </div>
         
-        <img class="half-width-container hero-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Pauline-Noel-Photo.jpg" alt="Portrait of Pauline Noël, web and UI/UX designer">
+        <img class="half-width-container hero-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Pauline Noel Profile photo with chat bubble.png" alt="Portrait of Pauline Noël, web and UI/UX designer">
         
       </div>
     </section>
