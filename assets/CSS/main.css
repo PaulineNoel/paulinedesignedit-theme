@@ -40,6 +40,7 @@
     --width-lg: 4px;
     /* Spaces */
     --space-30: 30px;
+    --space-20: 20px;
     --space-10: 10px;
 }
 
@@ -54,19 +55,21 @@ body {
 }
 
 .container {
-    width: min(var(--container-mobile), var(--container-max));
+    width: min(100% - 2rem, var(--container-max));
     margin-inline: auto;
     padding-inline: clamp(1rem, 4vw, 2rem);
 }
 
-.display-flex-center-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+@media (min-width: 768px) {
+    .display-flex-center-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.display-flex {
-    display: flex;
+    .display-flex {
+        display: flex;
+    }
 }
 
 h1 {
@@ -81,14 +84,26 @@ h3 {
     font: 450 1.5rem/1.35 'Poppins', sans-serif;
 }
 
+h4 {
+    font: 450 1.3rem/1.25 'Poppins', sans-serif;
+}
+
+h5 {
+    font: 550 1.25rem/1.2 'Poppins', sans-serif;
+}
+
 p {
-    font: 400 1.125rem/1.7 'Poppins', sans-serif;
+    font: 400 1em/1.7 'Poppins', sans-serif;
 }
 
 hr {
     color: #FDFBFA !important;
     border: none;
     height: var(--space-10);
+}
+
+a {
+    text-decoration: none;
 }
 
 /* .home {
@@ -147,6 +162,103 @@ hr {
     margin-bottom: 2rem;
 }
 
+/* Projects 
+.projects-wrapper {}
+
+.project-card {
+    text-decoration: none;
+    color: var(--color-text);
+    border-radius: var(--radius-md);
+    background-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    margin: var(--space-20);
+}
+
+.project-img {}
+
+.project-content {
+    margin: var(--space-30);
+}
+
+.project-card-tag {
+    padding: 5px 15px;
+    border-radius: var(--radius-md);
+    background-color: var(--color-blue);
+    font-size: 12px;
+    margin-right: 5px;
+}
+*/
+
+/* GRID */
+.projects-grid {
+    display: grid !important;
+    grid-template-columns: 1fr;
+    /* 👈 mobile first */
+    gap: 2rem;
+    /* spacing only BETWEEN cards */
+    margin: var(--space-30) 0px;
+}
+
+@media (min-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.project-card {
+    width: 100%;
+    margin: 0;
+    /* remove outside card margins */
+    background: #fff;
+    border-radius: var(--radius-md);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+    /* keeps image inside the card */
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-image-wrapper {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    /* optional but very useful */
+    overflow: hidden;
+}
+
+.project-card-image-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-card-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.project-card-content {
+    margin: var(--space-30);
+}
+
+.project-tags-wrapper {
+    margin-bottom: var(--space-20);
+}
+
+.project-card-tag {
+    padding: 5px 15px;
+    border-radius: var(--radius-md);
+    background-color: var(--color-blue);
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.project-title {
+    margin: 0px;
+}
+
+/* FOR LOOP
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -158,4 +270,4 @@ hr {
     padding: 1.5rem;
     border: 1px solid #eee;
     border-radius: var(--radius-md);
-}
+} */
