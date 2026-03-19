@@ -16,6 +16,17 @@ function pauline_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'pauline_styles' );
 
+function pauline_scripts() {
+    wp_enqueue_script(
+        'main-js',
+        get_template_directory_uri() . '/assets/js/main.js',
+        array(),
+        filemtime(get_template_directory() . '/assets/js/main.js'),
+        true
+    );
+}
+add_action('wp_enqueue_scripts', 'pauline_scripts');
+
 /**
  * Theme setup
  */
