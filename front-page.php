@@ -35,7 +35,7 @@
           <div class="section-intro">
             <p class="label">Clients</p>
             <h3>Companies I’ve worked with</h3>
-            <p class="clients-subtitle">
+            <p class="subtitle client-subtitle">
               Helping teams turn complex ideas into simple, high-performing digital experiences.
             </p>
 
@@ -105,14 +105,14 @@
     
      <!-- PROJECTS  -->
     <section class="home-projects container">
-      <div class="section-shell">
+      <div class="section-shell2">
         <div class="section-intro">
           <p class="label">Stats</p>
           <h3>Selected Projects</h3>
         </div>
         
         <h4>A curated selection of projects where strategy, design, and execution come together.</h4>
-        <p>Each project reflects a clear business objective — whether it’s improving usability, simplifying complex information, or building scalable websites that teams can actually manage.</p>
+        <p class="subtitle">Each project reflects a clear business objective — whether it’s improving usability, simplifying complex information, or building scalable websites that teams can actually manage.</p>
 
         <div class="projects-grid">
           <!-- Careers Intenational -->
