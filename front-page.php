@@ -119,14 +119,14 @@
     <section class="home-projects container">
       <div class="section-shell2">
         <div class="section-intro">
-          <p class="label">Stats</p>
+          <p class="label">Case studies</p>
           <h2>Selected Projects</h2>
         </div>
         
         <h3>A curated selection of projects where strategy, design, and execution come together.</h3>
         <p class="subtitle">Each project reflects a clear business objective — whether it’s improving usability, simplifying complex information, or building scalable websites that teams can actually manage.</p>
 
-        <div class="projects-grid">
+        <div class="two-column-grid">
           <!-- Careers Intenational -->
           <div class="project-card">
             <div class="project-card-image-wrapper">
@@ -208,7 +208,7 @@
         <div class="right-align">
           <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="primary-btn btn">Explore Case Studies</a>
         </div>
-      <!-- <div class="projects-grid">
+      <!-- <div class="two-column-grid">
           <?php get_template_part('template-parts/loop', 'project'); ?>
       </div> 
 
