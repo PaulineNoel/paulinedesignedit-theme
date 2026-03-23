@@ -6,11 +6,29 @@ get_header(); ?>
 <main class="project">
     <section id="hero" class="container">
         <div class="project-hero-title">
+            <p class="hero-kicker">Case Study</p>
             <h1>Reimagining Careers International: <br>
             <span class="highlight italic">From Brand to Digital Experience</span></h1>
-            <p class="subtitle">some text</p>
+            <p class="subtitle">A full brand and UX transformation for Careers International — a new identity, engaging UI, and an animated WordPress build that turned a complex platform into a high-performing digital experience.</p>
         </div>
-        <div class="project-hero-meta section-shell"></div>
+        <div class="project-hero-meta section-shell flex-wrap">
+            <div class="meta-item">
+                <div class="meta-label">My Role</div>
+                <div class="meta-value">UX/UI Designer &amp; Front-End Developer</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Scope</div>
+                <div class="meta-value">Brand Identity · UX/UI · WordPress Build</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Year</div>
+                <div class="meta-value">2023 – 2024</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Industry</div>
+                <div class="meta-value">Recruitment &amp; Career Services</div>
+            </div>
+        </div>
         <div class="project-tags-wrapper flex-wrap">
             <div class="project-card-tag">Web Strategy</div>
             <div class="project-card-tag">UI/UX</div>
@@ -29,8 +47,8 @@ get_header(); ?>
                 <p class="label">01 — Project Overview</p>
                 <h2>A platform built to connect people with purpose</h2>
                 <p>
-                    Careers International is a global recruitment and career advisory firm helping individuals and companies navigate hiring, transitions, and workforce development. Despite strong expertise, their digital presence failed to communicate their value — it felt outdated, was difficult to navigate, and didn't convert visitors into enquiries. <br>
-
+                    Careers International is a global recruitment and career advisory firm helping individuals and companies navigate hiring, transitions, and workforce development. Despite strong expertise, their digital presence failed to communicate their value — it felt outdated, was difficult to navigate, and didn't convert visitors into enquiries.<br>
+                    <br>
                     The brief was ambitious: rebuild the brand from the ground up and deliver a website that felt as polished and trustworthy as the service itself. That meant combining <strong>strategic UX thinking</strong> with a <strong>visually distinctive brand identity</strong> and a robust, scalable WordPress build.
                 </p>
             </div>
@@ -82,7 +100,7 @@ get_header(); ?>
             <p>Before putting a single pixel on screen, I spent time understanding who was actually using the platform, what they needed, and where the experience was breaking down. Research was conducted across three methods to ensure findings were triangulated and actionable.</p>
         </div>
         <div class="three-column-grid">
-            <div class="research-card">
+            <div class="info-card">
                 <div class="research-icon" style="background: var(--color-blue);">🎙️</div>
                 <h3>Stakeholder Interviews</h3>
                 <p>5 in-depth interviews with the Careers International leadership team to map business goals, brand aspirations, and key success metrics.</p>
@@ -275,11 +293,58 @@ get_header(); ?>
             </div>
         </div>
         <div id="typography" class="section-shell">
-            <p class="type-showcase-label">Typography System</p>
+            <p class="label">Typography System</p>
             <div class="type-sample-h1">Careers<br>International.</div>
             <div class="type-sample-h2">Connecting talent with opportunity</div>
             <p class="type-sample-body">We help companies build high-performing teams and individuals navigate meaningful career transitions — with precision, discretion, and genuine expertise.</p>
-            <p class="type-sample-caption">Caption / Label — Inter 500 · 12px · 0.08em tracking</p>
+        </div>
+        <div class="img-placeholder" style="margin-bottom: 40px; height: 420px; margin-top: 40px;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+            <span>Full Brand Guidelines / Style Sheet</span>
+        </div>
+        <div class="three-column-grid">
+            <div class="img-placeholder ph-sq" style="height: 320px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                <span>Homepage — Final UI</span>
+            </div>
+            <div class="img-placeholder ph-sq" style="height: 320px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                <span>Job Listings — Final UI</span>
+            </div>
+            <div class="img-placeholder ph-sq" style="height: 320px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                <span>About / Team Page — Final UI</span>
+            </div>
+        </div>
+    </section>
+    <section id="results" class="container">
+        <div class="section-shell-burgandy">
+            <p class="label-dark">07 — Results</p>
+            <h2 class="dark-mode-txt">Design that moved the numbers</h2>
+            <p style="max-width: 560px;">Within three months of launch, the redesigned platform delivered measurable improvements across every key metric — validating the research-driven approach and the structural changes made during the UX strategy phase.</p>
+            <div class="three-column-grid">
+                <div class="project-stat-item">
+                    <h3 class="project-stat-num">+62%</h3>
+                    <p>Increase in qualified enquiries<br>from the website</p>
+                </div>
+                <div class="project-stat-item">
+                    <h3 class="project-stat-num">−41%</h3>
+                    <p>Reduction in bounce rate<br>across all landing pages</p>
+                </div>
+                <div class="project-stat-item">
+                    <h3 class="project-stat-num">4.2×</h3>
+                    <p>Faster content updates by<br>the internal team</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="case-footer-cta" class="container">
+        <p class="label">What's next?</p>
+        <h2>Ready to work together?</h2>
+        <p>If you're looking for a designer who combines strategic UX thinking with high-quality visual execution, let's talk.</p>
+        <div class="display-flex-center-center-mobile">
+            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="primary-btn btn">Work with me</a>
+            <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore more case studies</a>
         </div>
     </section>
 </main>

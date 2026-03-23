@@ -8,7 +8,7 @@
           <h1>Designing digital<br>experiences that<br><span class="highlight">actually work</span>.</h1>
           <p class="subtitle">I help companies turn complex ideas into clear, high-performing websites.</p>
           <hr class="space-30">
-          <div class="display-flex">
+          <div class="display-flex-vertical-center-mobile">
             <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore case studies</a>
           </div>
@@ -164,7 +164,7 @@
               </div>
               <h4 class="project-title">Optimizing Jobinar: From Costly Platform to Scalable Solution</h4>
               <p>A web strategy and UX overhaul of the Jobinar platform, replacing an expensive, inflexible system with a scalable Wistia-based solution.</p>
-              <a href="/PLACEHREF" class="project-card-link display-flex">View case study</a>
+              <a href="PlaceHREF" class="project-card-link display-flex">View case study</a>
             </div>
           </div>
 
@@ -201,7 +201,7 @@
               </div>
               <h4 class="project-title">Designing Flexina’s Website: A Clear and Scalable Digital Presence</h4>
               <p>A UI/UX website design for Flexina, focused on clear structure, intuitive navigation, and a modern interface tailored to small businesses.</p>
-              <a href="https://xd.adobe.com/view/a7c8528e-753d-4c8f-b49a-109bb02c4edb-f29b/?hints=off" target="blank" class="project-card-link display-flex">View the prototype</a>
+              <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" target="blank" class="project-card-link display-flex">View the prototype</a>
             </div>
           </div>
         </div>
@@ -244,7 +244,6 @@
           </div>
         </div>
       </div>
-      
     </section>
 </main>
 
