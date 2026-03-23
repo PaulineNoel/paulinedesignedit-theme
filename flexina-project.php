@@ -112,5 +112,28 @@ get_header(); ?>
             </div>
         </div>
     </section>
+    <section id="research" class="container">
+        <p class="label"></p>
+        <h2></h2>
+        <p></p>
+        <div class="flex-wrap flex-pill">
+            <div class="pill blue-pill">
+                <div class="mi">🎯</div>
+                <p>Target User Definition</p>
+            </div>
+            <div class="pill blue-pill">
+                <div class="mi">🔬</div>
+                <p>Competitor Benchmarking</p>
+            </div>
+            <div class="pill blue-pill">
+                <div class="mi">🗺️</div>
+                <p>User Flow Mapping</p>
+            </div>
+            <div class="pill blue-pill">
+                <div class="mi">📱</div>
+                <p>Mobile-first Analysis</p>
+            </div>
+        </div>
+    </section>
 </main>
 <?php get_footer(); ?>

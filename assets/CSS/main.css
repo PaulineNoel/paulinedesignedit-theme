@@ -372,6 +372,26 @@ a {
     font-style: italic;
 }
 
+.flex-pill {
+    gap: 1rem;
+}
+
+.pill {
+    border-radius: 12px;
+    padding: 1rem 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.blue-pill {
+    background-color: var(--color-blue);
+}
+
+.pill .mi {
+    font-size: 1.15rem;
+}
+
 /* Main elements */
 .btn {
     border-radius: var(--radius-md);
