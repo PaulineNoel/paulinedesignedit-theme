@@ -1,25 +1,46 @@
 <?php get_header(); ?>
 
 <main class="home">
-    <!-- HERO (hardcoded) -->
-    <section class="home-hero container">
-      <div class="display-flex-center-center">
-        <div class="half-width-container hero-text">
-          <h1>Designing digital<br>experiences that<br><span class="highlight">actually work</span>.</h1>
-          <p class="subtitle">I help companies turn complex ideas into clear, high-performing websites.</p>
-          <hr class="space-30">
-          <div class="display-flex-vertical-center-mobile">
-            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="primary-btn btn">Work with me</a>
-            <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore case studies</a>
+    <!-- HERO -->
+    <section class="home-hero">
+
+      <!-- Left: text -->
+      <div class="hero-text-col">
+        <div class="hero-text">
+          <span class="hero-kicker">Available for projects</span>
+          <h1>Designing digital experiences that <span class="highlight">actually work</span>.</h1>
+          <p class="hero-subtitle">I help companies turn complex ideas into clear,<br>high-performing websites.</p>
+          <div class="hero-trust">
+            <span class="hero-trust__pill">UI/UX Design</span>
+            <span class="hero-trust__pill">WordPress</span>
+            <span class="hero-trust__pill">20+ Projects</span>
           </div>
-          
-          <!-- <div class="display-flex two-button-section">
-            <a href="/projects" class="primary-btn btn two-button-section-element">View all projects</a>
-            <a href="/contact-me" class="secondary-btn btn two-button-section-element">View all projects</a>
-          </div> -->
+          <div class="hero-actions">
+            <a href="<?php echo esc_url( home_url('/contact/') ); ?>" class="primary-btn btn">Work with me</a>
+            <a href="<?php echo esc_url( home_url('/projects/') ); ?>" class="secondary-btn btn">Explore case studies</a>
+          </div>
         </div>
-        <img class="half-width-container hero-image" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Pauline Noel Profile photo with chat bubble.png" alt="Portrait of Pauline Noël, web and UI/UX designer">
       </div>
+
+      <!-- Right: floating mockup stack -->
+      <div class="hero-visual">
+        <div class="hero-visual__bg"></div>
+        <div class="hero-mockup-stack">
+          <div class="hero-mockup hero-mockup--back">
+            <img
+              src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Jobinar mockup.png' ); ?>"
+              alt="Jobinar project mockup"
+            >
+          </div>
+          <div class="hero-mockup hero-mockup--front">
+            <img
+              src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Careers International Redesign mockup.png' ); ?>"
+              alt="Careers International project mockup"
+            >
+          </div>
+        </div>
+      </div>
+
     </section>
 
     <!-- Short value proposition -->
@@ -33,7 +54,7 @@
       <div class="section-shell">
         <div class="clients-top">
           <div class="section-intro">
-            <p class="label">Clients</p>
+            <p class="label">Clients & testimonials</p>
             <h2>Companies I’ve worked with</h2>
             <p class="subtitle client-subtitle">
               Helping teams turn complex ideas into simple, high-performing digital experiences.
@@ -49,14 +70,14 @@
             <div class="testimonials-wrapper">
               <article class="testimonial-card is-active">
                 <div class="testimonial-header">
-                  <div class="testimonial-avatar">CI</div>
+                  <div class="testimonial-avatar">SW</div>
                   <div class="testimonial-profile">
                     <h4>Stéphane Wasjkop</h4>
                     <p>Owner - Careers international</p>
                   </div>
                 </div>
                 <p class="testimonial-text">
-                  “Pauline was a pleasure to work with. She immediately understood what we were trying to build with Flexina and turned it into a modern, user-friendly design. Her responsiveness, creativity, and ability to deliver high-quality work quickly made a real difference. I’d definitely work with her again.”
+                  “Pauline was a pleasure to work with. She led the rebranding and redesign of Careers International, delivering a modern, user-friendly experience. Her work on the jobinar project also helped streamline processes and reduce costs. I would gladly work with her again.”
                 </p>
               </article>
 
@@ -75,7 +96,7 @@
 
               <article class="testimonial-card">
                 <div class="testimonial-header">
-                  <div class="testimonial-avatar">AC</div>
+                  <div class="testimonial-avatar">AO</div>
                   <div class="testimonial-profile">
                     <h4>Andres Orduz</h4>
                     <p>Product Manager - Proximus</p>
@@ -123,7 +144,7 @@
           <h2>Selected Projects</h2>
         </div>
         
-        <h3>A curated selection of projects where strategy, design, and execution come together.</h3>
+        <h3>A curated selection of projects where strategy, design, and execution interplay.</h3>
         <p class="subtitle">Each project reflects a clear business objective — whether it’s improving usability, simplifying complex information, or building scalable websites that teams can actually manage.</p>
 
         <div class="two-column-grid">
@@ -164,7 +185,7 @@
               </div>
               <h4 class="project-title">Optimizing Jobinar: From Costly Platform to Scalable Solution</h4>
               <p>A web strategy and UX overhaul of the Jobinar platform, replacing an expensive, inflexible system with a scalable Wistia-based solution.</p>
-              <a href="PlaceHREF" class="project-card-link display-flex">View case study</a>
+              <a href="<?php echo esc_url( home_url( '/jobinar-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
             </div>
           </div>
 
@@ -184,7 +205,7 @@
               </div>
               <h4 class="project-title">Top Women Careers: Brand & UX for an Inclusive Career Platform</h4>
               <p>Brand and website for Top Women Careers, connecting women with progressive employers. UX, visual identity, and scalable WordPress platform.</p>
-              <a href="/PLACEHREF" class="project-card-link display-flex">View case study</a>
+              <a href="<?php echo esc_url( home_url( '/twc-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
             </div>
           </div>
 
