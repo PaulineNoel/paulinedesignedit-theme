@@ -3,7 +3,7 @@
  * Template Name: Jobinar Project
  */
 get_header(); ?>
-<main class="project">
+<main id="main-content" class="project">
 
     <!-- ══ HERO ══ -->
     <section id="hero" class="container">
@@ -487,7 +487,7 @@ get_header(); ?>
         <h2>Ready to work together?</h2>
         <p>If you're looking for a designer who combines strategic UX thinking with high-quality visual execution, let's talk.</p>
         <div class="display-flex-center-center-mobile">
-            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="primary-btn btn">Work with me</a>
+            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore more case studies</a>
         </div>
     </section>

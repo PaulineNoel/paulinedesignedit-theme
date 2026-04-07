@@ -12,7 +12,7 @@
         <span class="footer-site-name">Pauline Designed It</span>
       </a>
       <p class="footer-tagline">Designing digital experiences<br>that actually work.</p>
-      <a href="<?php echo esc_url( home_url('/contact/') ); ?>" class="primary-btn btn footer-cta">Let's work together</a>
+      <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn footer-cta">Let's work together</a>
     </div>
 
     <!-- Nav columns -->

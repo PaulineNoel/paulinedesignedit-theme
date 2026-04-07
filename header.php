@@ -10,6 +10,9 @@
 </head>
 <body <?php body_class(); ?>>
 
+<!-- Skip link: allows keyboard users to jump past navigation -->
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
 <header class="site-header" id="site-header">
   <div class="site-header__inner container">
 
@@ -44,7 +47,7 @@
               <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
-          <div class="site-nav__dropdown" role="menu">
+          <div class="site-nav__dropdown" aria-label="Case studies submenu">
             <ul class="dropdown-list">
               <li class="dropdown-item">
                 <a href="<?php echo esc_url( home_url('/ci-project/') ); ?>" class="dropdown-link<?php echo is_page('ci-project') ? ' is-active' : ''; ?>" role="menuitem">
@@ -80,7 +83,7 @@
         </li>
 
         <li class="site-nav__item">
-          <a href="<?php echo esc_url( home_url('/contact/') ); ?>" class="primary-btn btn">Work With Me</a>
+          <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work With Me</a>
         </li>
 
       </ul>
@@ -115,13 +118,32 @@
     });
   });
 
-  // Close dropdown on outside click
+  // Close dropdown on outside click or Escape key
+  function closeAllDropdowns(returnFocus) {
+    document.querySelectorAll('.site-nav__item--has-dropdown').forEach(function (i) {
+      var wasOpen = i.classList.contains('is-open');
+      i.classList.remove('is-open');
+      var trigger = i.querySelector('.site-nav__link--dropdown-trigger');
+      trigger.setAttribute('aria-expanded', 'false');
+      if (wasOpen && returnFocus) { trigger.focus(); }
+    });
+  }
+
   document.addEventListener('click', function (e) {
     if (!e.target.closest('.site-nav__item--has-dropdown')) {
-      document.querySelectorAll('.site-nav__item--has-dropdown').forEach(function (i) {
-        i.classList.remove('is-open');
-        i.querySelector('.site-nav__link--dropdown-trigger').setAttribute('aria-expanded', 'false');
-      });
+      closeAllDropdowns(false);
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      closeAllDropdowns(true);
+      if (nav.classList.contains('is-mobile-open')) {
+        nav.classList.remove('is-mobile-open');
+        hamburger.setAttribute('aria-expanded', 'false');
+        hamburger.classList.remove('is-active');
+        hamburger.focus();
+      }
     }
   });
 

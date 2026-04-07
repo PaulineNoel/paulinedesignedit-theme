@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="home">
+<main id="main-content" class="home">
     <!-- HERO -->
     <section class="home-hero">
 
@@ -16,7 +16,7 @@
             <span class="hero-trust__pill">20+ Projects</span>
           </div>
           <div class="hero-actions">
-            <a href="<?php echo esc_url( home_url('/contact/') ); ?>" class="primary-btn btn">Work with me</a>
+            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url('/projects/') ); ?>" class="secondary-btn btn">Explore case studies</a>
           </div>
         </div>
@@ -28,13 +28,13 @@
         <div class="hero-mockup-stack">
           <div class="hero-mockup hero-mockup--back">
             <img
-              src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Jobinar mockup.png' ); ?>"
+              src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Jobinar Project/Jobinar mockup.png' ); ?>"
               alt="Jobinar project mockup"
             >
           </div>
           <div class="hero-mockup hero-mockup--front">
             <img
-              src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Careers International Redesign mockup.png' ); ?>"
+              src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/CI Project/Careers International Redesign mockup.png' ); ?>"
               alt="Careers International project mockup"
             >
           </div>
@@ -70,7 +70,7 @@
             <div class="testimonials-wrapper">
               <article class="testimonial-card is-active">
                 <div class="testimonial-header">
-                  <div class="testimonial-avatar">SW</div>
+                  <div class="testimonial-avatar" aria-hidden="true">SW</div>
                   <div class="testimonial-profile">
                     <h4>Stéphane Wasjkop</h4>
                     <p>Owner - Careers international</p>
@@ -83,7 +83,7 @@
 
               <article class="testimonial-card">
                 <div class="testimonial-header">
-                  <div class="testimonial-avatar">GL</div>
+                  <div class="testimonial-avatar" aria-hidden="true">GL</div>
                   <div class="testimonial-profile">
                     <h4>Giovanni La Mantia</h4>
                     <p>Owner - Flexina</p>
@@ -96,7 +96,7 @@
 
               <article class="testimonial-card">
                 <div class="testimonial-header">
-                  <div class="testimonial-avatar">AO</div>
+                  <div class="testimonial-avatar" aria-hidden="true">AO</div>
                   <div class="testimonial-profile">
                     <h4>Andres Orduz</h4>
                     <p>Product Manager - Proximus</p>
@@ -111,7 +111,7 @@
         </div>
 
         <div class="clients-logos">
-          <div class="logos-track">
+          <div class="logos-track" aria-hidden="true">
             <?php
             $logos = [
               ['file' => 'Careers International Logo B&W.png', 'alt' => 'Careers International Logo'],
@@ -150,8 +150,9 @@
         <div class="two-column-grid">
           <!-- Careers Intenational -->
           <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/ci-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Careers International" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Careers International Redesign mockup.png" alt="Mockeup image of the Careers International Website I have designed">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/CI Project/Careers International Redesign mockup.png" alt="Mockeup image of the Careers International Website I have designed">
             </div>
             <div class="project-card-content">
               <div class="project-tags-wrapper flex-wrap">
@@ -171,8 +172,9 @@
 
           <!-- Careers Intenational - Jobinar-->
           <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/jobinar-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Jobinar" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar mockup.png" alt="Mockeup image of the Jobinar project">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Jobinar mockup.png" alt="Mockeup image of the Jobinar project">
             </div>
             <div class="project-card-content">
               <div class="project-tags-wrapper flex-wrap">
@@ -191,8 +193,9 @@
 
           <!-- Careers Intenational - TWC-->
           <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/twc-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Top Women Careers" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Top women careers Redesign mockup.png" alt="Mockeup image of the Careers International Website I have designed">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/TWC Project/Top women careers Redesign mockup.png" alt="Mockeup image of the Careers International Website I have designed">
             </div>
             <div class="project-card-content">
               <div class="project-tags-wrapper flex-wrap">
@@ -209,10 +212,11 @@
             </div>
           </div>
 
-          <!-- Careers Intenational - TWC-->
+          <!-- Flexina -->
           <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Flexina" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Flexina mockup.png" alt="Mockeup image of the Flexina website prototype I have designed">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Flexina Project/Flexina mockup.png" alt="Mockeup image of the Flexina website prototype I have designed">
             </div>
             <div class="project-card-content">
               <div class="project-tags-wrapper flex-wrap">
@@ -222,7 +226,7 @@
               </div>
               <h4 class="project-title">Designing Flexina’s Website: A Clear and Scalable Digital Presence</h4>
               <p>A UI/UX website design for Flexina, focused on clear structure, intuitive navigation, and a modern interface tailored to small businesses.</p>
-              <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" target="blank" class="project-card-link display-flex">View the prototype</a>
+              <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" target="_blank" rel="noopener noreferrer" class="project-card-link display-flex">View the prototype</a>
             </div>
           </div>
         </div>
@@ -234,6 +238,87 @@
       </div> 
 
       <a href="/projects" class="primary-btn btn">View all projects</a>-->
+      </div>
+    </section>
+
+    <!-- OTHER PROJECTS -->
+    <section class="other-projects container">
+      <div class="section-shell2">
+        <div class="section-intro">
+          <p class="label">More work</p>
+          <h2>Other Projects</h2>
+        </div>
+        <h3>A selection of additional work — from quick-turn designs to explorations that never made it to a case study.</h3>
+      </div>
+
+      <div class="other-projects-grid">
+
+        <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Anita Diamonds Project/Anita Diamonds Mockup.png' ); ?>" alt="Project 1">
+            <div class="op-card__overlay">
+              <span class="op-card__category">UI & UX Design</span>
+              <h4 class="op-card__title">Anita Diamonds</h4>
+              <p class="op-card__desc">The creation of a high end, luxurious website for a diamond company in Antwerp</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/De tout pour votre maison !.png' ); ?>" alt="Project 2">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Newsletters · HTML & CSS</span>
+              <h4 class="op-card__title">AddRetail</h4>
+              <p class="op-card__desc">At AddRetail, part of my job consists of coding and creating/designing newsletters.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/ne-ma home page.png' ); ?>" alt="Project 3">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Web Master</span>
+              <h4 class="op-card__title">Ne-Ma</h4>
+              <p class="op-card__desc">The creation of a website for a small startup wants to help teenagers succeed at school.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/other-project-4.jpg' ); ?>" alt="Project 4">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Adobe XD · Prototyping</span>
+              <h4 class="op-card__title">Project Name</h4>
+              <p class="op-card__desc">One line about what this project was and what you did.</p>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/dgenious home page-01.png' ); ?>" alt="Project 5">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Web Master</span>
+              <h4 class="op-card__title">Dgenious</h4>
+              <p class="op-card__desc">The creation of website for the dgenious app. An app that helps you analyse your data in no time</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Cricket&Co promo img.png' ); ?>" alt="Project 6">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Graphic Design</span>
+              <h4 class="op-card__title">Cricket & Co</h4>
+              <p class="op-card__desc">Posters, banners, web design, ads and collection look-books for the menswear brand.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 

@@ -3,7 +3,7 @@
  * Template Name: CI Project
  */
 get_header(); ?>
-<main class="project">
+<main id="main-content" class="project">
     <section id="hero" class="container">
         <div class="project-hero-title">
             <p class="hero-kicker">Case Study</p>
@@ -39,7 +39,7 @@ get_header(); ?>
             <div class="project-card-tag">SEO</div>
         </div>
         <img src="" alt="">
-        <a class="btn primary-btn" target="blank" href="https://careersinternational.com">Visit the website</a>
+        <a class="btn primary-btn" target="_blank" rel="noopener noreferrer" href="https://careersinternational.com">Visit the website</a>
     </section>
     <section id="overview" class="container">
         <div class="two-column-grid">
@@ -52,11 +52,12 @@ get_header(); ?>
                     The brief was ambitious: rebuild the brand from the ground up and deliver a website that felt as polished and trustworthy as the service itself. That meant combining <strong>strategic UX thinking</strong> with a <strong>visually distinctive brand identity</strong> and a robust, scalable WordPress build.
                 </p>
             </div>
-            <div class="project-overview-img">
-                <div class="img-placeholder ph-md" style="height: 100%;">
+            <div class="img-placeholder project-overview-img">
+                <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/CI Project/TWT Old design mockup.png" alt="The old website of Careers international">
+                <!-- <div class="img-placeholder ph-md" style="height: 100%;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Previous navigation structure</span>
-                </div>
+                </div> -->
+                <span>Previous Website Design</span>
             </div>
         </div>
     </section>
@@ -107,8 +108,8 @@ get_header(); ?>
             </div>
             <div class="research-card">
                 <div class="research-icon" style="background: #FDE8F0;">👥</div>
-                <h3>User Interviews</h3>
-                <p>8 interviews with both candidates and employers across different industries to uncover real pain points and unmet needs.</p>
+                <h3>Qualitative Research</h3>
+                <p>3 user interviews and intensive competitor benchmarking to uncover real pain points and unmet needs.</p>
             </div>
             <div class="research-card">
                 <div class="research-icon" style="background: #fff0e8;">📊</div>
@@ -128,8 +129,8 @@ get_header(); ?>
                 <li>Users couldn't tell within seconds whether the site was for candidates or employers</li>
                 <li>Trust signals (testimonials, case data) were absent or buried deep in the site</li>
                 <li>Mobile experience was broken — most form interactions failed on iOS</li>
-                <li>"Contact us" was the primary CTA, but users wanted more specific entry points</li>
-                <li>The team's expertise and personality were completely absent from the copy &amp; visuals</li>
+                <li>The website did not clearly convey Careers International’s services or value proposition</li>
+                <li>The brand identity and UI felt outdated, with a generic and uninspiring website personality</li>
                 <li>Job listings lacked adequate filtering, forcing users to scroll through irrelevant content</li>
             </ul>
         </div>
@@ -155,7 +156,7 @@ get_header(); ?>
             </div>
             <div class="pillar">
                 <h3>Content-Team Empowerment</h3>
-                <p>Build in WordPress with Elementor using a modular, reusable component library so the Careers International team can manage and grow their content independently.</p>
+                <p>A modular WordPress system with Elementor enables independent content management—reducing reliance on developers and speeding up updates.</p>
             </div>
         </div>
         <div class="section-shell-blue">
@@ -212,12 +213,14 @@ get_header(); ?>
                 <p>A major structural shift was separating "For Candidates" and "For Employers" at the navigation level — using a mega-menu structure that surfaces sub-pages and key resources without requiring deep navigation. This alone reduced the average pages-to-conversion from 6 to 3.</p>
             </div>
             <div class="two-column-grid">
-                <div class="img-placeholder" style="height: 320px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                <div class="img-placeholder">
+                    <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/CI Project/TWT old - Navigation screenshot.png" alt="Old navigation UI">
+                    <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg> -->
                     <span>Previous navigation structure</span>
                 </div>
-                <div class="img-placeholder" style="height: 320px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                <div class="img-placeholder">
+                    <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/CI Project/CI Navigation screenshot.png" alt="New navigation UI">
+                    <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg> -->
                     <span>Redesigned navigation — mega-menu wireframe</span>
                 </div>
             </div>
@@ -227,9 +230,10 @@ get_header(); ?>
             <div class="wf-desc">
                 <p>Given that over 60% of traffic arrived on mobile, mobile-first wireframing was non-negotiable. Every component was designed at 375px before scaling up, with particular attention paid to form UX and bottom-sheet navigation patterns on iOS.</p>
             </div>
-            <div class="three-column-grid">
-                <div class="img-placeholder" style="height: 420px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+            <div class="">
+                <div class="img-placeholder">
+                    <img class="img-420" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/CI Project/CI - Mobile View - Mockup.png" alt="Mobile View Multiple page mockup presentation">
+                    <!-- <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                     <span>Mobile — Homepage</span>
                 </div>
                 <div class="img-placeholder" style="height: 420px;">
@@ -238,13 +242,13 @@ get_header(); ?>
                 </div>
                 <div class="img-placeholder" style="height: 420px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Mobile — Contact / Enquiry</span>
+                    <span>Mobile — Contact / Enquiry</span> -->
                 </div>
             </div>
         </div>
         <div class="iterations-note">
             <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>On iteration:</strong> The wireframe phase went through three rounds of stakeholder review. The most significant change came after round two — stakeholders initially wanted a single, unified homepage but user testing revealed that the dual-audience split reduced bounce rate by 34% in prototype testing. The data won the argument.</p>
+            <p><strong>On iteration:</strong> The wireframe phase went through three rounds of stakeholder review. The most significant change came after round two — stakeholders initially wanted a single, unified homepage but user testing revealed that the dual-audience split reduced bounce prototype testing.</p>
         </div>
     </section>
     <section id="ui-branding" class="container">
@@ -253,7 +257,7 @@ get_header(); ?>
             <h2>A visual identity built for trust and ambition</h2>
             <p>The brand needed to feel authoritative without being cold, approachable without being casual. The resulting system draws on strong typographic contrast, a purposeful colour palette, and photography that centres real people — not stock imagery clichés.</p>
         </div>
-        <div class="two-column-grid">
+        <!-- <div class="two-column-grid">
             <div class="img-placeholder" style="height: 320px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Previous navigation structure</span>
@@ -262,7 +266,7 @@ get_header(); ?>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Redesigned navigation — mega-menu wireframe</span>
             </div>
-        </div>
+        </div> -->
         <div id="color-system">
             <p class="label">Colour System</p>
             <div class="palette-row">
@@ -298,11 +302,11 @@ get_header(); ?>
             <div class="type-sample-h2">Connecting talent with opportunity</div>
             <p class="type-sample-body">We help companies build high-performing teams and individuals navigate meaningful career transitions — with precision, discretion, and genuine expertise.</p>
         </div>
-        <div class="img-placeholder" style="margin-bottom: 40px; height: 420px; margin-top: 40px;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-            <span>Full Brand Guidelines / Style Sheet</span>
+        <div class="img-placeholder">
+            <img class="img-420" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/CI Project/CI - Branding Style.png" alt="Mobile View Multiple page mockup presentation">
+            <span>Brand Styling</span>
         </div>
-        <div class="three-column-grid">
+        <!-- <div class="three-column-grid">
             <div class="img-placeholder ph-sq" style="height: 320px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Homepage — Final UI</span>
@@ -315,7 +319,7 @@ get_header(); ?>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>About / Team Page — Final UI</span>
             </div>
-        </div>
+        </div> -->
     </section>
     <section id="results" class="container">
         <div class="section-shell-burgandy">
@@ -324,15 +328,15 @@ get_header(); ?>
             <p style="max-width: 560px;">Within three months of launch, the redesigned platform delivered measurable improvements across every key metric — validating the research-driven approach and the structural changes made during the UX strategy phase.</p>
             <div class="three-column-grid">
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">+62%</h3>
-                    <p>Increase in qualified enquiries<br>from the website</p>
+                    <h3 class="project-stat-num">Accessibility</h3>
+                    <p>Imporved accessibility throughout the intire website</p>
                 </div>
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">−41%</h3>
-                    <p>Reduction in bounce rate<br>across all landing pages</p>
+                    <h3 class="project-stat-num">Bounce Rate</h3>
+                    <p>Proven bounce rate reduction<br>across pages</p>
                 </div>
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">4.2×</h3>
+                    <h3 class="project-stat-num">Approx 5×</h3>
                     <p>Faster content updates by<br>the internal team</p>
                 </div>
             </div>
@@ -343,7 +347,7 @@ get_header(); ?>
         <h2>Ready to work together?</h2>
         <p>If you're looking for a designer who combines strategic UX thinking with high-quality visual execution, let's talk.</p>
         <div class="display-flex-center-center-mobile">
-            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="primary-btn btn">Work with me</a>
+            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore more case studies</a>
         </div>
     </section>
