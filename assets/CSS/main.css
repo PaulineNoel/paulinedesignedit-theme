@@ -1536,6 +1536,187 @@ a {
     margin: 0 !important;
 }
 
+/* ==============================
+   LIGHTBOX — Anita Diamonds
+   ============================== */
+
+.op-card--lightbox { cursor: pointer; }
+
+.op-card__gallery-hint {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 0.5rem;
+}
+
+.ad-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 9000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.ad-lightbox[hidden] { display: none; }
+
+.ad-lightbox__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 10, 12, 0.88);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    animation: lb-fade-in 0.25s ease;
+}
+
+@keyframes lb-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.ad-lightbox__panel {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border-radius: var(--radius-md);
+    width: 100%;
+    max-width: 900px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 2rem;
+    animation: lb-slide-up 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+@keyframes lb-slide-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.ad-lightbox__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(28, 28, 30, 0.07);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+    transition: background 0.2s ease;
+}
+
+.ad-lightbox__close:hover  { background: rgba(28, 28, 30, 0.14); }
+.ad-lightbox__close:focus-visible {
+    outline: 3px solid var(--color-action-pink);
+    outline-offset: 3px;
+}
+
+.ad-lightbox__header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.3rem, 2vw, 1.7rem);
+    margin: 0.2rem 0 0;
+}
+
+.ad-lightbox__carousel { position: relative; }
+
+.ad-lightbox__track {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f0f0f2;
+    aspect-ratio: 16 / 9;
+}
+
+.ad-lightbox__slide { display: none; width: 100%; height: 100%; }
+.ad-lightbox__slide[aria-current="true"] { display: block; }
+
+.ad-lightbox__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.ad-lightbox__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #fff;
+    border: var(--border);
+    box-shadow: 0 4px 16px rgba(28, 28, 30, 0.12);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    z-index: 2;
+}
+
+.ad-lightbox__nav--prev { left: -1.25rem; }
+.ad-lightbox__nav--next { right: -1.25rem; }
+
+.ad-lightbox__nav:hover {
+    box-shadow: 0 8px 24px rgba(28, 28, 30, 0.18);
+    transform: translateY(-50%) scale(1.08);
+}
+
+.ad-lightbox__nav:focus-visible {
+    outline: 3px solid var(--color-action-pink);
+    outline-offset: 3px;
+}
+
+.ad-lightbox__dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.ad-lightbox__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgba(28, 28, 30, 0.15);
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.ad-lightbox__dot.is-active {
+    background: var(--color-action-pink);
+    transform: scale(1.3);
+}
+
+.ad-lightbox__counter {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: rgba(28, 28, 30, 0.45);
+    margin: 0 !important;
+}
+
+@media (max-width: 600px) {
+    .ad-lightbox__panel { padding: 1.25rem; border-radius: 20px; }
+    .ad-lightbox__nav--prev { left: 0.25rem; }
+    .ad-lightbox__nav--next { right: 0.25rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .ad-lightbox__backdrop,
+    .ad-lightbox__panel { animation: none; }
+}
+
 /* ---- Other Projects grid ---- */
 
 .other-projects {

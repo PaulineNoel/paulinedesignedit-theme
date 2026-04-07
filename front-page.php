@@ -253,13 +253,14 @@
 
       <div class="other-projects-grid">
 
-        <div class="op-card">
+        <div class="op-card op-card--lightbox" data-lightbox="anita-diamonds" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View Anita Diamonds project gallery">
           <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Anita Diamonds Project/Anita Diamonds Mockup.png' ); ?>" alt="Project 1">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Anita Diamonds Project/Anita Diamonds Mockup.png' ); ?>" alt="Anita Diamonds website mockup">
             <div class="op-card__overlay">
               <span class="op-card__category">UI & UX Design</span>
               <h4 class="op-card__title">Anita Diamonds</h4>
               <p class="op-card__desc">The creation of a high end, luxurious website for a diamond company in Antwerp</p>
+              <span class="op-card__gallery-hint" aria-hidden="true">View gallery →</span>
             </div>
           </div>
         </div>
@@ -318,6 +319,17 @@
             </div>
           </div>
         </div>
+          
+        <div class="op-card">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Coding project.png' ); ?>" alt="Project 6">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Front & Back end Web Development</span>
+              <h4 class="op-card__title">MealzZap</h4>
+              <p class="op-card__desc">10 days to create and code a website using Ruby on Rails, MCV, HTML, SCSS, JS</p>
+            </div>
+          </div>
+        </div>
 
       </div>
     </section>
@@ -352,5 +364,119 @@
       </div>
     </section>
 </main>
+
+<?php
+$ad_base = get_template_directory_uri() . '/assets/images/Anita Diamonds Project/';
+$ad_images = [
+  [ 'src' => $ad_base . 'Anita Diamonds Mockup.png',           'alt' => 'Anita Diamonds – full website mockup across devices' ],
+  [ 'src' => $ad_base . 'Desktop home screen - A_D.png',       'alt' => 'Anita Diamonds – homepage design' ],
+  [ 'src' => $ad_base . 'Desktop about us screen - A_D.png',   'alt' => 'Anita Diamonds – about us page design' ],
+  [ 'src' => $ad_base . 'Desktop corpot res screen - A_D.png', 'alt' => 'Anita Diamonds – corporate responsibility page design' ],
+  [ 'src' => $ad_base . 'Diamond Search.png',                  'alt' => 'Anita Diamonds – diamond search feature design' ],
+];
+?>
+
+<!-- Lightbox: Anita Diamonds -->
+<div class="ad-lightbox" id="lightbox-anita-diamonds" role="dialog" aria-modal="true" aria-label="Anita Diamonds project gallery" hidden>
+  <div class="ad-lightbox__backdrop"></div>
+  <div class="ad-lightbox__panel">
+
+    <button class="ad-lightbox__close" aria-label="Close gallery">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="ad-lightbox__header">
+      <p class="label">UI & UX Design</p>
+      <h3>Anita Diamonds</h3>
+    </div>
+
+    <div class="ad-lightbox__carousel">
+      <div class="ad-lightbox__track">
+        <?php foreach ( $ad_images as $i => $img ) : ?>
+          <div class="ad-lightbox__slide" <?php echo $i === 0 ? 'aria-current="true"' : ''; ?>>
+            <img src="<?php echo esc_url( $img['src'] ); ?>" alt="<?php echo esc_attr( $img['alt'] ); ?>">
+          </div>
+        <?php endforeach; ?>
+      </div>
+
+      <button class="ad-lightbox__nav ad-lightbox__nav--prev" aria-label="Previous image">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 3l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="ad-lightbox__nav ad-lightbox__nav--next" aria-label="Next image">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 3l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div class="ad-lightbox__dots" aria-hidden="true">
+      <?php foreach ( $ad_images as $i => $img ) : ?>
+        <span class="ad-lightbox__dot <?php echo $i === 0 ? 'is-active' : ''; ?>"></span>
+      <?php endforeach; ?>
+    </div>
+
+    <p class="ad-lightbox__counter" aria-live="polite">
+      <span class="ad-lightbox__current">1</span> / <?php echo count( $ad_images ); ?>
+    </p>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var lightbox   = document.getElementById('lightbox-anita-diamonds');
+  var backdrop   = lightbox.querySelector('.ad-lightbox__backdrop');
+  var closeBtn   = lightbox.querySelector('.ad-lightbox__close');
+  var prevBtn    = lightbox.querySelector('.ad-lightbox__nav--prev');
+  var nextBtn    = lightbox.querySelector('.ad-lightbox__nav--next');
+  var slides     = lightbox.querySelectorAll('.ad-lightbox__slide');
+  var dots       = lightbox.querySelectorAll('.ad-lightbox__dot');
+  var counter    = lightbox.querySelector('.ad-lightbox__current');
+  var triggers   = document.querySelectorAll('[data-lightbox="anita-diamonds"]');
+  var current    = 0;
+  var lastFocus  = null;
+
+  function goTo(n) {
+    slides[current].removeAttribute('aria-current');
+    dots[current].classList.remove('is-active');
+    current = (n + slides.length) % slides.length;
+    slides[current].setAttribute('aria-current', 'true');
+    dots[current].classList.add('is-active');
+    counter.textContent = current + 1;
+    slides[current].querySelector('img').focus();
+  }
+
+  function open() {
+    lastFocus = document.activeElement;
+    lightbox.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    goTo(0);
+    closeBtn.focus();
+  }
+
+  function close() {
+    lightbox.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (lastFocus) { lastFocus.focus(); }
+  }
+
+  triggers.forEach(function (el) {
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  backdrop.addEventListener('click', close);
+  prevBtn.addEventListener('click', function () { goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { goTo(current + 1); });
+
+  document.addEventListener('keydown', function (e) {
+    if (lightbox.hasAttribute('hidden')) return;
+    if (e.key === 'Escape')     { close(); }
+    if (e.key === 'ArrowLeft')  { goTo(current - 1); }
+    if (e.key === 'ArrowRight') { goTo(current + 1); }
+  });
+})();
+</script>
 
 <?php get_footer(); ?>
