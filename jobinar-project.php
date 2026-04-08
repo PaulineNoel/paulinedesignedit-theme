@@ -41,9 +41,9 @@ get_header(); ?>
             <div class="project-card-tag">Wistia</div>
             <div class="project-card-tag">Cost Optimisation</div>
         </div>
-        <div class="img-placeholder" style="height: 480px; margin-top: 40px;">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-            <span>Hero image — Jobinar platform final UI on device, or before/after split mockup</span>
+        <div class="img-placeholder">
+            <img class="img-420" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Jobinar & Wistia Project mockup .png" alt="mockup image of wistia and jobinar platforms">
+            <span>Wistia Platform & Jobinar final UI on device</span>
         </div>
     </section>
 
@@ -111,10 +111,10 @@ get_header(); ?>
                     <p class="dark-mode-txt">The platform required developer intervention for every content update — eating team time that should have been spent on content creation and growth.</p>
                 </div>
             </div>
-            <div class="img-placeholder" style="height: 360px; margin-top: 40px;">
+            <!-- <div class="img-placeholder" style="height: 360px; margin-top: 40px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>UX audit — annotated pain point map of the old platform</span>
-            </div>
+            </div> -->
         </div>
 
         <!-- Cost insight callout -->
@@ -165,7 +165,7 @@ get_header(); ?>
             </div>
         </div>
 
-        <div class="two-column-grid">
+        <!-- <div class="two-column-grid">
             <div class="img-placeholder" style="height: 320px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>User journey map — attendee path from sign-up to webinar replay</span>
@@ -174,7 +174,7 @@ get_header(); ?>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Platform comparison matrix — cost vs features vs UX quality</span>
             </div>
-        </div>
+        </div> -->
 
         <div class="section-shell-pink">
             <p class="label-action">Key Insights</p>
@@ -190,10 +190,10 @@ get_header(); ?>
             </ul>
         </div>
 
-        <div class="img-placeholder" style="height: 420px; margin-top: 40px;">
+        <!-- <div class="img-placeholder" style="height: 420px; margin-top: 40px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
             <span>Full research synthesis board — platform comparison, journey maps, key findings</span>
-        </div>
+        </div> -->
     </section>
 
     <!-- ══ STRATEGY ══ -->
@@ -317,66 +317,73 @@ get_header(); ?>
             <h2>Sketching the <span class="highlight italic">new experience</span></h2>
             <p>With the platform decision confirmed, wireframes focused entirely on fixing the UX failures identified in research — navigation clarity, video-first layouts, and a mobile experience built completely from the ground up.</p>
         </div>
-
-        <div class="wf-block">
-            <span class="label-highlight-pink">Platform Homepage</span>
-            <div class="wf-desc">
-                <p>The homepage was rebuilt around a single question: <strong>"What is Jobinar, and how do I access my content?"</strong> — answered immediately on landing. Clear CTAs for live sessions, replays, and new registrations separated at the top level.</p>
-            </div>
-            <div class="img-placeholder" style="height: 400px;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                <span>Homepage wireframe — lo-fi &amp; hi-fi comparison</span>
-            </div>
-        </div>
-
-        <div class="wf-block">
-            <span class="label-highlight-pink">Webinar Library &amp; Replay Hub</span>
-            <div class="wf-desc">
-                <p>The most critical UX failure in research was users being unable to find past sessions. The library was completely restructured — with clear category filtering, a consistent card layout, and a search function that surfaces content in seconds rather than minutes.</p>
-            </div>
-            <div class="two-column-grid">
-                <div class="img-placeholder" style="height: 320px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Old library structure — before redesign</span>
+        <div class="two-column-grid">
+            <div class="wf-block">
+                <span class="label-highlight-pink">Platform Homepage</span>
+                <div class="wf-desc">
+                    <p>The homepage was rebuilt around a single question: <strong>"What is Jobinar, and how do I access my content?"</strong> — answered immediately on landing. Clear CTAs for live sessions, replays, and new registrations separated at the top level.</p>
                 </div>
-                <div class="img-placeholder" style="height: 320px;">
+                <!-- <div class="img-placeholder" style="height: 400px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Rebuilt library wireframe — filtered, categorised, searchable</span>
-                </div>
+                    <span>Homepage wireframe — lo-fi &amp; hi-fi comparison</span>
+                </div> -->
             </div>
-        </div>
 
-        <div class="wf-block">
-            <span class="label-highlight-pink">Video Player Page — Wistia</span>
-            <div class="wf-desc">
-                <p>The video player page went through five iterations. The final layout prioritises the video above everything else — with supporting content (speaker bio, resources, related webinars) surfaced below the fold rather than competing for attention alongside the player.</p>
+            <div class="wf-block">
+                <span class="label-highlight-pink">Webinar Library &amp; Replay Hub</span>
+                <div class="wf-desc">
+                    <p>The most critical UX failure in research was users being unable to find past sessions. The library was completely restructured — with clear category filtering, a consistent card layout, and a search function that surfaces content in seconds rather than minutes.</p>
+                </div>
+                <!-- <div class="two-column-grid">
+                    <div class="img-placeholder" style="height: 320px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                        <span>Old library structure — before redesign</span>
+                    </div>
+                    <div class="img-placeholder" style="height: 320px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                        <span>Rebuilt library wireframe — filtered, categorised, searchable</span>
+                    </div>
+                </div> -->
             </div>
-            <div class="img-placeholder" style="height: 400px;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                <span>Video player page wireframe — Wistia embed, content hierarchy</span>
-            </div>
-        </div>
 
-        <div class="wf-block">
-            <span class="label-highlight-pink">Mobile Responsive</span>
-            <div class="wf-desc">
-                <p>Given that over 40% of users arrived on mobile, mobile-first wireframing was non-negotiable. Every component was designed at 375px before scaling up — with particular attention to the video player touch experience and the webinar library card layout on small screens.</p>
+            <div class="wf-block">
+                <span class="label-highlight-pink">Video Player Page — Wistia</span>
+                <div class="wf-desc">
+                    <p>The video player page went through five iterations. The final layout prioritises the video above everything else — with supporting content (speaker bio, resources, related webinars) surfaced below the fold rather than competing for attention alongside the player.</p>
+                </div>
+                <div class="img-placeholder" style="height: 400px;">
+                    <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Jobinar mockup.png" alt="mockup image of wistia and jobinar platforms">
+                    <span>Video player page — Wistia embed, content hierarchy</span>
+                </div>
             </div>
-            <div class="three-column-grid">
-                <div class="img-placeholder" style="height: 420px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Mobile — Homepage</span>
+
+            <div class="wf-block">
+                <span class="label-highlight-pink">Mobile Responsive</span>
+                <div class="wf-desc">
+                    <p>Given that over 40% of users arrived on mobile, mobile-first wireframing was non-negotiable. Every component was designed at 375px before scaling up — with particular attention to the video player touch experience and the webinar library card layout on small screens.</p>
                 </div>
-                <div class="img-placeholder" style="height: 420px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Mobile — Webinar Library</span>
-                </div>
-                <div class="img-placeholder" style="height: 420px;">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                <div class="img-placeholder" style="height: 400px;">
+                    <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Mobile Jobinar View.png" alt="Mobile — Video Player">
                     <span>Mobile — Video Player</span>
                 </div>
+                <!-- <div class="three-column-grid">
+                    <div class="img-placeholder" style="height: 420px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                        <span>Mobile — Homepage</span>
+                    </div>
+                    <div class="img-placeholder" style="height: 420px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                        <span>Mobile — Webinar Library</span>
+                    </div>
+                    <div class="img-placeholder" style="height: 420px;">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
+                        <span>Mobile — Video Player</span>
+                    </div>
+                </div> -->
             </div>
         </div>
+
+        
 
         <div class="iterations-note">
             <span style="font-size: 1.4rem;">💡</span>
@@ -391,19 +398,13 @@ get_header(); ?>
             <h2>A platform that feels as <span class="highlight italic">good as it works</span></h2>
             <p>The redesign stripped back everything that wasn't serving the user. Video first. Navigation clear. Content accessible in one click. The visual language: professional, trustworthy, and calm — because the platform's job is to get out of the way of the content.</p>
         </div>
-
-        <div class="two-column-grid">
-            <div class="img-placeholder" style="height: 320px;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                <span>Final UI — Platform homepage (desktop)</span>
-            </div>
-            <div class="img-placeholder" style="height: 320px;">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                <span>Final UI — Platform homepage (mobile)</span>
-            </div>
+        <div class="img-placeholder">
+            <img class="img-420" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Jobinar multi device mockup.png" alt="Final UI — Platform homepage (Desktop, Laptop, Tablet, Phone)">
+            <span>Final UI — Platform homepage (Desktop, Laptop, Tablet, Phone)</span>
         </div>
+            
 
-        <div id="color-system">
+        <!-- <div id="color-system">
             <p class="label">Colour System</p>
             <div class="palette-row">
                 <div class="swatch" style="background: #FDFBFA; color: #1C1C1E; border: 1px solid rgba(28,28,30,.1);">
@@ -431,9 +432,9 @@ get_header(); ?>
                     <div class="swatch-hex">#1C1C1E — Text</div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="img-placeholder" style="height: 420px; margin-bottom: 40px; margin-top: 40px;">
+        <!-- <div class="img-placeholder" style="height: 420px; margin-bottom: 40px; margin-top: 40px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
             <span>Wistia video player page — custom styled, embedded in WordPress</span>
         </div>
@@ -450,7 +451,7 @@ get_header(); ?>
             <div class="img-placeholder" style="height: 320px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Wistia Analytics Dashboard — watch time &amp; engagement data</span>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -474,10 +475,10 @@ get_header(); ?>
                     <p class="dark-mode-txt">Research-driven outcome —<br>every decision traceable to data</p>
                 </div>
             </div>
-            <div class="img-placeholder" style="height: 360px; margin-top: 40px;">
+            <!-- <div class="img-placeholder" style="height: 360px; margin-top: 40px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Final live Jobinar platform — or side-by-side before/after screenshot</span>
-            </div>
+            </div> -->
         </div>
     </section>
 

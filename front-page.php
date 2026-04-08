@@ -383,7 +383,6 @@
 <?php
 $ad_base = get_template_directory_uri() . '/assets/images/Anita Diamonds Project/';
 $ad_images = [
-  [ 'src' => $ad_base . 'Anita Diamonds Mockup.png',           'alt' => 'Anita Diamonds – full website mockup across devices' ],
   [ 'src' => $ad_base . 'Desktop home screen - A_D.png',       'alt' => 'Anita Diamonds – homepage design' ],
   [ 'src' => $ad_base . 'Desktop about us screen - A_D.png',   'alt' => 'Anita Diamonds – about us page design' ],
   [ 'src' => $ad_base . 'Desktop corpot res screen - A_D.png', 'alt' => 'Anita Diamonds – corporate responsibility page design' ],
