@@ -262,7 +262,7 @@ get_header(); ?>
         <h2>Ready to work together?</h2>
         <p>If you're looking for a designer who combines strategic UX thinking with high-quality visual execution, let's talk.</p>
         <div class="display-flex-center-center-mobile">
-            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
+            <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore more case studies</a>
         </div>
     </section>

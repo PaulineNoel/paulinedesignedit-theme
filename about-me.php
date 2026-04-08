@@ -14,7 +14,7 @@ get_header(); ?>
         <div class="about-hero__photo-wrap">
           <div class="about-hero__photo-bg"></div>
           <img
-            src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Pauline-Noel-Photo.jpg' ); ?>"
+            src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Pauline Noel.jpeg' ); ?>"
             alt="Portrait of Pauline Noël, UI/UX Designer"
             class="about-hero__photo"
           >
@@ -134,7 +134,7 @@ get_header(); ?>
         </div>
         <div class="exp-item__content">
           <div class="exp-item__header">
-            <h3 class="exp-item__role">UI/UX Designer</h3>
+            <h3 class="exp-item__role">Webmaster, Fullstack Developer & UI/UX Designer</h3>
             <span class="exp-item__company">PND — Freelance</span>
           </div>
           <ul class="exp-item__list">

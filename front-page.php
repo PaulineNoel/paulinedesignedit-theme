@@ -16,7 +16,7 @@
             <span class="hero-trust__pill">20+ Projects</span>
           </div>
           <div class="hero-actions">
-            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
+            <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url('/projects/') ); ?>" class="secondary-btn btn">Explore case studies</a>
           </div>
         </div>
@@ -265,20 +265,33 @@
           </div>
         </div>
 
-        <div class="op-card">
+        <div class="op-card op-card--lightbox" data-lightbox="fashion-ss2019" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Watch Fashion Collection SS2019 video">
           <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/De tout pour votre maison !.png' ); ?>" alt="Project 2">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Fashion collection preview.jpg' ); ?>" alt="Fashion Collection SS2019 – Graduate London Fashion Week 2018">
+            <div class="op-card__overlay">
+              <span class="op-card__category">Fashion Design</span>
+              <h4 class="op-card__title">Fashion Collection SS2019</h4>
+              <p class="op-card__desc">6 knitwear outfits shown at Graduate London Fashion Week 2018.</p>
+              <span class="op-card__gallery-hint" aria-hidden="true">▶ Watch video</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="op-card op-card--lightbox" data-lightbox="addretail" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View AddRetail newsletter gallery">
+          <div class="op-card__img-wrap">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Newsletter Addretail/Trafic Newsletter Mockups.png' ); ?>" alt="AddRetail newsletter design – De tout pour votre maison">
             <div class="op-card__overlay">
               <span class="op-card__category">Newsletters · HTML & CSS</span>
               <h4 class="op-card__title">AddRetail</h4>
-              <p class="op-card__desc">At AddRetail, part of my job consists of coding and creating/designing newsletters.</p>
+              <p class="op-card__desc">HTML newsletters designed and coded for major Belgian companies.</p>
+              <span class="op-card__gallery-hint" aria-hidden="true">View gallery →</span>
             </div>
           </div>
         </div>
 
         <div class="op-card">
           <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/ne-ma home page.png' ); ?>" alt="Project 3">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Ne-Ma Mockup.png' ); ?>" alt="Project 3">
             <div class="op-card__overlay">
               <span class="op-card__category">Web Master</span>
               <h4 class="op-card__title">Ne-Ma</h4>
@@ -300,7 +313,7 @@
 
         <div class="op-card">
           <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/dgenious home page-01.png' ); ?>" alt="Project 5">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Dgenious/Dgenious Mockup.png' ); ?>" alt="Project 5">
             <div class="op-card__overlay">
               <span class="op-card__category">Web Master</span>
               <h4 class="op-card__title">Dgenious</h4>
@@ -309,24 +322,26 @@
           </div>
         </div>
 
-        <div class="op-card">
+        <div class="op-card op-card--lightbox" data-lightbox="cricket" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View Cricket &amp; Co project gallery">
           <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Cricket&Co promo img.png' ); ?>" alt="Project 6">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Cricket & Co/Cricket & Co Mockup.png' ); ?>" alt="Cricket &amp; Co – graphic design and production work">
             <div class="op-card__overlay">
-              <span class="op-card__category">Graphic Design</span>
-              <h4 class="op-card__title">Cricket & Co</h4>
-              <p class="op-card__desc">Posters, banners, web design, ads and collection look-books for the menswear brand.</p>
+              <span class="op-card__category">Graphic Design · Production</span>
+              <h4 class="op-card__title">Cricket &amp; Co</h4>
+              <p class="op-card__desc">Posters, invitations, collection catalogues and production coordination for the menswear brand.</p>
+              <span class="op-card__gallery-hint" aria-hidden="true">View gallery →</span>
             </div>
           </div>
         </div>
           
-        <div class="op-card">
+        <div class="op-card op-card--lightbox" data-lightbox="mealzzap" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Watch MealzZap project video">
           <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/Coding project.png' ); ?>" alt="Project 6">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Other Projects/MealzZap mockup.png' ); ?>" alt="MealzZap – Le Wagon coding project">
             <div class="op-card__overlay">
-              <span class="op-card__category">Front & Back end Web Development</span>
+              <span class="op-card__category">Front & Back-end Web Development</span>
               <h4 class="op-card__title">MealzZap</h4>
-              <p class="op-card__desc">10 days to create and code a website using Ruby on Rails, MCV, HTML, SCSS, JS</p>
+              <p class="op-card__desc">A full-stack website built in 10 days during Le Wagon's web development bootcamp.</p>
+              <span class="op-card__gallery-hint" aria-hidden="true">▶ Watch video</span>
             </div>
           </div>
         </div>
@@ -342,8 +357,8 @@
         </div>
         <div class="stats-grid">
           <div class="stat-card">
-            <p><b>€15K+ saved annually</b></p>
-            <p>By redesigning and replacing inefficient platforms.</p>
+            <p><b>Improved system & process efficiencies</b></p>
+            <p>Restructued and replaced innefficient platforms<br>Result: 15 annual savings</p>
           </div>
 
           <div class="stat-card">
@@ -417,6 +432,10 @@ $ad_images = [
       <span class="ad-lightbox__current">1</span> / <?php echo count( $ad_images ); ?>
     </p>
 
+    <p class="ad-lightbox__desc">
+      I was hired to design a website for Anita Diamonds, a prominent and fast-growing diamond company in Antwerp. My graphic and UI/UX design skill sets are being implemented to improve customers' experience and security. The web page is in development.
+    </p>
+
   </div>
 </div>
 
@@ -475,6 +494,595 @@ $ad_images = [
     if (e.key === 'Escape')     { close(); }
     if (e.key === 'ArrowLeft')  { goTo(current - 1); }
     if (e.key === 'ArrowRight') { goTo(current + 1); }
+  });
+})();
+</script>
+
+<!-- Lightbox: Fashion Collection SS2019 (video) -->
+<div class="ad-lightbox" id="lightbox-fashion-ss2019" role="dialog" aria-modal="true" aria-label="Fashion Collection SS2019 video" hidden>
+  <div class="ad-lightbox__backdrop"></div>
+  <div class="ad-lightbox__panel ad-lightbox__panel--video">
+
+    <button class="ad-lightbox__close" aria-label="Close video">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="ad-lightbox__header">
+      <p class="label">Fashion Design</p>
+      <h3>Fashion Collection SS2019</h3>
+    </div>
+
+    <div class="ad-lightbox__video-wrap">
+      <iframe
+        id="fashion-yt-iframe"
+        src=""
+        data-src="https://www.youtube.com/embed/DArVILkG7Ag?autoplay=1&rel=0&modestbranding=1"
+        title="Fashion Collection SS2019 – Graduate London Fashion Week 2018"
+        frameborder="0"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <p class="ad-lightbox__counter" style="text-align:left; color: rgba(28,28,30,0.55); font-size:0.85rem;">
+      6 knitwear outfits shown at Graduate London Fashion Week 2018.
+    </p>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var lightbox  = document.getElementById('lightbox-fashion-ss2019');
+  var backdrop  = lightbox.querySelector('.ad-lightbox__backdrop');
+  var closeBtn  = lightbox.querySelector('.ad-lightbox__close');
+  var iframe    = document.getElementById('fashion-yt-iframe');
+  var triggers  = document.querySelectorAll('[data-lightbox="fashion-ss2019"]');
+  var lastFocus = null;
+
+  function open() {
+    lastFocus = document.activeElement;
+    lightbox.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    // Load video on open (autoplay)
+    iframe.src = iframe.dataset.src;
+    closeBtn.focus();
+  }
+
+  function close() {
+    // Stop video by clearing src before hiding
+    iframe.src = '';
+    lightbox.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (lastFocus) { lastFocus.focus(); }
+  }
+
+  triggers.forEach(function (el) {
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  backdrop.addEventListener('click', close);
+
+  document.addEventListener('keydown', function (e) {
+    if (!lightbox.hasAttribute('hidden') && e.key === 'Escape') { close(); }
+  });
+})();
+</script>
+
+<!-- Lightbox: MealzZap (video) -->
+<div class="ad-lightbox" id="lightbox-mealzzap" role="dialog" aria-modal="true" aria-label="MealzZap project video" hidden>
+  <div class="ad-lightbox__backdrop"></div>
+  <div class="ad-lightbox__panel ad-lightbox__panel--video">
+
+    <button class="ad-lightbox__close" aria-label="Close video">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="ad-lightbox__header">
+      <p class="label">Front & Back-end Web Development</p>
+      <h3>MealzZap</h3>
+    </div>
+
+    <div class="ad-lightbox__video-wrap">
+      <iframe
+        id="mealzzap-yt-iframe"
+        src=""
+        data-src="https://www.youtube.com/embed/fGRx4cnRLIE?autoplay=1&rel=0&modestbranding=1"
+        title="MealzZap – Le Wagon web development project"
+        frameborder="0"
+        allow="autoplay; encrypted-media; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <p class="ad-lightbox__desc">
+      10 days was the number of days we had to code a website from start to finish while studying web development with "Le Wagon". Each of us had to present a project then we had to vote which project we wanted to work on and groups were then created. My project, MealzZap, was selected and we were 3 working on it — Nina Tomic, Simon Ellicaste and me.
+      <br><br>
+      My main tasks were to code the front end and some back-end functionalities.
+    </p>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var lightbox  = document.getElementById('lightbox-mealzzap');
+  var backdrop  = lightbox.querySelector('.ad-lightbox__backdrop');
+  var closeBtn  = lightbox.querySelector('.ad-lightbox__close');
+  var iframe    = document.getElementById('mealzzap-yt-iframe');
+  var triggers  = document.querySelectorAll('[data-lightbox="mealzzap"]');
+  var lastFocus = null;
+
+  function open() {
+    lastFocus = document.activeElement;
+    lightbox.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    iframe.src = iframe.dataset.src;
+    closeBtn.focus();
+  }
+
+  function close() {
+    iframe.src = '';
+    lightbox.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (lastFocus) { lastFocus.focus(); }
+  }
+
+  triggers.forEach(function (el) {
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  backdrop.addEventListener('click', close);
+
+  document.addEventListener('keydown', function (e) {
+    if (!lightbox.hasAttribute('hidden') && e.key === 'Escape') { close(); }
+  });
+})();
+</script>
+
+<?php
+$ar_base   = get_template_directory_uri() . '/assets/images/Other Projects/Newsletter Addretail/';
+$ar_images = [
+  [ 'src' => $ar_base . 'De tout pour votre maison - Newsletter Trafic.jpg', 'alt' => 'Trafic newsletter – De tout pour votre maison' ],
+  [ 'src' => $ar_base . 'Euro 2021 - Newsletter Trafic.jpg',                 'alt' => 'Trafic newsletter – Euro 2021' ],
+  [ 'src' => $ar_base . 'Jardinage 2021 - Newsletter Trafic.jpg',            'alt' => 'Trafic newsletter – Jardinage 2021' ],
+];
+?>
+
+<!-- Lightbox: AddRetail Newsletters -->
+<div class="ad-lightbox" id="lightbox-addretail" role="dialog" aria-modal="true" aria-label="AddRetail newsletter gallery" hidden>
+  <div class="ad-lightbox__backdrop"></div>
+  <div class="ad-lightbox__panel">
+
+    <button class="ad-lightbox__close" aria-label="Close gallery">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="ad-lightbox__header">
+      <p class="label">Newsletters · HTML & CSS</p>
+      <h3>AddRetail</h3>
+    </div>
+
+    <p class="ad-lightbox__desc">
+      Part of my job at AddRetail consists of coding, using HTML tables and inline CSS, and designing newsletters for major companies across Belgium such as: Trafic, Club, Planet Parfum, Deutsche Bank and more.
+      <br><br>
+      Find below some of the projects I have completed during the previous months.
+    </p>
+
+    <div class="ad-lightbox__carousel">
+      <div class="ad-lightbox__track">
+        <?php foreach ( $ar_images as $i => $img ) : ?>
+          <div class="ad-lightbox__slide" <?php echo $i === 0 ? 'aria-current="true"' : ''; ?>>
+            <img src="<?php echo esc_url( $img['src'] ); ?>" alt="<?php echo esc_attr( $img['alt'] ); ?>">
+          </div>
+        <?php endforeach; ?>
+      </div>
+
+      <button class="ad-lightbox__nav ad-lightbox__nav--prev" aria-label="Previous image">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 3l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="ad-lightbox__nav ad-lightbox__nav--next" aria-label="Next image">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 3l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div class="ad-lightbox__dots" aria-hidden="true">
+      <?php foreach ( $ar_images as $i => $img ) : ?>
+        <span class="ad-lightbox__dot <?php echo $i === 0 ? 'is-active' : ''; ?>"></span>
+      <?php endforeach; ?>
+    </div>
+
+    <p class="ad-lightbox__counter" aria-live="polite">
+      <span class="ad-lightbox__current">1</span> / <?php echo count( $ar_images ); ?>
+    </p>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var lightbox  = document.getElementById('lightbox-addretail');
+  var backdrop  = lightbox.querySelector('.ad-lightbox__backdrop');
+  var closeBtn  = lightbox.querySelector('.ad-lightbox__close');
+  var prevBtn   = lightbox.querySelector('.ad-lightbox__nav--prev');
+  var nextBtn   = lightbox.querySelector('.ad-lightbox__nav--next');
+  var slides    = lightbox.querySelectorAll('.ad-lightbox__slide');
+  var dots      = lightbox.querySelectorAll('.ad-lightbox__dot');
+  var counter   = lightbox.querySelector('.ad-lightbox__current');
+  var triggers  = document.querySelectorAll('[data-lightbox="addretail"]');
+  var current   = 0;
+  var lastFocus = null;
+
+  function goTo(n) {
+    slides[current].removeAttribute('aria-current');
+    dots[current].classList.remove('is-active');
+    current = (n + slides.length) % slides.length;
+    slides[current].setAttribute('aria-current', 'true');
+    dots[current].classList.add('is-active');
+    counter.textContent = current + 1;
+    slides[current].querySelector('img').focus();
+  }
+
+  function open() {
+    lastFocus = document.activeElement;
+    lightbox.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    goTo(0);
+    closeBtn.focus();
+  }
+
+  function close() {
+    lightbox.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (lastFocus) { lastFocus.focus(); }
+  }
+
+  triggers.forEach(function (el) {
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  backdrop.addEventListener('click', close);
+  prevBtn.addEventListener('click', function () { goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { goTo(current + 1); });
+
+  document.addEventListener('keydown', function (e) {
+    if (lightbox.hasAttribute('hidden')) return;
+    if (e.key === 'Escape')     { close(); }
+    if (e.key === 'ArrowLeft')  { goTo(current - 1); }
+    if (e.key === 'ArrowRight') { goTo(current + 1); }
+  });
+})();
+</script>
+
+<?php
+$cc_base    = get_template_directory_uri() . '/assets/images/Other Projects/Cricket & Co/';
+$cc_posters = [
+  [ 'src' => $cc_base . 'CCO golf annonce.jpg',          'alt' => 'Cricket &amp; Co – golf event announcement' ],
+  [ 'src' => $cc_base . 'INVITATION AALSt fr.jpg',       'alt' => 'Cricket &amp; Co – event invitation Aalst' ],
+  [ 'src' => $cc_base . 'Invitation balankenberge.jpg',  'alt' => 'Cricket &amp; Co – event invitation Blankenberge' ],
+];
+$cc_cat_base = $cc_base . 'Catalogue/';
+$cc_catalogue = [
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged).jpg',     'alt' => 'Cricket &amp; Co SS2019 catalogue – page 1' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 2.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 2' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 3.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 3' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 4.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 4' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 5.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 5' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 6.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 6' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 7.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 7' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 8.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 8' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 9.jpg',   'alt' => 'Cricket &amp; Co SS2019 catalogue – page 9' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 10.jpg',  'alt' => 'Cricket &amp; Co SS2019 catalogue – page 10' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 11.jpg',  'alt' => 'Cricket &amp; Co SS2019 catalogue – page 11' ],
+  [ 'src' => $cc_cat_base . 'catalogue SS2019 (dragged) 12.jpg',  'alt' => 'Cricket &amp; Co SS2019 catalogue – page 12' ],
+];
+?>
+
+<!-- Lightbox: Cricket & Co -->
+<div class="ad-lightbox ad-lightbox--wide" id="lightbox-cricket" role="dialog" aria-modal="true" aria-label="Cricket &amp; Co project gallery" hidden>
+  <div class="ad-lightbox__backdrop"></div>
+  <div class="ad-lightbox__panel">
+
+    <button class="ad-lightbox__close" aria-label="Close gallery">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+    </button>
+
+    <div class="ad-lightbox__header">
+      <p class="label">Graphic Design · Production</p>
+      <h3>Cricket &amp; Co</h3>
+    </div>
+
+    <p class="ad-lightbox__desc">
+      At Cricket &amp; Co I worked across two distinct areas. On the production side, I was responsible for ensuring collections arrived on time with correct sizing and specifications, communicating with manufacturers in Turkey, India and China.<br><br>
+      As a graphic designer, I created collection catalogues for print, lookbooks for the internal sales team, as well as invitations and promotional posters for stores and events.
+    </p>
+
+    <!-- Carousel 1: Posters & Graphic Design -->
+    <p class="cc-carousel-label">Graphic Design — Posters &amp; Invitations</p>
+    <div class="ad-lightbox__carousel" id="cc-carousel-posters">
+      <div class="ad-lightbox__track">
+        <?php foreach ( $cc_posters as $i => $img ) : ?>
+          <div class="ad-lightbox__slide" <?php echo $i === 0 ? 'aria-current="true"' : ''; ?>>
+            <img src="<?php echo esc_url( $img['src'] ); ?>" alt="<?php echo $img['alt']; ?>">
+          </div>
+        <?php endforeach; ?>
+      </div>
+      <button class="ad-lightbox__nav ad-lightbox__nav--prev" aria-label="Previous image">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 3l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <button class="ad-lightbox__nav ad-lightbox__nav--next" aria-label="Next image">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 3l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+    <div class="ad-lightbox__dots" aria-hidden="true">
+      <?php foreach ( $cc_posters as $i => $img ) : ?>
+        <span class="ad-lightbox__dot <?php echo $i === 0 ? 'is-active' : ''; ?>"></span>
+      <?php endforeach; ?>
+    </div>
+    <p class="ad-lightbox__counter" aria-live="polite">
+      <span class="cc-posters-current">1</span> / <?php echo count( $cc_posters ); ?>
+    </p>
+
+    <hr class="cc-divider">
+
+    <!-- Book viewer: SS2019 Collection Catalogue -->
+    <p class="cc-carousel-label">SS2019 Collection Catalogue</p>
+    <div class="catalogue-book" id="cc-book">
+      <div class="book-stage">
+
+        <!-- View 0: Cover — page 1 alone -->
+        <div class="book-spread book-spread--single is-current" data-view="0">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[0]['src'] ); ?>" alt="<?php echo $cc_catalogue[0]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- View 1: Spread — pages 2 & 3 -->
+        <div class="book-spread" data-view="1">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[1]['src'] ); ?>" alt="<?php echo $cc_catalogue[1]['alt']; ?>" loading="lazy">
+          </div>
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[2]['src'] ); ?>" alt="<?php echo $cc_catalogue[2]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- View 2: Spread — pages 4 & 5 -->
+        <div class="book-spread" data-view="2">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[3]['src'] ); ?>" alt="<?php echo $cc_catalogue[3]['alt']; ?>" loading="lazy">
+          </div>
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[4]['src'] ); ?>" alt="<?php echo $cc_catalogue[4]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- View 3: Spread — pages 6 & 7 -->
+        <div class="book-spread" data-view="3">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[5]['src'] ); ?>" alt="<?php echo $cc_catalogue[5]['alt']; ?>" loading="lazy">
+          </div>
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[6]['src'] ); ?>" alt="<?php echo $cc_catalogue[6]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- View 4: Spread — pages 8 & 9 -->
+        <div class="book-spread" data-view="4">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[7]['src'] ); ?>" alt="<?php echo $cc_catalogue[7]['alt']; ?>" loading="lazy">
+          </div>
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[8]['src'] ); ?>" alt="<?php echo $cc_catalogue[8]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- View 5: Spread — pages 10 & 11 -->
+        <div class="book-spread" data-view="5">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[9]['src'] ); ?>" alt="<?php echo $cc_catalogue[9]['alt']; ?>" loading="lazy">
+          </div>
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[10]['src'] ); ?>" alt="<?php echo $cc_catalogue[10]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- View 6: Back cover — page 12 alone -->
+        <div class="book-spread book-spread--single" data-view="6">
+          <div class="book-page">
+            <img src="<?php echo esc_url( $cc_catalogue[11]['src'] ); ?>" alt="<?php echo $cc_catalogue[11]['alt']; ?>" loading="lazy">
+          </div>
+        </div>
+
+        <!-- Flip leaf: JS-driven 3D page-turn overlay -->
+        <div class="book-flip-leaf" id="cc-flip-leaf" aria-hidden="true">
+          <div class="book-flip-leaf__front"></div>
+          <div class="book-flip-leaf__back"></div>
+        </div>
+
+      </div><!-- /.book-stage -->
+
+      <div class="book-controls">
+        <button class="book-nav book-nav--prev" id="cc-book-prev" aria-label="Previous catalogue page" disabled>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 3l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="book-counter" aria-live="polite">
+          <span id="cc-book-current">1</span>&thinsp;/&thinsp;7
+        </span>
+        <button class="book-nav book-nav--next" id="cc-book-next" aria-label="Next catalogue page">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 3l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div><!-- /.catalogue-book -->
+
+  </div>
+</div>
+
+<script>
+(function () {
+  var lightbox  = document.getElementById('lightbox-cricket');
+  var backdrop  = lightbox.querySelector('.ad-lightbox__backdrop');
+  var closeBtn  = lightbox.querySelector('.ad-lightbox__close');
+  var triggers  = document.querySelectorAll('[data-lightbox="cricket"]');
+  var lastFocus = null;
+
+  // Build an independent carousel controller for each carousel block
+  function makeCarousel(carouselEl, counterEl) {
+    var slides  = carouselEl.querySelectorAll('.ad-lightbox__slide');
+    var dots    = carouselEl.parentElement.querySelectorAll('.ad-lightbox__dot');
+    var current = 0;
+
+    function goTo(n) {
+      slides[current].removeAttribute('aria-current');
+      dots[current].classList.remove('is-active');
+      current = (n + slides.length) % slides.length;
+      slides[current].setAttribute('aria-current', 'true');
+      dots[current].classList.add('is-active');
+      counterEl.textContent = current + 1;
+    }
+
+    carouselEl.querySelector('.ad-lightbox__nav--prev').addEventListener('click', function () { goTo(current - 1); });
+    carouselEl.querySelector('.ad-lightbox__nav--next').addEventListener('click', function () { goTo(current + 1); });
+
+    return { goTo: goTo };
+  }
+
+  var postersCarousel  = makeCarousel(
+    lightbox.querySelector('#cc-carousel-posters'),
+    lightbox.querySelector('.cc-posters-current')
+  );
+  // Book viewer controller for catalogue
+  var bookSpreads  = Array.from(lightbox.querySelectorAll('#cc-book .book-spread'));
+  var bookTotal    = bookSpreads.length;
+  var bookCurrent  = 0;
+  var bookAnimating = false;
+  var bookCurrentEl = lightbox.querySelector('#cc-book-current');
+  var bookPrevBtn   = lightbox.querySelector('#cc-book-prev');
+  var bookNextBtn   = lightbox.querySelector('#cc-book-next');
+
+  function bookGoTo(n, dir) {
+    if (bookAnimating || n === bookCurrent || n < 0 || n >= bookTotal) return;
+    bookAnimating = true;
+
+    var leaf      = lightbox.querySelector('#cc-flip-leaf');
+    var leafFront = leaf.querySelector('.book-flip-leaf__front');
+    var current   = bookSpreads[bookCurrent];
+    var next      = bookSpreads[n];
+    var isSingle  = current.classList.contains('book-spread--single');
+
+    // Find the page that turns and copy its image to the leaf front face
+    var pages = current.querySelectorAll('.book-page');
+    var turningPage = dir > 0 ? pages[pages.length - 1] : pages[0];
+    var img = turningPage ? turningPage.querySelector('img') : null;
+    leafFront.style.backgroundImage = img ? 'url("' + img.src + '")' : '';
+
+    // Position leaf over the turning page
+    if (isSingle) {
+      leaf.style.left            = '25%';
+      leaf.style.width           = '50%';
+      leaf.style.transformOrigin = dir > 0 ? '0% 50%' : '100% 50%';
+    } else if (dir > 0) {
+      leaf.style.left            = '50%';
+      leaf.style.width           = '50%';
+      leaf.style.transformOrigin = '0% 50%';
+    } else {
+      leaf.style.left            = '0%';
+      leaf.style.width           = '50%';
+      leaf.style.transformOrigin = '100% 50%';
+    }
+
+    // Stack: current on top (z-index 2), next underneath (z-index 1)
+    next.classList.add('is-visible');
+
+    // Show leaf, then start animation on next two frames (ensures layout is applied)
+    leaf.classList.add('is-active');
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        leaf.classList.add(dir > 0 ? 'is-flipping-fwd' : 'is-flipping-bwd');
+      });
+    });
+
+    // Mid-point (~310ms): leaf is edge-on — remove current spread so next shows through
+    setTimeout(function () {
+      current.classList.remove('is-current');
+    }, 360);
+
+    // End (~740ms): clean up
+    setTimeout(function () {
+      leaf.classList.remove('is-active', 'is-flipping-fwd', 'is-flipping-bwd');
+      leafFront.style.backgroundImage = '';
+      next.classList.remove('is-visible');
+      next.classList.add('is-current');
+      bookCurrent = n;
+      bookCurrentEl.textContent = bookCurrent + 1;
+      bookPrevBtn.disabled = bookCurrent === 0;
+      bookNextBtn.disabled = bookCurrent === bookTotal - 1;
+      bookAnimating = false;
+    }, 740);
+  }
+
+  bookPrevBtn.addEventListener('click', function () { bookGoTo(bookCurrent - 1, -1); });
+  bookNextBtn.addEventListener('click', function () { bookGoTo(bookCurrent + 1, 1); });
+
+  function bookReset() {
+    bookAnimating = false;
+    var leaf = lightbox.querySelector('#cc-flip-leaf');
+    leaf.classList.remove('is-active', 'is-flipping-fwd', 'is-flipping-bwd');
+    bookSpreads.forEach(function (s, i) {
+      s.classList.toggle('is-current', i === 0);
+      s.classList.remove('is-visible');
+    });
+    bookCurrent = 0;
+    bookCurrentEl.textContent = '1';
+    bookPrevBtn.disabled = true;
+    bookNextBtn.disabled = bookTotal <= 1;
+  }
+
+  function open() {
+    lastFocus = document.activeElement;
+    lightbox.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    postersCarousel.goTo(0);
+    bookReset();
+    closeBtn.focus();
+  }
+
+  function close() {
+    lightbox.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    if (lastFocus) { lastFocus.focus(); }
+  }
+
+  triggers.forEach(function (el) {
+    el.addEventListener('click', open);
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  backdrop.addEventListener('click', close);
+
+  document.addEventListener('keydown', function (e) {
+    if (lightbox.hasAttribute('hidden')) return;
+    if (e.key === 'Escape') { close(); }
   });
 })();
 </script>

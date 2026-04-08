@@ -11,7 +11,7 @@ get_header(); ?>
             <p class="hero-kicker">Case Study</p>
             <h1>Optimizing Jobinar: <br>
             <span class="highlight italic">From Costly Platform to Scalable Solution</span></h1>
-            <p class="subtitle">A web strategy and UX overhaul of the Jobinar platform — replacing an expensive, inflexible system with a scalable Wistia-based solution that saves €20,000 every year and has enormously improved the customer experience.</p>
+            <p class="subtitle">A web strategy and UX overhaul of the Jobinar platform — replacing an expensive, inflexible system with a scalable Wistia-based solution that saves €15,000 every year and has enormously improved the customer experience.</p>
         </div>
         <div class="project-hero-meta section-shell flex-wrap">
             <div class="meta-item">
@@ -56,7 +56,7 @@ get_header(); ?>
                 <p>
                     Jobinar is an online training and webinar platform for HR and recruitment professionals. When they came to me, they were spending a fortune on a rigid, over-engineered platform that was both expensive to run and frustrating to use.<br>
                     <br>
-                    What began as a UX audit quickly revealed something bigger — a fundamental platform mismatch. Through structured research, competitive analysis, and technical evaluation, I identified Wistia as the right replacement: a move that saves Jobinar <strong>€20,000 every single year</strong> while dramatically improving the experience for every user on the platform.<br>
+                    What began as a UX audit quickly revealed something bigger — a fundamental platform mismatch. Through structured research, competitive analysis, and technical evaluation, I identified Wistia as the right replacement: a move that saves Jobinar <strong>€15,000 every single year</strong> while dramatically improving the experience for every user on the platform.<br>
                     <br>
                     This project is proof that UX work isn't just about screens. Sometimes the most impactful design decision is a strategic one.
                 </p>
@@ -120,7 +120,7 @@ get_header(); ?>
         <!-- Cost insight callout -->
         <div class="iterations-note" style="margin-top: 32px;">
             <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>The insight that changed everything:</strong> During the audit, a precise cost analysis revealed the platform was costing Jobinar over €20,000 per year more than necessary — for a service that was actively making the user experience worse. The opportunity wasn't just UX improvement. It was a €20K annual saving hiding in plain sight.</p>
+            <p><strong>The insight that changed everything:</strong> During the audit, a precise cost analysis revealed the platform was costing Jobinar over €15,000 per year more than necessary — for a service that was actively making the user experience worse. The opportunity wasn't just UX improvement. It was a €15K annual saving hiding in plain sight.</p>
         </div>
     </section>
 
@@ -181,12 +181,12 @@ get_header(); ?>
             <h2>What the research revealed</h2>
             <p>Six clear findings from the research directly shaped the strategic recommendation and every design decision that followed.</p>
             <ul class="findings-list">
-                <li>The platform cost was massively disproportionate — €20K in annual overspend identified and quantified</li>
-                <li>Video drop-off was occurring within the first 3 minutes — directly linked to streaming quality, not content</li>
-                <li>Users needed 3+ wrong turns to find past webinar recordings — a critical navigation failure</li>
+                <li>The platform cost was massively disproportionate — €15K in annual overspend identified and quantified</li>
+                <li>The platform was completely unreliable and e never knew if it was going to work properly or not</li>
+                <li>The platform did not allow us to update and improve UI of the jobinars</li>
                 <li>Wistia outperformed all alternatives across every evaluation criterion: cost, quality, analytics, flexibility</li>
                 <li>40%+ of users were on mobile with a completely broken experience across all key pages</li>
-                <li>Zero engagement data meant the team had no way to improve — the new platform unlocks this entirely</li>
+                <li>Switching to wistia helped reducing reliance on developers and speeding up updates</li>
             </ul>
         </div>
 
@@ -255,7 +255,7 @@ get_header(); ?>
                     <p style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-main-burgandy); margin-bottom: 1rem;">✦ After — Wistia-Based Solution</p>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
-                        <div class="info-step-content"><h4>€20,000 saved every year</h4><p>Platform cost slashed immediately and recurring annually</p></div>
+                        <div class="info-step-content"><h4>€15,000 saved every year</h4><p>Platform cost slashed immediately and recurring annually</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
@@ -380,7 +380,7 @@ get_header(); ?>
 
         <div class="iterations-note">
             <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>On the platform decision:</strong> The migration recommendation was presented before a single wireframe was drawn. Stakeholders initially hesitated — platform changes feel risky. But the cost analysis was irrefutable: €20,000 per year in savings, with every qualitative metric pointing in the same direction. The data made the decision easy.</p>
+            <p><strong>On the platform decision:</strong> The migration recommendation was presented before a single wireframe was drawn. Stakeholders initially hesitated — platform changes feel risky. But the cost analysis was irrefutable: €15,000 per year in savings, with every qualitative metric pointing in the same direction. The data made the decision easy.</p>
         </div>
     </section>
 
@@ -459,10 +459,10 @@ get_header(); ?>
         <div class="section-shell-burgandy">
             <p class="label-dark">07 — Results</p>
             <h2 class="dark-mode-txt">Strategy that <span class="italic">moved the numbers</span></h2>
-            <p class="dark-mode-txt" style="max-width: 560px;">This project delivered something rare in UX work — a financial return that is measurable, recurring, and directly attributable to research. Every year since the migration, Jobinar saves €20,000. And the customer experience has been transformed.</p>
+            <p class="dark-mode-txt" style="max-width: 560px;">This project delivered something rare in UX work — a financial return that is measurable, recurring, and directly attributable to research. Every year since the migration, Jobinar saves €15,000. And the customer experience has been transformed.</p>
             <div class="three-column-grid">
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">€20K</h3>
+                    <h3 class="project-stat-num">€15K</h3>
                     <p class="dark-mode-txt">Saved every year<br>since the platform migration</p>
                 </div>
                 <div class="project-stat-item">
@@ -487,7 +487,7 @@ get_header(); ?>
         <h2>Ready to work together?</h2>
         <p>If you're looking for a designer who combines strategic UX thinking with high-quality visual execution, let's talk.</p>
         <div class="display-flex-center-center-mobile">
-            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
+            <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore more case studies</a>
         </div>
     </section>

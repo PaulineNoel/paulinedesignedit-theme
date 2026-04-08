@@ -1712,6 +1712,295 @@ a {
     .ad-lightbox__nav--next { right: 0.25rem; }
 }
 
+/* Video lightbox variant */
+.ad-lightbox__panel--video {
+    max-width: 860px;
+}
+
+.ad-lightbox__video-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #000;
+}
+
+.ad-lightbox__desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.75;
+    color: rgba(28, 28, 30, 0.65);
+    margin: 0 !important;
+}
+
+.ad-lightbox__video-wrap iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Cricket & Co dual-carousel labels + divider */
+.cc-carousel-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(28, 28, 30, 0.45);
+    margin: 0 0 0.75rem;
+}
+
+.cc-divider {
+    border: none;
+    border-top: 1px solid rgba(28, 28, 30, 0.1);
+    margin: 1.5rem 0;
+}
+
+/* ---- Catalogue book viewer ---- */
+
+.catalogue-book {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.book-stage {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    background: #1c1914;
+    border-radius: 4px;
+    overflow: hidden;
+    /* Perspective lives here so it reads from the stage centre — more natural */
+    perspective: 1800px;
+    perspective-origin: 50% 50%;
+    box-shadow:
+        0 2px 0 #0a0907,
+        0 4px 0 #14110e,
+        0 12px 40px rgba(0,0,0,0.45);
+}
+
+/* Each view (single page or spread) */
+.book-spread {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: stretch;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.book-spread.is-current {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+/* Underneath layer during a flip: next spread revealed behind the leaf */
+.book-spread.is-visible {
+    opacity: 1;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Individual page within a spread */
+.book-page {
+    flex: 1;
+    overflow: hidden;
+    background: #f8f5f0;
+}
+
+.book-page img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background: #f8f5f0;
+}
+
+/* Centre spine shadow for two-page spreads */
+.book-spine {
+    flex: 0 0 0;
+    position: relative;
+    z-index: 2;
+    overflow: visible;
+    pointer-events: none;
+}
+
+.book-spine::before,
+.book-spine::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 18px;
+}
+
+/* Shadow cast from left page onto right */
+.book-spine::after {
+    left: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0.22) 0%, transparent 100%);
+}
+
+/* Shadow cast from right page onto left */
+.book-spine::before {
+    right: 0;
+    background: linear-gradient(to left, rgba(0,0,0,0.22) 0%, transparent 100%);
+}
+
+/* Single page (cover / back) — centred with side margins */
+.book-spread--single {
+    justify-content: center;
+    background: #1c1914;
+}
+
+.book-spread--single .book-page {
+    flex: 0 0 50%;
+    box-shadow: 6px 0 28px rgba(0,0,0,0.5), -6px 0 28px rgba(0,0,0,0.5);
+}
+
+/* ---- Flip leaf: 3D page-turn from top-right corner ---- */
+
+/* The leaf sits over the turning page.
+   Front face = page image. Back face = paper underside.
+   No filter animations — those break preserve-3d compositing and cause stiffness. */
+.book-flip-leaf {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    transform-style: preserve-3d;
+    will-change: transform;
+    pointer-events: none;
+    z-index: 20;
+    display: none;
+}
+
+.book-flip-leaf.is-active {
+    display: block;
+}
+
+.book-flip-leaf__front,
+.book-flip-leaf__back {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+/* Front: the page being turned */
+.book-flip-leaf__front {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f5f0;
+}
+
+/* Fold-crease gradient — simulates the page curving near the spine */
+.book-flip-leaf__front::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to left,
+        rgba(0,0,0,0.10) 0%,
+        rgba(0,0,0,0.03) 25%,
+        transparent 55%
+    );
+    pointer-events: none;
+}
+
+/* Back: warm paper tone visible mid-flip */
+.book-flip-leaf__back {
+    transform: rotateY(180deg);
+    background: linear-gradient(170deg, #e2dbd2 0%, #ede8e1 55%, #e6e0d8 100%);
+}
+
+/* Soft vignette on back face */
+.book-flip-leaf__back::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 60% 50%, transparent 30%, rgba(0,0,0,0.08) 100%);
+    pointer-events: none;
+}
+
+/* ---- Forward: right page folds left (perspective from .book-stage parent) ---- */
+@keyframes leaf-flip-fwd {
+    from { transform: rotateY(0deg); }
+    to   { transform: rotateY(-180deg); }
+}
+
+.book-flip-leaf.is-flipping-fwd {
+    animation: leaf-flip-fwd 0.72s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+/* ---- Backward: left page folds right ---- */
+@keyframes leaf-flip-bwd {
+    from { transform: rotateY(0deg); }
+    to   { transform: rotateY(180deg); }
+}
+
+.book-flip-leaf.is-flipping-bwd {
+    animation: leaf-flip-bwd 0.72s cubic-bezier(0.37, 0, 0.63, 1) forwards;
+}
+
+/* Controls row */
+.book-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+}
+
+.book-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1.5px solid rgba(28,28,30,0.15);
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgba(28,28,30,0.6);
+    transition: border-color 0.2s, color 0.2s, background 0.2s;
+    flex-shrink: 0;
+}
+
+.book-nav:hover:not(:disabled) {
+    border-color: var(--color-accent, #ff507f);
+    color: var(--color-accent, #ff507f);
+    background: rgba(255,80,127,0.06);
+}
+
+.book-nav:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.book-counter {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: rgba(28,28,30,0.45);
+    letter-spacing: 0.04em;
+    min-width: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Reduced motion: skip leaf animation */
+@media (prefers-reduced-motion: reduce) {
+    .book-flip-leaf.is-flipping-fwd,
+    .book-flip-leaf.is-flipping-bwd {
+        animation: none;
+        display: none;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     .ad-lightbox__backdrop,
     .ad-lightbox__panel { animation: none; }

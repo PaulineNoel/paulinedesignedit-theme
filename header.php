@@ -83,7 +83,7 @@
         </li>
 
         <li class="site-nav__item">
-          <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work With Me</a>
+          <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work With Me</a>
         </li>
 
       </ul>
