@@ -9,7 +9,7 @@
         <div class="hero-text">
           <span class="hero-kicker">Available for projects</span>
           <h1>Designing digital experiences that <span class="highlight">actually work</span>.</h1>
-          <p class="hero-subtitle">I help companies turn complex ideas into clear,<br>high-performing websites.</p>
+          <p class="hero-subtitle">I help companies build websites that are clear, fast and actually work.</p>
           <div class="hero-trust">
             <span class="hero-trust__pill">UI/UX Design</span>
             <span class="hero-trust__pill">WordPress</span>
@@ -45,7 +45,7 @@
 
     <!-- Short value proposition -->
      <!-- <section class="container">
-      <h2>Design is not just how it looks. It’s how it performs.</h2>
+      <h2>Design is not just how it looks. It's how it performs.</h2>
       <p>I help companies create websites and platforms that are clear, accessible, conversion-focused, and easy to maintain.<br>No over-engineering. No unnecessary fluff. Just smart design decisions backed by strategy and execution.
       </p>
      </section> -->
@@ -55,9 +55,9 @@
         <div class="clients-top">
           <div class="section-intro">
             <p class="label">Clients & testimonials</p>
-            <h2>Companies I’ve worked with</h2>
+            <h2>Companies I've worked with</h2>
             <p class="subtitle client-subtitle">
-              Helping teams turn complex ideas into simple, high-performing digital experiences.
+              Working with companies to build websites people enjoy using.
             </p>
 
             <div class="clients-nav">
@@ -77,7 +77,7 @@
                   </div>
                 </div>
                 <p class="testimonial-text">
-                  “Pauline was a pleasure to work with. She led the rebranding and redesign of Careers International, delivering a modern, user-friendly experience. Her work on the jobinar project also helped streamline processes and reduce costs. I would gladly work with her again.”
+                  "Pauline was a pleasure to work with. She led the rebranding and redesign of Careers International, delivering a modern, user-friendly experience. Her work on the jobinar project also helped streamline processes and reduce costs. I would gladly work with her again."
                 </p>
               </article>
 
@@ -90,7 +90,7 @@
                   </div>
                 </div>
                 <p class="testimonial-text">
-                  “Pauline was a pleasure to work with. She immediately understood what we were trying to build with Flexina and turned it into a modern, user-friendly design. Her responsiveness, creativity, and ability to deliver high-quality work quickly made a real difference. I’d definitely work with her again.”
+                  "Pauline was a pleasure to work with. She immediately understood what we were trying to build with Flexina and turned it into a modern, user-friendly design. Her responsiveness, creativity, and ability to deliver high-quality work quickly made a real difference. I'd definitely work with her again."
                 </p>
               </article>
 
@@ -144,8 +144,8 @@
           <h2>Selected Projects</h2>
         </div>
         
-        <h3>A curated selection of projects where strategy, design, and execution interplay.</h3>
-        <p class="subtitle">Each project reflects a clear business objective — whether it’s improving usability, simplifying complex information, or building scalable websites that teams can actually manage.</p>
+        <h3>Some of the projects I'm most proud of.</h3>
+        <p class="subtitle">Each one had a real problem to solve, from fixing navigation to building something the team could manage on their own.</p>
 
         <div class="two-column-grid">
           <!-- Careers Intenational -->
@@ -191,7 +191,26 @@
             </div>
           </div>
 
-          <!-- Careers Intenational - TWC-->
+          <!-- Anita Diamonds -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Anita Diamonds" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Anita Diamonds Project/Anita Diamonds - Mockup - Multi device.png" alt="Anita Diamonds website mockup across multiple devices">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">UI/UX</div>
+                <div class="project-card-tag">UX Research</div>
+                <div class="project-card-tag">Figma</div>
+                <div class="project-card-tag">Luxury</div>
+              </div>
+              <h4 class="project-title">Anita Diamonds: Designing for Luxury, Trust and Precision</h4>
+              <p>High-end UI/UX design for a diamond company in Antwerp, including deep product research and a custom diamond repertory feature.</p>
+              <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
+          </div>
+
+          <!-- Careers Intenational - TWC
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/twc-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Top Women Careers" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
@@ -210,9 +229,29 @@
               <p>Brand and website for Top Women Careers, connecting women with progressive employers. UX, visual identity, and scalable WordPress platform.</p>
               <a href="<?php echo esc_url( home_url( '/twc-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
             </div>
+          </div> -->
+
+          <!-- FlyUX -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/flyux-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: FlyUX" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Fly UX/Fly UX - Mobile - Mockup.png" alt="FlyUX airline app mockup on mobile device">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">UX Research</div>
+                <div class="project-card-tag">Usability Testing</div>
+                <div class="project-card-tag">Journey Mapping</div>
+                <div class="project-card-tag">Wireframing</div>
+                <div class="project-card-tag">Prototyping</div>
+              </div>
+              <h4 class="project-title">FlyUX: Designing a Better Airline App from Research to Prototype</h4>
+              <p>A full UX process from competitive benchmarking and usability testing to affinity diagrams, journey mapping, and a high-fidelity airline booking app prototype.</p>
+              <a href="<?php echo esc_url( home_url( '/flyux-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
           </div>
 
-          <!-- Flexina -->
+          <!-- Flexina 
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Flexina" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
@@ -224,11 +263,11 @@
                 <div class="project-card-tag">Branding</div>
                 <div class="project-card-tag">Adobe XD</div>
               </div>
-              <h4 class="project-title">Designing Flexina’s Website: A Clear and Scalable Digital Presence</h4>
+              <h4 class="project-title">Designing Flexina's Website: A Clear and Scalable Digital Presence</h4>
               <p>A UI/UX website design for Flexina, focused on clear structure, intuitive navigation, and a modern interface tailored to small businesses.</p>
               <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" target="_blank" rel="noopener noreferrer" class="project-card-link display-flex">View the prototype</a>
             </div>
-          </div>
+          </div>-->
         </div>
         <div class="right-align">
           <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="primary-btn btn">Explore Case Studies</a>
@@ -248,22 +287,22 @@
           <p class="label">More work</p>
           <h2>Other Projects</h2>
         </div>
-        <h3>A selection of additional work — from quick-turn designs to explorations that never made it to a case study.</h3>
+        <h3>Some other things I've worked on. Not everything gets a full case study, but these are projects I'm still happy with.</h3>
       </div>
 
       <div class="other-projects-grid">
 
-        <div class="op-card op-card--lightbox" data-lightbox="anita-diamonds" role="button" tabindex="0" aria-haspopup="dialog" aria-label="View Anita Diamonds project gallery">
-          <div class="op-card__img-wrap">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Anita Diamonds Project/Anita Diamonds Mockup.png' ); ?>" alt="Anita Diamonds website mockup">
+        <!-- <div class="op-card">
+          <a href="<?php echo esc_url( home_url('/anita-diamonds-project/') ); ?>" class="op-card__img-wrap" aria-label="View Anita Diamonds case study">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/Anita Diamonds Project/Anita Diamonds - Mockup - Multi device.png' ); ?>" alt="Anita Diamonds website mockup">
             <div class="op-card__overlay">
-              <span class="op-card__category">UI & UX Design</span>
+              <span class="op-card__category">UI/UX Design</span>
               <h4 class="op-card__title">Anita Diamonds</h4>
-              <p class="op-card__desc">The creation of a high end, luxurious website for a diamond company in Antwerp</p>
-              <span class="op-card__gallery-hint" aria-hidden="true">View gallery →</span>
+              <p class="op-card__desc">A high-end website for a diamond company in Antwerp, with a custom diamond repertory feature.</p>
+              <span class="op-card__gallery-hint" aria-hidden="true">View case study →</span>
             </div>
-          </div>
-        </div>
+          </a>
+        </div> -->
 
         <div class="op-card op-card--lightbox" data-lightbox="fashion-ss2019" role="button" tabindex="0" aria-haspopup="dialog" aria-label="Watch Fashion Collection SS2019 video">
           <div class="op-card__img-wrap">
@@ -373,132 +412,15 @@
 
           <div class="stat-card">
             <p><b>No fluff, just results</b></p>
-            <p>No over-engineering — only what brings real value.</p>
+            <p>No over-engineering. Only what actually brings value.</p>
           </div>
         </div>
       </div>
     </section>
 </main>
 
-<?php
-$ad_base = get_template_directory_uri() . '/assets/images/Anita Diamonds Project/';
-$ad_images = [
-  [ 'src' => $ad_base . 'Desktop home screen - A_D.png',       'alt' => 'Anita Diamonds – homepage design' ],
-  [ 'src' => $ad_base . 'Desktop about us screen - A_D.png',   'alt' => 'Anita Diamonds – about us page design' ],
-  [ 'src' => $ad_base . 'Desktop corpot res screen - A_D.png', 'alt' => 'Anita Diamonds – corporate responsibility page design' ],
-  [ 'src' => $ad_base . 'Diamond Search.png',                  'alt' => 'Anita Diamonds – diamond search feature design' ],
-];
-?>
-
-<!-- Lightbox: Anita Diamonds -->
-<div class="ad-lightbox" id="lightbox-anita-diamonds" role="dialog" aria-modal="true" aria-label="Anita Diamonds project gallery" hidden>
-  <div class="ad-lightbox__backdrop"></div>
-  <div class="ad-lightbox__panel">
-
-    <button class="ad-lightbox__close" aria-label="Close gallery">
-      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-    </button>
-
-    <div class="ad-lightbox__header">
-      <p class="label">UI & UX Design</p>
-      <h3>Anita Diamonds</h3>
-    </div>
-
-    <div class="ad-lightbox__carousel">
-      <div class="ad-lightbox__track">
-        <?php foreach ( $ad_images as $i => $img ) : ?>
-          <div class="ad-lightbox__slide" <?php echo $i === 0 ? 'aria-current="true"' : ''; ?>>
-            <img src="<?php echo esc_url( $img['src'] ); ?>" alt="<?php echo esc_attr( $img['alt'] ); ?>">
-          </div>
-        <?php endforeach; ?>
-      </div>
-
-      <button class="ad-lightbox__nav ad-lightbox__nav--prev" aria-label="Previous image">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M13 3l-7 7 7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-      <button class="ad-lightbox__nav ad-lightbox__nav--next" aria-label="Next image">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M7 3l7 7-7 7" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
-    </div>
-
-    <div class="ad-lightbox__dots" aria-hidden="true">
-      <?php foreach ( $ad_images as $i => $img ) : ?>
-        <span class="ad-lightbox__dot <?php echo $i === 0 ? 'is-active' : ''; ?>"></span>
-      <?php endforeach; ?>
-    </div>
-
-    <p class="ad-lightbox__counter" aria-live="polite">
-      <span class="ad-lightbox__current">1</span> / <?php echo count( $ad_images ); ?>
-    </p>
-
-    <p class="ad-lightbox__desc">
-      I was hired to design a website for Anita Diamonds, a prominent and fast-growing diamond company in Antwerp. My graphic and UI/UX design skill sets are being implemented to improve customers' experience and security. The web page is in development.
-    </p>
-
-  </div>
-</div>
-
-<script>
-(function () {
-  var lightbox   = document.getElementById('lightbox-anita-diamonds');
-  var backdrop   = lightbox.querySelector('.ad-lightbox__backdrop');
-  var closeBtn   = lightbox.querySelector('.ad-lightbox__close');
-  var prevBtn    = lightbox.querySelector('.ad-lightbox__nav--prev');
-  var nextBtn    = lightbox.querySelector('.ad-lightbox__nav--next');
-  var slides     = lightbox.querySelectorAll('.ad-lightbox__slide');
-  var dots       = lightbox.querySelectorAll('.ad-lightbox__dot');
-  var counter    = lightbox.querySelector('.ad-lightbox__current');
-  var triggers   = document.querySelectorAll('[data-lightbox="anita-diamonds"]');
-  var current    = 0;
-  var lastFocus  = null;
-
-  function goTo(n) {
-    slides[current].removeAttribute('aria-current');
-    dots[current].classList.remove('is-active');
-    current = (n + slides.length) % slides.length;
-    slides[current].setAttribute('aria-current', 'true');
-    dots[current].classList.add('is-active');
-    counter.textContent = current + 1;
-    slides[current].querySelector('img').focus();
-  }
-
-  function open() {
-    lastFocus = document.activeElement;
-    lightbox.removeAttribute('hidden');
-    document.body.style.overflow = 'hidden';
-    goTo(0);
-    closeBtn.focus();
-  }
-
-  function close() {
-    lightbox.setAttribute('hidden', '');
-    document.body.style.overflow = '';
-    if (lastFocus) { lastFocus.focus(); }
-  }
-
-  triggers.forEach(function (el) {
-    el.addEventListener('click', open);
-    el.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
-    });
-  });
-
-  closeBtn.addEventListener('click', close);
-  backdrop.addEventListener('click', close);
-  prevBtn.addEventListener('click', function () { goTo(current - 1); });
-  nextBtn.addEventListener('click', function () { goTo(current + 1); });
-
-  document.addEventListener('keydown', function (e) {
-    if (lightbox.hasAttribute('hidden')) return;
-    if (e.key === 'Escape')     { close(); }
-    if (e.key === 'ArrowLeft')  { goTo(current - 1); }
-    if (e.key === 'ArrowRight') { goTo(current + 1); }
-  });
-})();
-</script>
-
 <!-- Lightbox: Fashion Collection SS2019 (video) -->
-<div class="ad-lightbox" id="lightbox-fashion-ss2019" role="dialog" aria-modal="true" aria-label="Fashion Collection SS2019 video" hidden>
+<div class="ad-lightbox" id="lightbox-fashion-ss2019" role="dialog" aria-modal="true" aria-labelledby="dlg-fashion-title" hidden>
   <div class="ad-lightbox__backdrop"></div>
   <div class="ad-lightbox__panel ad-lightbox__panel--video">
 
@@ -508,7 +430,7 @@ $ad_images = [
 
     <div class="ad-lightbox__header">
       <p class="label">Fashion Design</p>
-      <h3>Fashion Collection SS2019</h3>
+      <h3 id="dlg-fashion-title">Fashion Collection SS2019</h3>
     </div>
 
     <div class="ad-lightbox__video-wrap">
@@ -567,13 +489,21 @@ $ad_images = [
   backdrop.addEventListener('click', close);
 
   document.addEventListener('keydown', function (e) {
-    if (!lightbox.hasAttribute('hidden') && e.key === 'Escape') { close(); }
+    if (lightbox.hasAttribute('hidden')) return;
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'Tab') {
+      var focusable = Array.from(lightbox.querySelectorAll('button:not([disabled]),[href],[tabindex]:not([tabindex="-1"])'));
+      if (!focusable.length) return;
+      var first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey) { if (document.activeElement === first) { e.preventDefault(); last.focus(); } }
+      else            { if (document.activeElement === last)  { e.preventDefault(); first.focus(); } }
+    }
   });
 })();
 </script>
 
 <!-- Lightbox: MealzZap (video) -->
-<div class="ad-lightbox" id="lightbox-mealzzap" role="dialog" aria-modal="true" aria-label="MealzZap project video" hidden>
+<div class="ad-lightbox" id="lightbox-mealzzap" role="dialog" aria-modal="true" aria-labelledby="dlg-mealzzap-title" hidden>
   <div class="ad-lightbox__backdrop"></div>
   <div class="ad-lightbox__panel ad-lightbox__panel--video">
 
@@ -583,7 +513,7 @@ $ad_images = [
 
     <div class="ad-lightbox__header">
       <p class="label">Front & Back-end Web Development</p>
-      <h3>MealzZap</h3>
+      <h3 id="dlg-mealzzap-title">MealzZap</h3>
     </div>
 
     <div class="ad-lightbox__video-wrap">
@@ -599,7 +529,7 @@ $ad_images = [
     </div>
 
     <p class="ad-lightbox__desc">
-      10 days was the number of days we had to code a website from start to finish while studying web development with "Le Wagon". Each of us had to present a project then we had to vote which project we wanted to work on and groups were then created. My project, MealzZap, was selected and we were 3 working on it — Nina Tomic, Simon Ellicaste and me.
+      We had 10 days to build a website from scratch as part of the Le Wagon bootcamp. Each of us pitched a project idea, then we voted on which one to build. Mine got picked and we ended up as a team of three: Nina Tomic, Simon Ellicaste and me.
       <br><br>
       My main tasks were to code the front end and some back-end functionalities.
     </p>
@@ -642,7 +572,15 @@ $ad_images = [
   backdrop.addEventListener('click', close);
 
   document.addEventListener('keydown', function (e) {
-    if (!lightbox.hasAttribute('hidden') && e.key === 'Escape') { close(); }
+    if (lightbox.hasAttribute('hidden')) return;
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'Tab') {
+      var focusable = Array.from(lightbox.querySelectorAll('button:not([disabled]),[href],[tabindex]:not([tabindex="-1"])'));
+      if (!focusable.length) return;
+      var first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey) { if (document.activeElement === first) { e.preventDefault(); last.focus(); } }
+      else            { if (document.activeElement === last)  { e.preventDefault(); first.focus(); } }
+    }
   });
 })();
 </script>
@@ -657,7 +595,7 @@ $ar_images = [
 ?>
 
 <!-- Lightbox: AddRetail Newsletters -->
-<div class="ad-lightbox" id="lightbox-addretail" role="dialog" aria-modal="true" aria-label="AddRetail newsletter gallery" hidden>
+<div class="ad-lightbox" id="lightbox-addretail" role="dialog" aria-modal="true" aria-labelledby="dlg-addretail-title" hidden>
   <div class="ad-lightbox__backdrop"></div>
   <div class="ad-lightbox__panel">
 
@@ -667,13 +605,11 @@ $ar_images = [
 
     <div class="ad-lightbox__header">
       <p class="label">Newsletters · HTML & CSS</p>
-      <h3>AddRetail</h3>
+      <h3 id="dlg-addretail-title">AddRetail</h3>
     </div>
 
     <p class="ad-lightbox__desc">
-      Part of my job at AddRetail consists of coding, using HTML tables and inline CSS, and designing newsletters for major companies across Belgium such as: Trafic, Club, Planet Parfum, Deutsche Bank and more.
-      <br><br>
-      Find below some of the projects I have completed during the previous months.
+      At AddRetail I coded and designed newsletters for some of Belgium's biggest retailers, including Trafic, Club, Planet Parfum and Deutsche Bank. Here are a few examples.
     </p>
 
     <div class="ad-lightbox__carousel">
@@ -727,7 +663,6 @@ $ar_images = [
     slides[current].setAttribute('aria-current', 'true');
     dots[current].classList.add('is-active');
     counter.textContent = current + 1;
-    slides[current].querySelector('img').focus();
   }
 
   function open() {
@@ -758,9 +693,16 @@ $ar_images = [
 
   document.addEventListener('keydown', function (e) {
     if (lightbox.hasAttribute('hidden')) return;
-    if (e.key === 'Escape')     { close(); }
-    if (e.key === 'ArrowLeft')  { goTo(current - 1); }
-    if (e.key === 'ArrowRight') { goTo(current + 1); }
+    if (e.key === 'Escape')     { close(); return; }
+    if (e.key === 'ArrowLeft')  { goTo(current - 1); return; }
+    if (e.key === 'ArrowRight') { goTo(current + 1); return; }
+    if (e.key === 'Tab') {
+      var focusable = Array.from(lightbox.querySelectorAll('button:not([disabled]),[href],[tabindex]:not([tabindex="-1"])'));
+      if (!focusable.length) return;
+      var first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey) { if (document.activeElement === first) { e.preventDefault(); last.focus(); } }
+      else            { if (document.activeElement === last)  { e.preventDefault(); first.focus(); } }
+    }
   });
 })();
 </script>
@@ -790,7 +732,7 @@ $cc_catalogue = [
 ?>
 
 <!-- Lightbox: Cricket & Co -->
-<div class="ad-lightbox ad-lightbox--wide" id="lightbox-cricket" role="dialog" aria-modal="true" aria-label="Cricket &amp; Co project gallery" hidden>
+<div class="ad-lightbox ad-lightbox--wide" id="lightbox-cricket" role="dialog" aria-modal="true" aria-labelledby="dlg-cricket-title" hidden>
   <div class="ad-lightbox__backdrop"></div>
   <div class="ad-lightbox__panel">
 
@@ -800,16 +742,16 @@ $cc_catalogue = [
 
     <div class="ad-lightbox__header">
       <p class="label">Graphic Design · Production</p>
-      <h3>Cricket &amp; Co</h3>
+      <h3 id="dlg-cricket-title">Cricket &amp; Co</h3>
     </div>
 
     <p class="ad-lightbox__desc">
-      At Cricket &amp; Co I worked across two distinct areas. On the production side, I was responsible for ensuring collections arrived on time with correct sizing and specifications, communicating with manufacturers in Turkey, India and China.<br><br>
-      As a graphic designer, I created collection catalogues for print, lookbooks for the internal sales team, as well as invitations and promotional posters for stores and events.
+      At Cricket &amp; Co I had two very different roles. On the production side, I made sure collections arrived on time with the right sizing and specs, working with manufacturers in Turkey, India and China.<br><br>
+      As a graphic designer, I made print catalogues, lookbooks for the sales team, and promotional material like invitations and posters for events.
     </p>
 
     <!-- Carousel 1: Posters & Graphic Design -->
-    <p class="cc-carousel-label">Graphic Design — Posters &amp; Invitations</p>
+    <p class="cc-carousel-label">Graphic Design: Posters &amp; Invitations</p>
     <div class="ad-lightbox__carousel" id="cc-carousel-posters">
       <div class="ad-lightbox__track">
         <?php foreach ( $cc_posters as $i => $img ) : ?>
@@ -960,7 +902,7 @@ $cc_catalogue = [
     carouselEl.querySelector('.ad-lightbox__nav--prev').addEventListener('click', function () { goTo(current - 1); });
     carouselEl.querySelector('.ad-lightbox__nav--next').addEventListener('click', function () { goTo(current + 1); });
 
-    return { goTo: goTo };
+    return { goTo: goTo, prev: function() { goTo(current - 1); }, next: function() { goTo(current + 1); } };
   }
 
   var postersCarousel  = makeCarousel(
@@ -1081,7 +1023,16 @@ $cc_catalogue = [
 
   document.addEventListener('keydown', function (e) {
     if (lightbox.hasAttribute('hidden')) return;
-    if (e.key === 'Escape') { close(); }
+    if (e.key === 'Escape')     { close(); return; }
+    if (e.key === 'ArrowLeft')  { postersCarousel.prev(); return; }
+    if (e.key === 'ArrowRight') { postersCarousel.next(); return; }
+    if (e.key === 'Tab') {
+      var focusable = Array.from(lightbox.querySelectorAll('button:not([disabled]),[href],[tabindex]:not([tabindex="-1"])'));
+      if (!focusable.length) return;
+      var first = focusable[0], last = focusable[focusable.length - 1];
+      if (e.shiftKey) { if (document.activeElement === first) { e.preventDefault(); last.focus(); } }
+      else            { if (document.activeElement === last)  { e.preventDefault(); first.focus(); } }
+    }
   });
 })();
 </script>

@@ -9,7 +9,7 @@ get_header(); ?>
             <p class="hero-kicker">Case Study</p>
             <h1>Designing Flexina's Website: <br>
             <span class="highlight italic">A Clear and Scalable Digital Presence</span></h1>
-            <!-- <p class="subtitle">A full brand and UX transformation for Careers International — a new identity, engaging UI, and an animated WordPress build that turned a complex platform into a high-performing digital experience.</p> -->
+            <!-- <p class="subtitle">A full brand and UX transformation for Careers International, a new identity, engaging UI, and an animated WordPress build that turned a complex platform into a high-performing digital experience.</p> -->
         </div>
         <div class="project-hero-meta section-shell flex-wrap">
             <div class="meta-item">
@@ -40,24 +40,24 @@ get_header(); ?>
         <a class="btn primary-btn" target="_blank" href="https://xd.adobe.com/view/a7c8528e-753d-4c8f-b49a-109bb02c4edb-f29b/?hints=off">Visit the prototype</a>
         <div class="img-placeholder ph-tall" style="height: 420px; margin-top:50px; margin-bottom:30px;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-            <span>Hero image — Final Flexina homepage shown on desktop, tablet & mobile mockups</span>
+            <span>Hero image, Final Flexina homepage shown on desktop, tablet & mobile mockups</span>
         </div>
     </section>
     <section id="overview" class="container">
         <div class="two-column-grid-twothirds">
             <div class="project-overview-content">
-                <p class="label">01 — Project Overview</p>
+                <p class="label">01, Project Overview</p>
                 <h2>The full <span class="highlight italic">picture</span></h2>
                 <p>
-                    Flexina is an invoicing and billing SaaS platform designed for freelancers and small businesses — giving them a simple, accessible way to create, send, and track invoices from any device. They needed a website that would introduce the product clearly and convert visitors into users. <br>
+                    Flexina is an invoicing and billing SaaS platform designed for freelancers and small businesses, giving them a simple, accessible way to create, send, and track invoices from any device. They needed a website that would introduce the product clearly and convert visitors into users. <br>
                     <br>
-                    Flexina came to me with a clear product but no website to match its ambition. The platform allows users to manage invoices, quotes, and client data from desktop, tablet, or mobile — a key differentiator the website needed to communicate front and centre.<br>
+                    Flexina came to me with a clear product but no website to match its ambition. The platform allows users to manage invoices, quotes, and client data from desktop, tablet, or mobile, a key differentiator the website needed to communicate front and centre.<br>
                     <br>
-                    My role was to design the full UI of their marketing website — from initial UX thinking through to a high-fidelity Adobe XD prototype ready for development handoff. Every section needed to be intuitive, conversion-focused, and reflect the product's clean, modern identity.
+                    My role was to design the full UI of their marketing website, from initial UX thinking through to a high-fidelity Adobe XD prototype ready for development handoff. Every section needed to be intuitive, conversion-focused, and reflect the product's clean, modern identity.
                 </p>
                 <div class="img-placeholder ph-tall" style="height: 400px; margin-top:50px; margin-bottom:30px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Product overview — Flexina app on all devices (desktop, tablet, mobile)</span>
+                    <span>Product overview, Flexina app on all devices (desktop, tablet, mobile)</span>
                 </div>
             </div>
             <div class="sidebar">
@@ -85,25 +85,25 @@ get_header(); ?>
         </div>
     </section>
     <section id="challenge" class="container">
-        <p class="label">02 — The Challenge</p>
+        <p class="label">02, The Challenge</p>
         <h2>What needed <span class="highlight italic">to be solved</span></h2>
-        <p>Flexina had a genuinely useful product — but no web presence to prove it. The challenge was to create a site that could explain a technical SaaS product simply, build trust quickly, and drive free trial sign-ups from cold traffic.</p>
+        <p>Flexina had a genuinely useful product, but no web presence to prove it. The challenge was to create a site that could explain a technical SaaS product simply, build trust quickly, and drive free trial sign-ups from cold traffic.</p>
         <div class="two-column-grid">
             <div class="info-card info-card-burgandy">
                 <h4 class="dark-mode-txt">Four design problems to crack</h4>
                 <p class="dark-mode-txt">Through conversations with the Flexina team and review of comparable products, four core challenges shaped the design brief:</p>
                 <ul class="ul-s dark-mode-txt">
-                    <li>Explain a technical product — invoicing software — in a way that's immediately clear to non-technical users</li>
+                    <li>Explain a technical product, invoicing software, in a way that's immediately clear to non-technical users</li>
                     <li>Demonstrate cross-device availability (mobile, tablet, desktop) as a primary value differentiator</li>
                     <li>Build credibility and trust fast for a brand-new SaaS product with no existing user base</li>
-                    <li>Drive a single clear conversion action — free trial sign-up — without overwhelming visitors with features</li>
+                    <li>Drive a single clear conversion action, free trial sign-up, without overwhelming visitors with features</li>
                     <li>Create a scalable design system that the product team could extend as the platform grows</li>
                 </ul>
             </div>
             <div class="project-challenge-imgs">
                 <div class="img-placeholder" style="height: 100%; margin-bottom: 30px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Competitor analysis — comparable SaaS invoicing tools</span>
+                    <span>Competitor analysis, comparable SaaS invoicing tools</span>
                 </div>
                 <p class="img-label">Competitive Benchmarking</p>
                 <!-- <div class="img-placeholder" style="height: 220px;">
@@ -114,9 +114,9 @@ get_header(); ?>
         </div>
     </section>
     <section id="research" class="container">
-        <p class="label">03 — UX Research & Insights</p>
+        <p class="label">03, UX Research & Insights</p>
         <h2>Understanding the <span class="highlight italic">users</span></h2>
-        <p>Flexina's target audience is freelancers and small business owners — busy, often non-technical people who need to invoice quickly and track payments easily. Research focused on their mental models around billing and what builds product trust.</p>
+        <p>Flexina's target audience is freelancers and small business owners, busy, often non-technical people who need to invoice quickly and track payments easily. Research focused on their mental models around billing and what builds product trust.</p>
         <div class="flex-wrap flex-pill">
             <div class="pill blue-pill">
                 <div class="mi">🎯</div>
@@ -139,14 +139,14 @@ get_header(); ?>
             <div>
                 <div class="img-placeholder" style="height: 320px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>User persona — freelancer / small business owner</span>
+                    <span>User persona, freelancer / small business owner</span>
                 </div>
                 <p class="img-label">Target user persona</p>
             </div>
             <div>
                 <div class="img-placeholder" style="height: 320px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Competitor analysis board — Factomos, Debitoor, Freebe</span>
+                    <span>Competitor analysis board, Factomos, Debitoor, Freebe</span>
                 </div>
                 <p class="img-label">Competitive benchmarking</p>
             </div>
@@ -160,24 +160,24 @@ get_header(); ?>
             <div class="info-card">
                 <div class="num">02</div>
                 <h4>Mobile is the primary use case</h4>
-                <p>Freelancers often invoice on the go — between meetings, on-site with clients. The "available everywhere" message needed to be shown, not just told, with strong device mockups up front.</p>
+                <p>Freelancers often invoice on the go, between meetings, on-site with clients. The "available everywhere" message needed to be shown, not just told, with strong device mockups up front.</p>
             </div>
             <div class="info-card">
                 <div class="num">03</div>
                 <h4>Trust = proof + simplicity</h4>
-                <p>For a new product with no reviews, trust had to come from design quality itself — clean layouts, confident typography, and a clear free trial offer that reduced the cost of trying.</p>
+                <p>For a new product with no reviews, trust had to come from design quality itself, clean layouts, confident typography, and a clear free trial offer that reduced the cost of trying.</p>
             </div>
         </div>
         <div class="project-challenge-imgs">
             <div class="img-placeholder" style="height: 450px; margin-bottom: 30px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                <span>User journey map — freelancer path from landing page to first invoice sent</span>
+                <span>User journey map, freelancer path from landing page to first invoice sent</span>
             </div>
-            <p class="img-label">User journey — landing page to first invoice</p>
+            <p class="img-label">User journey, landing page to first invoice</p>
         </div>
     </section>
     <section id="strategy" class="container">
-        <p class="label">04 — UX Strategy</p>
+        <p class="label">04, UX Strategy</p>
         <h2>Turning insights <span class="highlight italic">into a plan</span></h2>
         <p>A tight strategy built around one core idea: show the product in action, as fast as possible, on every device, with a single clear path to trying it for free.</p>
         <div class="two-column-grid-onethrid">
@@ -193,21 +193,21 @@ get_header(); ?>
                     <div class="num-oultine">02</div>
                     <div class="info-step-content">
                         <h4>Feature sections use "show, don't tell"</h4>
-                        <p>Each key feature — invoice creation, template library, cloud sync, client management — shown with a real product screenshot, not a bullet point list.</p>
+                        <p>Each key feature, invoice creation, template library, cloud sync, client management, shown with a real product screenshot, not a bullet point list.</p>
                     </div>
                 </div>
                 <div class="info-step display-flex-mobile">
                     <div class="num-oultine">03</div>
                     <div class="info-step-content">
                         <h4>Reinforce the multi-device promise</h4>
-                        <p>Three dedicated device showcase moments across the page — desktop, tablet, and mobile — to drill home the "access anywhere" differentiator that competitors don't offer as clearly.</p>
+                        <p>Three dedicated device showcase moments across the page, desktop, tablet, and mobile, to drill home the "access anywhere" differentiator that competitors don't offer as clearly.</p>
                     </div>
                 </div>
                 <div class="info-step display-flex-mobile">
                     <div class="num-oultine">05</div>
                     <div class="info-step-content">
                         <h4>One CTA, repeated consistently</h4>
-                        <p>"Essai Gratuit" (Free Trial) appears at every scroll checkpoint — hero, mid-page, feature sections, and footer — so there's always a frictionless conversion path within reach.</p>
+                        <p>"Essai Gratuit" (Free Trial) appears at every scroll checkpoint, hero, mid-page, feature sections, and footer, so there's always a frictionless conversion path within reach.</p>
                     </div>
                 </div>
             </div>
@@ -219,16 +219,16 @@ get_header(); ?>
                 <p class="img-label">Page architecture</p>
                 <div class="img-placeholder" style="height:320px;">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
-                    <span>Conversion funnel flow — visitor to trial sign-up</span>
+                    <span>Conversion funnel flow, visitor to trial sign-up</span>
                 </div>
                 <p class="img-label">Conversion funnel mapping</p>
             </div>
         </div>
     </section>
     <section id="ui-branding" class="container">
-        <p class="label">06 — UI & Branding</p>
+        <p class="label">06, UI & Branding</p>
         <h2>Building a <span class="highlight italic">design system</span></h2>
-        <p>Flexina's visual identity needed to signal clarity, modernity, and approachability — the antithesis of old, complicated accounting software. Clean whites, a confident blue primary, and soft supporting tones set the tone.</p>
+        <p>Flexina's visual identity needed to signal clarity, modernity, and approachability, the antithesis of old, complicated accounting software. Clean whites, a confident blue primary, and soft supporting tones set the tone.</p>
         <div class="two-column-grid">
             <div class="info-card">
                 <h4>Flexina Brand Colours</h4>
@@ -251,9 +251,9 @@ get_header(); ?>
     </section>
     <div id="results" class="container">
         <div class="section-shell-dark">
-            <p class="label-dark">07 — Results</p>
+            <p class="label-dark">07, Results</p>
             <h2 class="dark-mode-txt">Impact that <span class="heighlight italic">matters</span></h2>
-            <p class="dark-mode-txt">A clean, scalable design that gave Flexina a digital presence as modern as their product — and a prototype ready to hand straight to development.</p>
+            <p class="dark-mode-txt">A clean, scalable design that gave Flexina a digital presence as modern as their product, and a prototype ready to hand straight to development.</p>
             <a class="btn primary-btn" target="_blank" href="https://xd.adobe.com/view/a7c8528e-753d-4c8f-b49a-109bb02c4edb-f29b/?hints=off">Visit the prototype</a>
         </div>
     </div>

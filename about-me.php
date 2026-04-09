@@ -23,16 +23,16 @@ get_header(); ?>
 
       <div class="about-hero__text-col">
         <span class="hero-kicker">Based in Brussels, Belgium</span>
-        <h1>Hi, I'm Pauline — <span class="highlight italic">UI/UX Designer</span> & Front-End Developer.</h1>
-        <p class="about-hero__intro">I help companies turn complex ideas into clear, high-performing digital experiences. From UX research and strategy through to pixel-perfect design and WordPress builds — I work across the full stack of a project, end to end.</p>
+        <h1>Hi, I'm Pauline, a <span class="highlight italic">UI/UX Designer</span> and Front-End Developer.</h1>
+        <p class="about-hero__intro">I help companies build digital products that are clear, easy to use and actually perform. I work across the whole project, from research and design through to code and launch.</p>
         <div class="about-hero__actions">
-          <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
+          <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
           <a href="<?php echo esc_url( home_url('/projects/') ); ?>" class="secondary-btn btn">View my work</a>
         </div>
         <div class="about-hero__langs">
-          <span class="about-lang-pill"><span aria-hidden="true">🇫🇷</span> French — Native</span>
-          <span class="about-lang-pill"><span aria-hidden="true">🇬🇧</span> English — Fluent</span>
-          <span class="about-lang-pill"><span aria-hidden="true">🇧🇪</span> Dutch — B1</span>
+          <span class="about-lang-pill"><span aria-hidden="true">🇫🇷</span> French, native</span>
+          <span class="about-lang-pill"><span aria-hidden="true">🇬🇧</span> English, fluent</span>
+          <span class="about-lang-pill"><span aria-hidden="true">🇧🇪</span> Dutch (B1)</span>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ get_header(); ?>
         <div class="skill-tags">
           <span class="skill-tag">UI/UX Design</span>
           <span class="skill-tag">UX Research</span>
-          <span class="skill-tag">Low–High Fidelity Prototyping</span>
+          <span class="skill-tag">Low to High Fidelity Prototyping</span>
           <span class="skill-tag">Wireframing</span>
           <span class="skill-tag">User Flows</span>
           <span class="skill-tag">Design Systems</span>
@@ -102,7 +102,7 @@ get_header(); ?>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2023 — Present</span>
+          <span class="exp-item__date">2023 - Present</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
@@ -129,13 +129,13 @@ get_header(); ?>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2021 — Present</span>
+          <span class="exp-item__date">2021 - Present</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
           <div class="exp-item__header">
             <h3 class="exp-item__role">Webmaster, Fullstack Developer & UI/UX Designer</h3>
-            <span class="exp-item__company">PND — Freelance</span>
+            <span class="exp-item__company">PND, Freelance</span>
           </div>
           <ul class="exp-item__list">
             <li>Web UI/UX design and research</li>
@@ -154,7 +154,7 @@ get_header(); ?>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2021 — 2023</span>
+          <span class="exp-item__date">2021 - 2023</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
@@ -192,7 +192,7 @@ get_header(); ?>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2019 — 2020</span>
+          <span class="exp-item__date">2019 - 2020</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
@@ -234,14 +234,14 @@ get_header(); ?>
             </div>
           </div>
           <div class="edu-item">
-            <span class="edu-item__year">2015 — 2018</span>
+            <span class="edu-item__year">2015 - 2018</span>
             <div>
               <p class="edu-item__name">Bachelor of Arts</p>
               <p class="edu-item__school">Edinburgh College of Art</p>
             </div>
           </div>
           <div class="edu-item">
-            <span class="edu-item__year">2014 — 2015</span>
+            <span class="edu-item__year">2014 - 2015</span>
             <div>
               <p class="edu-item__name">Foundation Diploma</p>
               <p class="edu-item__school">Arts University of Bournemouth</p>
@@ -254,8 +254,8 @@ get_header(); ?>
       <div class="about-cta-card">
         <p class="label-dark">Ready to collaborate?</p>
         <h2 class="dark-mode-txt">Let's build something <span class="highlight italic">great</span> together.</h2>
-        <p class="dark-mode-txt">Whether it's a full redesign, a new build, or just a conversation — I'd love to hear about your project.</p>
-        <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Get in touch</a>
+        <p class="dark-mode-txt">Whether it's a full redesign, a new build or just an initial chat, I'd love to hear about your project.</p>
+        <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Get in touch</a>
       </div>
 
     </div>

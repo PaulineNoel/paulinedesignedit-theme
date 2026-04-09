@@ -51,7 +51,7 @@ get_header(); ?>
             </div>
           </div>
 
-          <!-- TWC-->
+          <!-- TWC
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/twc-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Top Women Careers" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
@@ -69,6 +69,45 @@ get_header(); ?>
               <h4 class="project-title">Top Women Careers: Brand & UX for an Inclusive Career Platform</h4>
               <p>Brand and website for Top Women Careers, connecting women with progressive employers. UX, visual identity, and scalable WordPress platform.</p>
               <a href="<?php echo esc_url( home_url( '/twc-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
+          </div> -->
+
+          <!-- Anita Diamonds -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Anita Diamonds" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Anita Diamonds Project/Anita Diamonds - Mockup - Multi device.png" alt="Anita Diamonds website mockup across multiple devices">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">UI/UX</div>
+                <div class="project-card-tag">UX Research</div>
+                <div class="project-card-tag">Figma</div>
+                <div class="project-card-tag">Luxury</div>
+              </div>
+              <h4 class="project-title">Anita Diamonds: Designing for Luxury, Trust and Precision</h4>
+              <p>High-end UI/UX design for a diamond company in Antwerp, including deep product research and a custom diamond repertory feature.</p>
+              <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
+          </div>
+
+          <!-- FlyUX -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/flyux-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: FlyUX" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Fly UX/Fly UX - Mobile - Mockup.png" alt="FlyUX airline app mockup on mobile device">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">UX Research</div>
+                <div class="project-card-tag">Usability Testing</div>
+                <div class="project-card-tag">Journey Mapping</div>
+                <div class="project-card-tag">Wireframing</div>
+                <div class="project-card-tag">Prototyping</div>
+              </div>
+              <h4 class="project-title">FlyUX: Designing a Better Airline App from Research to Prototype</h4>
+              <p>A full UX process from competitive benchmarking and usability testing to affinity diagrams, journey mapping, and a high-fidelity airline booking app prototype.</p>
+              <a href="<?php echo esc_url( home_url( '/flyux-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
             </div>
           </div>
 

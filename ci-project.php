@@ -9,7 +9,7 @@ get_header(); ?>
             <p class="hero-kicker">Case Study</p>
             <h1>Reimagining Careers International: <br>
             <span class="highlight italic">From Brand to Digital Experience</span></h1>
-            <p class="subtitle">A full brand and UX transformation for Careers International — a new identity, engaging UI, and an animated WordPress build that turned a complex platform into a high-performing digital experience.</p>
+            <p class="subtitle">I rebuilt Careers International from the ground up: new brand, new UX, and a custom WordPress build. The result is a site that looks professional and actually converts.</p>
         </div>
         <div class="project-hero-meta section-shell flex-wrap">
             <div class="meta-item">
@@ -22,7 +22,7 @@ get_header(); ?>
             </div>
             <div class="meta-item">
                 <div class="meta-label">Year</div>
-                <div class="meta-value">2023 – 2024</div>
+                <div class="meta-value">2023 - 2024</div>
             </div>
             <div class="meta-item">
                 <div class="meta-label">Industry</div>
@@ -44,12 +44,12 @@ get_header(); ?>
     <section id="overview" class="container">
         <div class="two-column-grid">
             <div class="project-overview-content">
-                <p class="label">01 — Project Overview</p>
+                <p class="label">01. Project Overview</p>
                 <h2>A platform built to connect people with purpose</h2>
                 <p>
                     Careers International is a global recruitment and career advisory firm helping individuals and companies navigate hiring, transitions, and workforce development. Despite strong expertise, their digital presence failed to communicate their value — it felt outdated, was difficult to navigate, and didn't convert visitors into enquiries.<br>
                     <br>
-                    The brief was ambitious: rebuild the brand from the ground up and deliver a website that felt as polished and trustworthy as the service itself. That meant combining <strong>strategic UX thinking</strong> with a <strong>visually distinctive brand identity</strong> and a robust, scalable WordPress build.
+                    The brief was ambitious: rebuild the brand from the ground up and deliver a website that felt as polished and trustworthy as the service itself. That meant building a proper visual identity, designing around real users, and delivering a WordPress site the team could manage themselves.
                 </p>
             </div>
             <div class="img-placeholder project-overview-img">
@@ -64,9 +64,9 @@ get_header(); ?>
     <section id="challenge" class="container">
         <div class="section-shell-dark">
             <div class="project-challenge-content">
-                <p class="label-dark"> 02 - The Challenge</p>
+                <p class="label-dark"> 02. The Challenge</p>
                 <h2 class="dark-mode-txt">Turning complexity into clarity</h2>
-                <p class="dark-mode-txt">The existing platform had grown organically without a coherent strategy, leaving a fragmented experience for both candidates and employers. We needed to untangle years of accumulated decisions and start fresh — but without disrupting the trust the brand had built.</p>
+                <p class="dark-mode-txt">The existing platform had grown organically without a coherent strategy, leaving a fragmented experience for both candidates and employers. We needed to untangle years of accumulated decisions and start fresh, without losing the trust the brand had already built.</p>
             </div>
 
             <div class="two-column-grid">
@@ -96,9 +96,9 @@ get_header(); ?>
     </section>
     <section id="research" class="container">
         <div class="project-research-content">
-            <p class="label">03 - UX Research & insights</p>
+            <p class="label">03. UX Research & Insights</p>
             <h2>Listening before designing</h2>
-            <p>Before putting a single pixel on screen, I spent time understanding who was actually using the platform, what they needed, and where the experience was breaking down. Research was conducted across three methods to ensure findings were triangulated and actionable.</p>
+            <p>Before putting a single pixel on screen, I spent time understanding who was actually using the platform, what they needed, and where the experience was breaking down. I used three research methods to make sure the findings were solid and pointed in the same direction.</p>
         </div>
         <div class="three-column-grid">
             <div class="info-card">
@@ -114,7 +114,7 @@ get_header(); ?>
             <div class="research-card">
                 <div class="research-icon" style="background: #fff0e8;">📊</div>
                 <h3>Analytics Audit</h3>
-                <p>Deep dive into Google Analytics to identify drop-off patterns, high-exit pages, and traffic sources — validating qualitative findings with data.</p>
+                <p>Deep dive into Google Analytics to identify drop-off patterns, high-exit pages and where traffic was coming from.</p>
             </div>
         </div>
         <div class="two-column-grid">
@@ -124,11 +124,11 @@ get_header(); ?>
         <div class="section-shell-pink">
             <p class="label-action">Key Insights</p>
             <h2>What the research revealed</h2>
-            <p>Six clear themes emerged from research that directly shaped every design decision that followed.</p>
+            <p>Six things kept coming up in the research. Every design decision after that traced back to at least one of them.</p>
             <ul class="findings-list">
                 <li>Users couldn't tell within seconds whether the site was for candidates or employers</li>
                 <li>Trust signals (testimonials, case data) were absent or buried deep in the site</li>
-                <li>Mobile experience was broken — most form interactions failed on iOS</li>
+                <li>Mobile experience was broken; most form interactions failed on iOS</li>
                 <li>The website did not clearly convey Careers International’s services or value proposition</li>
                 <li>The brand identity and UI felt outdated, with a generic and uninspiring website personality</li>
                 <li>Job listings lacked adequate filtering, forcing users to scroll through irrelevant content</li>
@@ -137,9 +137,9 @@ get_header(); ?>
     </section>
     <section id="strategy" class="container">
         <div class="projects-intros">
-            <p class="label">04 — UX Strategy</p>
+            <p class="label">04. UX Strategy</p>
             <h2>A clear path from insight to experience</h2>
-            <p>With research insights synthesised, I defined a UX strategy built around four core pillars — each directly addressing a discovered pain point while aligning to the business's growth goals.</p>
+            <p>Once I had a clear picture from the research, I defined four things the design needed to fix, each tied directly to a problem we'd found.</p>
         </div>
         <div class="strategy-pillars two-column-grid">
             <div class="pillar">
@@ -148,7 +148,7 @@ get_header(); ?>
             </div>
             <div class="pillar">
                 <h3>Trust at Every Touchpoint</h3>
-                <p>Weave social proof — case studies, statistics, testimonials — throughout the user journey rather than isolating it to a dedicated page no one visits.</p>
+                <p>Put social proof (case studies, stats, testimonials) throughout the journey rather than hiding it on a page no one visits.</p>
             </div>
             <div class="pillar">
                 <h3>Conversion-Led Structure</h3>
@@ -156,7 +156,7 @@ get_header(); ?>
             </div>
             <div class="pillar">
                 <h3>Content-Team Empowerment</h3>
-                <p>A modular WordPress system with Elementor enables independent content management—reducing reliance on developers and speeding up updates.</p>
+                <p>A modular WordPress system with Elementor enables so the team can update content without needing a developer every time.</p>
             </div>
         </div>
         <div class="section-shell-blue">
@@ -193,24 +193,24 @@ get_header(); ?>
     </section>
     <section id="wireframes" class="container">
         <div class="projects-intros">
-            <p class="label">05 — Wireframes</p>
+            <p class="label">05. Wireframes</p>
             <h2>Sketching the structure before the style</h2>
-            <p>Wireframing allowed me to move quickly, validate concepts with stakeholders, and iterate on layout decisions without getting distracted by visual details. I worked through three rounds — low-fidelity sketches, mid-fidelity wireframes, and annotated hi-fi prototypes.</p>
+            <p>Wireframing let me test ideas quickly and get feedback before touching any visual design. I went through three rounds: rough sketches, mid-fi wireframes, then annotated hi-fi prototypes.</p>
         </div>
         <div class="wf-block">
             <span class="label-highlight-pink">Homepage</span>
             <div class="wf-desc">
-                <p>The homepage was redesigned around a single guiding question: <strong>"Am I in the right place, and what should I do next?"</strong> — answering it within the first scroll. A split hero section creates an immediate, visual fork between the candidate and employer pathways.</p>
+                <p>The homepage was redesigned around a single guiding question: <strong>"Am I in the right place, and what should I do next?"</strong> - answered within the first scroll. A split hero section immediately shows candidates and employers their own separate paths.</p>
             </div>
-            <div class="img-placeholder ph-tall" style="height: 420px;">
+            <!-- <div class="img-placeholder ph-tall" style="height: 420px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
                 <span>Homepage wireframe — Lo-fi &amp; Hi-fi comparison</span>
-            </div>
+            </div> -->
         </div>
         <div class="wf-block">
             <span class="label-highlight-pink">Navigation &amp; IA</span>
             <div class="wf-desc">
-                <p>A major structural shift was separating "For Candidates" and "For Employers" at the navigation level — using a mega-menu structure that surfaces sub-pages and key resources without requiring deep navigation. This alone reduced the average pages-to-conversion from 6 to 3.</p>
+                <p>A major structural shift was separating "For Candidates" and "For Employers" at the navigation level, using a mega-menu structure that surfaces sub-pages and key resources without requiring deep navigation. This alone reduced the average pages-to-conversion from 6 to 3.</p>
             </div>
             <div class="two-column-grid">
                 <div class="img-placeholder">
@@ -228,7 +228,7 @@ get_header(); ?>
         <div class="wf-block">
             <span class="label-highlight-pink">Mobile Responsive</span>
             <div class="wf-desc">
-                <p>Given that over 60% of traffic arrived on mobile, mobile-first wireframing was non-negotiable. Every component was designed at 375px before scaling up, with particular attention paid to form UX and bottom-sheet navigation patterns on iOS.</p>
+                <p>Over 60% of traffic came in on mobile, so I designed mobile-first throughout. Everything started at 375px, with extra attention on forms and navigation on iOS.</p>
             </div>
             <div class="">
                 <div class="img-placeholder">
@@ -248,14 +248,14 @@ get_header(); ?>
         </div>
         <div class="iterations-note">
             <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>On iteration:</strong> The wireframe phase went through three rounds of stakeholder review. The most significant change came after round two — stakeholders initially wanted a single, unified homepage but user testing revealed that the dual-audience split reduced bounce prototype testing.</p>
+            <p><strong>On iteration:</strong> The wireframe phase had three rounds of stakeholder review. The biggest change came after round two: stakeholders initially wanted one unified homepage, but testing showed that splitting by audience reduced bounce rates.</p>
         </div>
     </section>
     <section id="ui-branding" class="container">
         <div class="projects-intros">
-            <p class="label">06 — UI & Branding</p>
+            <p class="label">06. UI & Branding</p>
             <h2>A visual identity built for trust and ambition</h2>
-            <p>The brand needed to feel authoritative without being cold, approachable without being casual. The resulting system draws on strong typographic contrast, a purposeful colour palette, and photography that centres real people — not stock imagery clichés.</p>
+            <p>The brand needed to feel confident but approachable. I used strong typography, a clear colour palette and photography of real people rather than generic stock photos.</p>
         </div>
         <!-- <div class="two-column-grid">
             <div class="img-placeholder" style="height: 320px;">
@@ -323,9 +323,9 @@ get_header(); ?>
     </section>
     <section id="results" class="container">
         <div class="section-shell-burgandy">
-            <p class="label-dark">07 — Results</p>
+            <p class="label-dark">07. Results</p>
             <h2 class="dark-mode-txt">Design that moved the numbers</h2>
-            <p style="max-width: 560px;">Within three months of launch, the redesigned platform delivered measurable improvements across every key metric — validating the research-driven approach and the structural changes made during the UX strategy phase.</p>
+            <p style="max-width: 560px;">Within three months of launch, every key metric had improved.</p>
             <div class="three-column-grid">
                 <div class="project-stat-item">
                     <h3 class="project-stat-num">Accessibility</h3>
@@ -345,9 +345,9 @@ get_header(); ?>
     <section id="case-footer-cta" class="container">
         <p class="label">What's next?</p>
         <h2>Ready to work together?</h2>
-        <p>If you're looking for a designer who combines strategic UX thinking with high-quality visual execution, let's talk.</p>
+        <p>If you need someone who cares about both how something works and how it looks, let's talk.</p>
         <div class="display-flex-center-center-mobile">
-            <a href="mailto:paulinenoeldesigns@gmail.com" class="primary-btn btn">Work with me</a>
+            <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
             <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="secondary-btn btn">Explore more case studies</a>
         </div>
     </section>

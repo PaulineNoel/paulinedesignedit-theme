@@ -31,8 +31,8 @@
       <ul class="site-nav__list">
 
         <?php
-          $is_case_study = is_page( array( 'projects', 'ci-project', 'jobinar-project', 'twc-project', 'flexina-project' ) )
-                           || ( is_singular() && in_array( get_post()->post_name, array( 'ci-project', 'jobinar-project', 'twc-project', 'flexina-project', 'projects' ) ) );
+          $is_case_study = is_page( array( 'projects', 'ci-project', 'jobinar-project', 'twc-project', 'flexina-project', 'anita-diamonds-project', 'flyux-project' ) )
+                           || ( is_singular() && in_array( get_post()->post_name, array( 'ci-project', 'jobinar-project', 'twc-project', 'flexina-project', 'anita-diamonds-project', 'flyux-project', 'projects' ) ) );
         ?>
 
         <li class="site-nav__item">
@@ -61,16 +61,28 @@
                   <span class="dropdown-link__sub">Web strategy &amp; UX overhaul</span>
                 </a>
               </li>
-              <li class="dropdown-item">
+              <!-- <li class="dropdown-item">
                 <a href="<?php echo esc_url( home_url('/twc-project/') ); ?>" class="dropdown-link<?php echo is_page('twc-project') ? ' is-active' : ''; ?>" role="menuitem">
                   <span class="dropdown-link__label">Top Women Careers</span>
                   <span class="dropdown-link__sub">Digital experience design</span>
                 </a>
-              </li>
+              </li> -->
               <li class="dropdown-item">
                 <a href="<?php echo esc_url( home_url('/flexina-project/') ); ?>" class="dropdown-link<?php echo is_page('flexina-project') ? ' is-active' : ''; ?>" role="menuitem">
                   <span class="dropdown-link__label">Flexina</span>
                   <span class="dropdown-link__sub">UI prototype</span>
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="<?php echo esc_url( home_url('/anita-diamonds-project/') ); ?>" class="dropdown-link<?php echo is_page('anita-diamonds-project') ? ' is-active' : ''; ?>" role="menuitem">
+                  <span class="dropdown-link__label">Anita Diamonds</span>
+                  <span class="dropdown-link__sub">Luxury UI/UX design</span>
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="<?php echo esc_url( home_url('/flyux-project/') ); ?>" class="dropdown-link<?php echo is_page('flyux-project') ? ' is-active' : ''; ?>" role="menuitem">
+                  <span class="dropdown-link__label">FlyUX</span>
+                  <span class="dropdown-link__sub">Airline app UX &amp; research</span>
                 </a>
               </li>
             </ul>

@@ -45,7 +45,7 @@
   <!-- Bottom bar -->
   <div class="footer-bottom">
     <div class="container footer-bottom__inner">
-      <p class="footer-bottom__copy">&copy; <?php echo date('Y'); ?> Pauline Designed It &mdash; All rights reserved.</p>
+      <p class="footer-bottom__copy">&copy; <?php echo date('Y'); ?> Pauline Designed It - All rights reserved.</p>
       <p class="footer-bottom__made">Designed &amp; built by Pauline No&euml;l</p>
     </div>
   </div>
