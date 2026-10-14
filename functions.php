@@ -84,8 +84,13 @@ function pauline_seo_data() {
         ],
         'jobinar-project' => [
             'title' => 'Jobinar: Web Strategy & Platform UX Overhaul — Pauline Designed It',
-            'desc'  => 'How I replaced a costly, inflexible video platform with a scalable Wistia-based solution — reducing costs, improving UX, and shipping on time.',
+            'desc'  => 'How I replaced a costly, inflexible video platform with a scalable Wistia-based solution that saves €15,000 a year.',
             'img'   => $img . 'Jobinar Project/Jobinar mockup.png',
+        ],
+        'jobinar-project-2026' => [
+            'title' => 'Jobinar 2026: Flexible Job Listing UX & UI — Pauline Designed It',
+            'desc'  => 'A more readable, adaptable Jobinar job listing experience with Excel-supported vacancy management, clearer categories, and client-specific light or dark themes.',
+            'img'   => $img . 'Jobinar Improved 2026/Jobinar 2026 - Mockup pages.webp',
         ],
         'anita-diamonds-project' => [
             'title' => 'Anita Diamonds: Luxury UI/UX Design — Pauline Designed It',
@@ -215,6 +220,7 @@ add_filter( 'rank_math/json_ld', function( $data, $jsonld ) {
     $case_studies = [
         'ci-project'             => 'Careers International Brand & UX Redesign',
         'jobinar-project'        => 'Jobinar: Web Strategy & Platform UX Overhaul',
+        'jobinar-project-2026'   => 'Jobinar 2026: Flexible Job Listing UX & UI',
         'anita-diamonds-project' => 'Anita Diamonds: Luxury UI/UX Design',
         'flyux-project'          => 'FlyUX: Airline App UX Design',
         'flexina-project'        => 'Flexina: Website UI Design & Prototype',

@@ -31,8 +31,9 @@
       <div class="footer-nav__col">
         <p class="footer-nav__heading">Case Studies</p>
         <ul class="footer-nav__list">
+          <li><a href="<?php echo esc_url( home_url('/jobinar-project-2026/') ); ?>">Jobinar 2026</a></li>
           <li><a href="<?php echo esc_url( home_url('/ci-project/') ); ?>">Careers International</a></li>
-          <li><a href="<?php echo esc_url( home_url('/jobinar-project/') ); ?>">Jobinar</a></li>
+          <li><a href="<?php echo esc_url( home_url('/jobinar-project/') ); ?>">Jobinar 2024</a></li>
           <li><a href="<?php echo esc_url( home_url('/twc-project/') ); ?>">Top Women Careers</a></li>
           <li><a href="<?php echo esc_url( home_url('/flexina-project/') ); ?>">Flexina</a></li>
         </ul>

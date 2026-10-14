@@ -8,6 +8,27 @@ get_header(); ?>
   <section id="projects-archive" class="container">
     <h1>View all case studies</h1>
     <div class="two-column-grid">
+          <!-- Careers Intenational - Jobinar 2026 -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/jobinar-project-2026/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Jobinar 2026" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/Jobinar Improved 2026/Jobinar 2026 - Mockup pages.webp' ); ?>" alt="Jobinar 2026 pages for Allianz Global Investors and BT across laptop, phone and tablet">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">Web Strategy</div>
+                <div class="project-card-tag">UI/UX</div>
+                <div class="project-card-tag">HTML</div>
+                <div class="project-card-tag">CSS</div>
+                <div class="project-card-tag">WordPress</div>
+                <div class="project-card-tag">Elementor</div>
+              </div>
+              <h4 class="project-title">Jobinar 2026: A More Adaptable Job Listing Experience</h4>
+              <p>A clearer, more flexible jobinar page with Excel-supported vacancy management, easier job categories, and client-specific light or dark themes.</p>
+              <a href="<?php echo esc_url( home_url( '/jobinar-project-2026/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
+          </div>
+
           <!-- Careers Intenational -->
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/ci-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Careers International" tabindex="-1"></a>
@@ -30,7 +51,7 @@ get_header(); ?>
             </div>
           </div>
 
-          <!-- Careers Intenational - Jobinar-->
+          <!-- Careers Intenational - Jobinar 2024-->
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/jobinar-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Jobinar" tabindex="-1"></a>
             <div class="project-card-image-wrapper">

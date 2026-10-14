@@ -13,7 +13,8 @@
           <div class="hero-trust">
             <span class="hero-trust__pill">UI/UX Design</span>
             <span class="hero-trust__pill">WordPress</span>
-            <span class="hero-trust__pill">20+ Projects</span>
+            <!-- TODO: confirm "20+ Projects" is accurate, or remove this badge. -->
+            <!-- <span class="hero-trust__pill">20+ Projects</span> -->
           </div>
           <div class="hero-actions">
             <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
@@ -148,6 +149,27 @@
         <p class="subtitle">Each one had a real problem to solve, from fixing navigation to building something the team could manage on their own.</p>
 
         <div class="two-column-grid">
+          <!-- Careers Intenational - Jobinar 2026 -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/jobinar-project-2026/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Jobinar 2026" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/images/Jobinar Improved 2026/Jobinar 2026 - Mockup pages.webp' ); ?>" alt="Jobinar 2026 pages for Allianz Global Investors and BT across laptop, phone and tablet">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">Web Strategy</div>
+                <div class="project-card-tag">UI/UX</div>
+                <div class="project-card-tag">HTML</div>
+                <div class="project-card-tag">CSS</div>
+                <div class="project-card-tag">WordPress</div>
+                <div class="project-card-tag">Elementor</div>
+              </div>
+              <h4 class="project-title">Jobinar 2026: A More Adaptable Job Listing Experience</h4>
+              <p>A clearer, more flexible jobinar page with Excel-supported vacancy management, easier job categories, and client-specific light or dark themes.</p>
+              <a href="<?php echo esc_url( home_url( '/jobinar-project-2026/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
+          </div>
+
           <!-- Careers Intenational -->
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/ci-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Careers International" tabindex="-1"></a>
@@ -170,7 +192,7 @@
             </div>
           </div>
 
-          <!-- Careers Intenational - Jobinar-->
+          <!-- Careers Intenational - Jobinar 2024-->
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/jobinar-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Jobinar" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
@@ -188,25 +210,6 @@
               <h4 class="project-title">Optimizing Jobinar: From Costly Platform to Scalable Solution</h4>
               <p>A web strategy and UX overhaul of the Jobinar platform, replacing an expensive, inflexible system with a scalable Wistia-based solution.</p>
               <a href="<?php echo esc_url( home_url( '/jobinar-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
-            </div>
-          </div>
-
-          <!-- Anita Diamonds -->
-          <div class="project-card">
-            <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Anita Diamonds" tabindex="-1"></a>
-            <div class="project-card-image-wrapper">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Anita Diamonds Project/Anita Diamonds - Mockup - Multi device.png" alt="Anita Diamonds website mockup across multiple devices">
-            </div>
-            <div class="project-card-content">
-              <div class="project-tags-wrapper flex-wrap">
-                <div class="project-card-tag">UI/UX</div>
-                <div class="project-card-tag">UX Research</div>
-                <div class="project-card-tag">Figma</div>
-                <div class="project-card-tag">Luxury</div>
-              </div>
-              <h4 class="project-title">Anita Diamonds: Designing for Luxury, Trust and Precision</h4>
-              <p>High-end UI/UX design for a diamond company in Antwerp, including deep product research and a custom diamond repertory feature.</p>
-              <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
             </div>
           </div>
 
@@ -251,7 +254,26 @@
             </div>
           </div>
 
-          <!-- Flexina 
+          <!-- Anita Diamonds -->
+          <div class="project-card">
+            <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Anita Diamonds" tabindex="-1"></a>
+            <div class="project-card-image-wrapper">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Anita Diamonds Project/Anita Diamonds - Mockup - Multi device.png" alt="Anita Diamonds website mockup across multiple devices">
+            </div>
+            <div class="project-card-content">
+              <div class="project-tags-wrapper flex-wrap">
+                <div class="project-card-tag">UI/UX</div>
+                <div class="project-card-tag">UX Research</div>
+                <div class="project-card-tag">Figma</div>
+                <div class="project-card-tag">Luxury</div>
+              </div>
+              <h4 class="project-title">Anita Diamonds: Designing for Luxury, Trust and Precision</h4>
+              <p>High-end UI/UX design for a diamond company in Antwerp, including deep product research and a custom diamond repertory feature.</p>
+              <a href="<?php echo esc_url( home_url( '/anita-diamonds-project/' ) ); ?>" class="project-card-link display-flex">View case study</a>
+            </div>
+          </div>
+
+          <!-- Flexina -->
           <div class="project-card">
             <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" class="project-card__overlay" aria-label="View case study: Flexina" tabindex="-1"></a>
             <div class="project-card-image-wrapper">
@@ -267,7 +289,7 @@
               <p>A UI/UX website design for Flexina, focused on clear structure, intuitive navigation, and a modern interface tailored to small businesses.</p>
               <a href="<?php echo esc_url( home_url( '/flexina-project/' ) ); ?>" target="_blank" rel="noopener noreferrer" class="project-card-link display-flex">View the prototype</a>
             </div>
-          </div>-->
+          </div>
         </div>
         <div class="right-align">
           <a href="<?php echo esc_url( home_url( '/projects/' ) ); ?>" class="primary-btn btn">Explore Case Studies</a>
@@ -388,6 +410,18 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
+    <section class="home-about container">
+      <div class="section-shell2">
+        <div class="section-intro">
+          <p class="label">About</p>
+          <h2>About me</h2>
+        </div>
+        <p class="subtitle">I'm a UI/UX designer and front-end developer based in Brussels. Since 2020 I've designed and built websites for clients in fashion, jewellery, tech and recruitment, and today I run the web platforms of an international recruitment company serving enterprise clients. I work end to end, from user needs and structure to accessible, production-ready interfaces, and I like making complex things clear.</p>
+        <a href="<?php echo esc_url( home_url( '/about-me/' ) ); ?>" class="secondary-btn btn">More about me</a>
+      </div>
+    </section>
+
     <section class="stats container">
       <div class="section-shell">
         <div class="section-intro">
@@ -397,7 +431,7 @@
         <div class="stats-grid">
           <div class="stat-card">
             <p><b>Improved system & process efficiencies</b></p>
-            <p>Restructued and replaced innefficient platforms<br>Result: 15 annual savings</p>
+            <p>Restructured and replaced inefficient platforms<br>Result: €15K saved annually</p>
           </div>
 
           <div class="stat-card">

@@ -10,7 +10,7 @@ get_header(); ?>
         <div class="project-hero-title">
             <p class="hero-kicker">Case Study</p>
             <h1>Optimizing Jobinar: <br>
-            <span class="highlight italic">From Costly Platform to Scalable Solution</span></h1>
+            <span class="highlight italic">From Costly Platform to Scalable Solution - 2024</span></h1>
             <p class="subtitle">A UX audit that turned into something much bigger: figuring out they were on the wrong platform entirely, making the case to switch to Wistia, and saving €15,000 a year in the process.</p>
         </div>
         <div class="project-hero-meta section-shell flex-wrap">
@@ -20,11 +20,16 @@ get_header(); ?>
             </div>
             <div class="meta-item">
                 <div class="meta-label">Scope</div>
-                <div class="meta-value">Web Strategy · UX Research · Platform Migration · UX Redesign</div>
+                <div class="meta-value">Web Strategy · UX Audit · Platform Migration · UX Redesign</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Tools</div>
+                <div class="meta-value">WordPress · Elementor · Wistia · HTML · CSS</div>
             </div>
             <div class="meta-item">
                 <div class="meta-label">Year</div>
-                <div class="meta-value">2021 - Ongoing</div>
+                <!-- TODO: confirm the year. This page says 2024; Jobinar 2026 is a separate case study (jobinar-project2026.php). -->
+                <div class="meta-value">2024</div>
             </div>
             <div class="meta-item">
                 <div class="meta-label">Industry</div>
@@ -54,11 +59,7 @@ get_header(); ?>
                 <p class="label">01. Project Overview</p>
                 <h2>A platform working <span class="highlight italic">against</span> the business</h2>
                 <p>
-                    Jobinar is an online training and webinar platform for HR and recruitment professionals. When they came to me, they were spending a fortune on a rigid, over-engineered platform that was both expensive to run and frustrating to use.<br>
-                    <br>
-                    What started as a UX audit quickly uncovered something much bigger: the wrong platform entirely. Through structured research, competitive analysis, and technical evaluation, I identified Wistia as the right replacement: a move that saves Jobinar <strong>€15,000 every single year</strong> while dramatically improving the experience for every user on the platform.<br>
-                    <br>
-                    This project is proof that UX work isn't just about screens. Sometimes the most impactful design decision is a strategic one.
+                    The client's webinar platform was expensive, rigid and unreliable, and every change to the site cost extra. After a UX audit I recommended moving to Wistia, which saves <strong>€15,000 a year</strong> and lets us redesign pages freely to stakeholders' and clients' needs.
                 </p>
             </div>
             <div class="project-overview-img">
@@ -82,33 +83,33 @@ get_header(); ?>
             <div class="two-column-grid">
                 <div class="challenge-card">
                     <div class="num">01</div>
-                    <h3 class="dark-mode-txt">Massively Over-Priced Platform</h3>
-                    <p class="dark-mode-txt">The platform costs were completely out of proportion to what it actually delivered. Jobinar was paying premium rates for features they didn't need or use.</p>
+                    <h3 class="dark-mode-txt">Over-Priced Platform</h3>
+                    <p class="dark-mode-txt">The platform's cost did not match what it delivered.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">02</div>
                     <h3 class="dark-mode-txt">Poor Video Streaming Quality</h3>
-                    <p class="dark-mode-txt">Buffering and low-quality playback caused significant user drop-off during paid webinars, directly damaging the product's core value proposition.</p>
+                    <p class="dark-mode-txt">Playback was unreliable during webinars.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">03</div>
                     <h3 class="dark-mode-txt">Confusing UX &amp; Navigation</h3>
-                    <p class="dark-mode-txt">Participants couldn't easily find, access, or replay sessions. The information architecture had no clear hierarchy, and users needed multiple wrong turns to reach content.</p>
+                    <p class="dark-mode-txt">Participants couldn't easily find, access, or replay sessions.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">04</div>
-                    <h3 class="dark-mode-txt">Zero Analytics or Engagement Data</h3>
-                    <p class="dark-mode-txt">The old platform had no useful analytics. No watch-time, no engagement signals, no drop-off tracking. Decisions were being made with no data at all.</p>
+                    <h3 class="dark-mode-txt">No Analytics or Engagement Data</h3>
+                    <p class="dark-mode-txt">The old platform gave no useful data on watch time or engagement.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">05</div>
                     <h3 class="dark-mode-txt">Broken Mobile Experience</h3>
-                    <p class="dark-mode-txt">Over 40% of users accessed the platform on mobile. The existing system had no responsive behaviour on any key page or video player.</p>
+                    <p class="dark-mode-txt">Key pages and the video player did not work well on mobile.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">06</div>
                     <h3 class="dark-mode-txt">High Maintenance Overhead</h3>
-                    <p class="dark-mode-txt">Every content update needed a developer, which took up time that should have gone into content and growth.</p>
+                    <p class="dark-mode-txt">Every content update or change cost extra.</p>
                 </div>
             </div>
             <!-- <div class="img-placeholder" style="height: 360px; margin-top: 40px;">
@@ -120,7 +121,7 @@ get_header(); ?>
         <!-- Cost insight callout -->
         <div class="iterations-note" style="margin-top: 32px;">
             <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>The insight that changed everything:</strong> During the audit, the numbers showed the platform was costing Jobinar over €15,000 a year more than it needed to, for a service that was actively making the experience worse. The opportunity wasn't just UX improvement. It was a €15K annual saving hiding in plain sight.</p>
+            <p><strong>€15K spent every year</strong> on a platform that was not working for the business.</p>
         </div>
     </section>
 
@@ -136,7 +137,7 @@ get_header(); ?>
             <div class="info-card">
                 <div class="research-icon" style="background: var(--color-blue);">🔍</div>
                 <h3>UX Heuristic Audit</h3>
-                <p>A full audit of the existing platform against Nielsen's 10 heuristics, identifying every point where the experience broke down and why users were abandoning sessions.</p>
+                <p>An audit of the existing platform against Nielsen's 10 heuristics to find where the experience broke down.</p>
             </div>
             <div class="info-card">
                 <div class="research-icon" style="background: #FDE8F0;">💰</div>
@@ -146,22 +147,22 @@ get_header(); ?>
             <div class="info-card">
                 <div class="research-icon" style="background: #fff0e8;">📊</div>
                 <h3>Platform Comparison Matrix</h3>
-                <p>Six video platforms evaluated across cost, streaming quality, analytics capabilities, UX flexibility, and WordPress integration. Wistia scored highest on every dimension.</p>
+                <p>Six video platforms evaluated across cost, streaming quality, analytics capabilities, UX flexibility, and WordPress integration.</p>
             </div>
             <div class="info-card">
                 <div class="research-icon" style="background: var(--color-blue);">🗺️</div>
                 <h3>User Journey Mapping</h3>
-                <p>End-to-end mapping of the attendee journey from sign-up to replay access, tracking every friction point and drop-off along the way.</p>
+                <p>Mapping of the attendee journey from sign-up to replay access, noting friction points along the way.</p>
             </div>
             <div class="info-card">
                 <div class="research-icon" style="background: #FDE8F0;">📱</div>
                 <h3>Mobile Experience Audit</h3>
-                <p>A dedicated look at the mobile experience across key pages and the video player, documenting every broken responsive behaviour.</p>
+                <p>A dedicated look at the mobile experience across key pages and the video player.</p>
             </div>
             <div class="info-card">
                 <div class="research-icon" style="background: #fff0e8;">📈</div>
                 <h3>Analytics Review</h3>
-                <p>Review of available session data to quantify drop-off rates, identify high-exit pages, and validate qualitative findings with behavioural evidence.</p>
+                <p>Review of the session data that was available.</p>
             </div>
         </div>
 
@@ -179,15 +180,13 @@ get_header(); ?>
         <div class="section-shell-pink">
             <p class="label-action">Key Insights</p>
             <h2>What the research revealed</h2>
-            <p>Six findings came out of the research. The strategic recommendation and every design decision after that came back to one of them.</p>
+            <p>Three findings came out of the research and shaped the recommendation.</p>
             <ul class="findings-list">
-                <li>The platform cost was massively disproportionate: €15K in annual overspend identified and quantified</li>
-                <li>The platform was completely unreliable - you never knew if it was actually going to work</li>
-                <li>The platform did not allow us to update and improve UI of the jobinars</li>
-                <li>Wistia outperformed all alternatives across every evaluation criterion: cost, quality, analytics, flexibility</li>
-                <li>40%+ of users were on mobile with a completely broken experience across all key pages</li>
-                <li>Switching to wistia helped reducing reliance on developers and speeding up updates</li>
+                <li>The problems were structural, not cosmetic</li>
+                <li>The platform's cost did not match its value</li>
+                <li>Wistia best met our criteria (cost, streaming quality, analytics, flexibility)</li>
             </ul>
+            <!-- TODO: add 2 or 3 real findings from the Nielsen heuristic audit, for example which heuristics were violated and where. -->
         </div>
 
         <!-- <div class="img-placeholder" style="height: 420px; margin-top: 40px;">
@@ -201,7 +200,7 @@ get_header(); ?>
         <div class="projects-intros">
             <p class="label">04. UX Strategy</p>
             <h2>A plan built on <span class="highlight italic">evidence</span></h2>
-            <p>The strategy had two parts: a case for switching platforms (backed by the numbers), and a UX redesign to fix the core experience issues no matter which platform they ended up on.</p>
+            <p>The strategy had two parts: a case for switching platforms (backed by the numbers), and a UX redesign to fix the core experience issues no matter which platform they ended up on. Stakeholders were cautious about switching platforms, so I presented the business case first, before any wireframes.</p>
         </div>
 
         <div class="strategy-pillars two-column-grid">
@@ -232,46 +231,46 @@ get_header(); ?>
                     <p style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-main-burgandy); margin-bottom: 1rem;">⚠ Before — Old Platform</p>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✕</div>
-                        <div class="info-step-content"><h4>Massively over-priced</h4><p>Costs completely out of proportion to value delivered</p></div>
+                        <div class="info-step-content"><h4>Over-priced</h4><p>Cost did not match the value delivered</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✕</div>
-                        <div class="info-step-content"><h4>Poor video streaming quality</h4><p>Buffering and drop-off during paid webinars</p></div>
+                        <div class="info-step-content"><h4>Poor video streaming quality</h4><p>Unreliable playback during webinars</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✕</div>
-                        <div class="info-step-content"><h4>Confusing navigation</h4><p>Users needed 3+ wrong turns to find content</p></div>
+                        <div class="info-step-content"><h4>Confusing navigation</h4><p>Sessions and replays were hard to find</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✕</div>
-                        <div class="info-step-content"><h4>Zero analytics</h4><p>No watch-time, engagement, or drop-off data</p></div>
+                        <div class="info-step-content"><h4>No analytics</h4><p>No watch-time or engagement data</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✕</div>
-                        <div class="info-step-content"><h4>Broken on mobile</h4><p>No responsive behaviour across any key page</p></div>
+                        <div class="info-step-content"><h4>Broken on mobile</h4><p>Key pages did not work well on small screens</p></div>
                     </div>
                 </div>
                 <div>
                     <p style="font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-main-burgandy); margin-bottom: 1rem;">✦ After — Wistia-Based Solution</p>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
-                        <div class="info-step-content"><h4>€15,000 saved every year</h4><p>Platform cost slashed immediately and recurring annually</p></div>
+                        <div class="info-step-content"><h4>€15,000 saved every year</h4><p>A recurring annual saving on platform costs</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
-                        <div class="info-step-content"><h4>Best-in-class video quality</h4><p>Wistia's player eliminates buffering and drop-off</p></div>
+                        <div class="info-step-content"><h4>More reliable streaming</h4><p>A more reliable platform and video player</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
-                        <div class="info-step-content"><h4>Content found in one click</h4><p>Rebuilt IA with clear webinar library and categories</p></div>
+                        <div class="info-step-content"><h4>Clearer navigation</h4><p>Rebuilt IA with clear webinar library and categories</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
-                        <div class="info-step-content"><h4>Rich analytics dashboard</h4><p>Watch time, engagement heatmaps, and drop-off data</p></div>
+                        <div class="info-step-content"><h4>Analytics available</h4><p>Engagement can now be tracked</p></div>
                     </div>
                     <div class="info-step display-flex-mobile">
                         <div class="num-oultine">✓</div>
-                        <div class="info-step-content"><h4>Fully responsive</h4><p>Mobile-first rebuild across all pages and the video player</p></div>
+                        <div class="info-step-content"><h4>Mobile-first</h4><p>Pages and the video player designed from 375px up</p></div>
                     </div>
                 </div>
             </div>
@@ -299,7 +298,7 @@ get_header(); ?>
                 <div class="flow-step">
                     <div class="flow-dot">4</div>
                     <h3>Wireframes</h3>
-                    <p>IA rebuild, wireframes, user testing</p>
+                    <p>IA rebuild, wireframes</p>
                 </div>
                 <div class="flow-step">
                     <div class="flow-dot">5</div>
@@ -332,7 +331,7 @@ get_header(); ?>
             <div class="wf-block">
                 <span class="label-highlight-pink">Webinar Library &amp; Replay Hub</span>
                 <div class="wf-desc">
-                    <p>The biggest UX failure was users not being able to find past sessions. The library was rebuilt with category filtering, a consistent card layout and a search that finds content in seconds.</p>
+                    <p>Past sessions were hard to find. The library was rebuilt with category filtering, a consistent card layout and search.</p>
                 </div>
                 <!-- <div class="two-column-grid">
                     <div class="img-placeholder" style="height: 320px;">
@@ -349,7 +348,8 @@ get_header(); ?>
             <div class="wf-block">
                 <span class="label-highlight-pink">Video Player Page — Wistia</span>
                 <div class="wf-desc">
-                    <p>The video player page took five rounds to get right. The final version puts the video first, with speaker info, resources and related sessions below rather than crowding the player.</p>
+                    <!-- TODO: confirm the number of revision rounds for the video player page (previously "five rounds"), or leave it out. -->
+                    <p>The final version puts the video first, with speaker info, resources and related sessions below rather than crowding the player.</p>
                 </div>
                 <div class="img-placeholder" style="height: 400px;">
                     <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Jobinar mockup.png" alt="mockup image of wistia and jobinar platforms">
@@ -360,7 +360,7 @@ get_header(); ?>
             <div class="wf-block">
                 <span class="label-highlight-pink">Mobile Responsive</span>
                 <div class="wf-desc">
-                    <p>Over 40% of users were on mobile, so I designed mobile-first. Everything started at 375px, with extra care on the video player touch experience and how the library cards looked on small screens.</p>
+                    <p>Mobile-first design from 375px, with extra care on the video player touch experience and how the library cards looked on small screens.</p>
                 </div>
                 <div class="img-placeholder" style="height: 400px;">
                     <img class="img-320" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Mobile Jobinar View.png" alt="Mobile — Video Player">
@@ -387,7 +387,7 @@ get_header(); ?>
 
         <div class="iterations-note">
             <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>On the platform decision:</strong> The migration recommendation was presented before a single wireframe was drawn. Stakeholders were nervous at first - platform switches feel risky. But the cost analysis was hard to argue with: €15,000 a year in savings, and every other metric pointing the same way. The data made the decision pretty straightforward.</p>
+            <p><strong>On the platform decision:</strong> The migration recommendation was presented before a single wireframe was drawn. Stakeholders were cautious at first, since platform switches feel risky, so the business case came first: €15,000 a year in savings.</p>
         </div>
     </section>
 
@@ -396,7 +396,7 @@ get_header(); ?>
         <div class="projects-intros">
             <p class="label">06. UI Design</p>
             <h2>A platform that feels as <span class="highlight italic">good as it works</span></h2>
-            <p>The redesign stripped back everything that wasn't serving the user. Video first, navigation clear, content one click away. The visual style is clean and calm because the platform's job is to stay out of the way of the content.</p>
+            <p>The redesign stripped back everything that wasn't serving the user. Video first, navigation clear, content easy to reach. The visual style is clean and calm because the platform's job is to stay out of the way of the content.</p>
         </div>
         <div class="img-placeholder">
             <img class="img-420" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Jobinar Project/Jobinar multi device mockup.png" alt="Final UI — Platform homepage (Desktop, Laptop, Tablet, Phone)">
@@ -459,20 +459,23 @@ get_header(); ?>
     <section id="results" class="container">
         <div class="section-shell-burgandy">
             <p class="label-dark">07. Results</p>
-            <h2 class="dark-mode-txt">Strategy that <span class="italic">moved the numbers</span></h2>
-            <p class="dark-mode-txt" style="max-width: 560px;">This one's a good example of how UX work can go beyond screens. The €15K saving is real, it repeats every year, and it came directly from the research. On top of that, the experience for users is genuinely better.</p>
-            <div class="three-column-grid">
+            <h2 class="dark-mode-txt">What <span class="italic">changed</span></h2>
+            <div class="two-column-grid">
                 <div class="project-stat-item">
                     <h3 class="project-stat-num">€15K</h3>
-                    <p class="dark-mode-txt">Saved every year<br>since the platform migration</p>
+                    <p class="dark-mode-txt">Saved every year</p>
                 </div>
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">↑↑</h3>
-                    <p class="dark-mode-txt">Customer experience<br>enormously improved</p>
+                    <h3 class="project-stat-num">Reliable</h3>
+                    <p class="dark-mode-txt">More reliable platform<br>and video streaming</p>
                 </div>
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">100%</h3>
-                    <p class="dark-mode-txt">Every decision<br>traced back to data</p>
+                    <h3 class="project-stat-num">Flexible</h3>
+                    <p class="dark-mode-txt">Pages can be redesigned and remodelled<br>without extra cost per request</p>
+                </div>
+                <div class="project-stat-item">
+                    <h3 class="project-stat-num">Analytics</h3>
+                    <p class="dark-mode-txt">Now available to<br>track engagement</p>
                 </div>
             </div>
             <!-- <div class="img-placeholder" style="height: 360px; margin-top: 40px;">

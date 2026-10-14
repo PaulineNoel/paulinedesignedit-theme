@@ -9,7 +9,7 @@ get_header(); ?>
             <p class="hero-kicker">Case Study</p>
             <h1>Reimagining Careers International: <br>
             <span class="highlight italic">From Brand to Digital Experience</span></h1>
-            <p class="subtitle">I rebuilt Careers International from the ground up: new brand, new UX, and a custom WordPress build. The result is a site that looks professional and actually converts.</p>
+            <p class="subtitle">I rebuilt Careers International from the ground up: new brand, new UX, and a custom WordPress build that the team can manage themselves.</p>
         </div>
         <div class="project-hero-meta section-shell flex-wrap">
             <div class="meta-item">
@@ -21,7 +21,12 @@ get_header(); ?>
                 <div class="meta-value">Brand Identity · UX/UI · WordPress Build</div>
             </div>
             <div class="meta-item">
+                <div class="meta-label">Tools</div>
+                <div class="meta-value">Miro · Adobe XD · HTML · CSS · WordPress · Elementor · SEO · Google Analytics</div>
+            </div>
+            <div class="meta-item">
                 <div class="meta-label">Year</div>
+                <!-- TODO: confirm the real year(s). Page says 2023–2024 but was published in 2026. -->
                 <div class="meta-value">2023 - 2024</div>
             </div>
             <div class="meta-item">
@@ -47,9 +52,7 @@ get_header(); ?>
                 <p class="label">01. Project Overview</p>
                 <h2>A platform built to connect people with purpose</h2>
                 <p>
-                    Careers International is a global recruitment and career advisory firm helping individuals and companies navigate hiring, transitions, and workforce development. Despite strong expertise, their digital presence failed to communicate their value — it felt outdated, was difficult to navigate, and didn't convert visitors into enquiries.<br>
-                    <br>
-                    The brief was ambitious: rebuild the brand from the ground up and deliver a website that felt as polished and trustworthy as the service itself. That meant building a proper visual identity, designing around real users, and delivering a WordPress site the team could manage themselves.
+                    Careers International is a recruitment and events company. The brief was to rebuild the brand and deliver a website that the team could manage themselves. I led the work from research and structure through design, front-end build, SEO and accessibility.
                 </p>
             </div>
             <div class="img-placeholder project-overview-img">
@@ -73,22 +76,22 @@ get_header(); ?>
                 <div class="challenge-card">
                     <div class="num">01</div>
                     <h3 class="dark-mode-txt">Outdated Visual Identity</h3>
-                    <p class="dark-mode-txt">The brand lacked a consistent visual language. Colours, typography, and iconography were mismatched across every touchpoint.</p>
+                    <p class="dark-mode-txt">The brand lacked a consistent, up-to-date visual language.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">02</div>
                     <h3 class="dark-mode-txt">Poor Information Architecture</h3>
-                    <p class="dark-mode-txt">Candidates and employers were lumped into the same navigation, creating confusion and high drop-off rates on key pages.</p>
+                    <p class="dark-mode-txt">Candidates and employers shared one navigation.</p>
+                </div>
+                <div class="challenge-card">
+                    <div class="num">03</div>
+                    <h3 class="dark-mode-txt">Low Conversion</h3>
+                    <p class="dark-mode-txt">Calls to action were buried and value propositions unclear.</p>
                 </div>
                 <div class="challenge-card">
                     <div class="num">04</div>
-                    <h3 class="dark-mode-txt">Low Conversion Rate</h3>
-                    <p class="dark-mode-txt">Despite meaningful traffic, the site generated very few qualified enquiries. CTAs were buried and value propositions were unclear.</p>
-                </div>
-                <div class="challenge-card">
-                    <div class="num">05</div>
-                    <h3 class="dark-mode-txt">Unmaintainable Codebase</h3>
-                    <p class="dark-mode-txt">The previous site required developer intervention for every content update, slowing down the team and increasing costs.</p>
+                    <h3 class="dark-mode-txt">Hard-to-Maintain Site</h3>
+                    <p class="dark-mode-txt">Content updates depended on a developer.</p>
                 </div>
             </div>
             <img src="" alt="">
@@ -97,24 +100,29 @@ get_header(); ?>
     <section id="research" class="container">
         <div class="project-research-content">
             <p class="label">03. UX Research & Insights</p>
-            <h2>Listening before designing</h2>
-            <p>Before putting a single pixel on screen, I spent time understanding who was actually using the platform, what they needed, and where the experience was breaking down. I used three research methods to make sure the findings were solid and pointed in the same direction.</p>
+            <h2>Understanding the business and its audiences</h2>
+            <p>I combined a Google Analytics review (drop-offs, exit pages, traffic sources), internal records, and a competitive benchmark with input from stakeholders, to understand how candidates and employers used the site and where it fell short.</p>
         </div>
         <div class="three-column-grid">
             <div class="info-card">
-                <div class="research-icon" style="background: var(--color-blue);">🎙️</div>
-                <h3>Stakeholder Interviews</h3>
-                <p>5 in-depth interviews with the Careers International leadership team to map business goals, brand aspirations, and key success metrics.</p>
-            </div>
-            <div class="research-card">
-                <div class="research-icon" style="background: #FDE8F0;">👥</div>
-                <h3>Qualitative Research</h3>
-                <p>3 user interviews and intensive competitor benchmarking to uncover real pain points and unmet needs.</p>
-            </div>
-            <div class="research-card">
                 <div class="research-icon" style="background: #fff0e8;">📊</div>
-                <h3>Analytics Audit</h3>
-                <p>Deep dive into Google Analytics to identify drop-off patterns, high-exit pages and where traffic was coming from.</p>
+                <h3>Analytics Review</h3>
+                <p>Drop-offs, exit pages and traffic sources.</p>
+            </div>
+            <div class="research-card">
+                <div class="research-icon" style="background: var(--color-blue);">🗂️</div>
+                <h3>Internal Records</h3>
+                <p>What the business already knew about its candidates and clients.</p>
+            </div>
+            <div class="research-card">
+                <div class="research-icon" style="background: #FDE8F0;">🔍</div>
+                <h3>Competitive Benchmarking</h3>
+                <p>How comparable recruitment sites structure navigation and calls to action.</p>
+            </div>
+            <div class="research-card">
+                <div class="research-icon" style="background: #fff0e8;">🤝</div>
+                <h3>Stakeholder Input</h3>
+                <p>Goals and priorities gathered with the business.</p>
             </div>
         </div>
         <div class="two-column-grid">
@@ -124,15 +132,20 @@ get_header(); ?>
         <div class="section-shell-pink">
             <p class="label-action">Key Insights</p>
             <h2>What the research revealed</h2>
-            <p>Six things kept coming up in the research. Every design decision after that traced back to at least one of them.</p>
+            <p>Four things kept coming up in the research and shaped the design decisions that followed.</p>
+            <!-- TODO: if any of these insights are not supported by the analytics or benchmark, delete that line. -->
             <ul class="findings-list">
-                <li>Users couldn't tell within seconds whether the site was for candidates or employers</li>
-                <li>Trust signals (testimonials, case data) were absent or buried deep in the site</li>
-                <li>Mobile experience was broken; most form interactions failed on iOS</li>
-                <li>The website did not clearly convey Careers International’s services or value proposition</li>
-                <li>The brand identity and UI felt outdated, with a generic and uninspiring website personality</li>
-                <li>Job listings lacked adequate filtering, forcing users to scroll through irrelevant content</li>
+                <li>Candidates and employers needed clearer, separate paths from the first screen</li>
+                <li>Calls to action and value propositions were hard to find</li>
+                <li>Trust signals such as social proof were missing from the journey</li>
+                <li>The site needed to work well on mobile</li>
             </ul>
+        </div>
+        <div class="project-research-content">
+            <p class="label">Persona</p>
+            <h2>Persona</h2>
+            <p>I created a persona based on the analytics, internal records and benchmarking to keep decisions focused on the main candidate need.</p>
+            <!-- TODO: add the persona card: name, role, goals, frustrations and the data it came from. Use only content Pauline provides. -->
         </div>
     </section>
     <section id="strategy" class="container">
@@ -144,19 +157,19 @@ get_header(); ?>
         <div class="strategy-pillars two-column-grid">
             <div class="pillar">
                 <h3>Audience Clarity First</h3>
-                <p>Redesign the information architecture so that candidates and employers are separated at the homepage level, with distinct journeys, language, and CTAs tailored to each audience.</p>
+                <p>Separate candidate and employer paths from the homepage.</p>
             </div>
             <div class="pillar">
                 <h3>Trust at Every Touchpoint</h3>
-                <p>Put social proof (case studies, stats, testimonials) throughout the journey rather than hiding it on a page no one visits.</p>
+                <p>Social proof throughout the journey.</p>
             </div>
             <div class="pillar">
                 <h3>Conversion-Led Structure</h3>
-                <p>Replace generic CTAs with context-specific calls-to-action at decision points. Map each page to a conversion goal and remove all friction from the path to enquiry.</p>
+                <p>Calls to action matched to each page's purpose.</p>
             </div>
             <div class="pillar">
                 <h3>Content-Team Empowerment</h3>
-                <p>A modular WordPress system with Elementor enables so the team can update content without needing a developer every time.</p>
+                <p>A modular WordPress/Elementor system the team can edit.</p>
             </div>
         </div>
         <div class="section-shell-blue">
@@ -166,41 +179,54 @@ get_header(); ?>
                 <div class="flow-step">
                     <div class="flow-dot">1</div>
                     <h3>Research &amp; Synthesis</h3>
-                    <p>Interviews, analytics, competitive audit</p>
+                    <p>Analytics, records and competitive benchmarking</p>
                 </div>
                 <div class="flow-step">
                     <div class="flow-dot">2</div>
-                    <h3>IA &amp; User Flows</h3>
-                    <p>Sitemap restructure, journey mapping</p>
+                    <h3>Stakeholder Workshop</h3>
+                    <p>Aligning on goals, audiences and priorities</p>
                 </div>
                 <div class="flow-step">
                     <div class="flow-dot">3</div>
-                    <h3>Wireframes</h3>
-                    <p>Lo-fi → hi-fi, stakeholder validation</p>
+                    <h3>IA &amp; User Flows</h3>
+                    <p>Sitemap and user flow diagram in Miro</p>
                 </div>
                 <div class="flow-step">
                     <div class="flow-dot">4</div>
-                    <h3>Brand &amp; UI Design</h3>
-                    <p>Identity system, design system, prototypes</p>
+                    <h3>Wireframes &amp; Prototype</h3>
+                    <p>Wireframes in Adobe XD with my marketing colleague, validated with stakeholders, then developed into low- and high-fidelity prototypes</p>
                 </div>
                 <div class="flow-step">
                     <div class="flow-dot">5</div>
-                    <h3>Build &amp; Launch</h3>
-                    <p>WordPress, animations, QA</p>
+                    <h3>Brand &amp; UI Design</h3>
+                    <p>Identity, design system and prototypes for the main pages</p>
                 </div>
+                <div class="flow-step">
+                    <div class="flow-dot">6</div>
+                    <h3>Build &amp; Launch</h3>
+                    <p>WordPress and Elementor build, SEO and accessibility</p>
+                </div>
+            </div>
+        </div>
+        <div class="wf-block">
+            <span class="label-highlight-pink">Stakeholder Workshop</span>
+            <div class="wf-desc">
+                <p>For every new design project, I start with a workshop with stakeholders. It sets shared goals and priorities and gives the project a clearer, more defined direction.</p>
+                <!-- TODO: add one concrete example: who attended (roles), the method used, and what changed because of it. -->
             </div>
         </div>
     </section>
     <section id="wireframes" class="container">
         <div class="projects-intros">
-            <p class="label">05. Wireframes</p>
-            <h2>Sketching the structure before the style</h2>
-            <p>Wireframing let me test ideas quickly and get feedback before touching any visual design. I went through three rounds: rough sketches, mid-fi wireframes, then annotated hi-fi prototypes.</p>
+            <p class="label">05. Wireframes &amp; Prototype</p>
+            <h2>From user flow to prototype</h2>
+            <p>I began with a user flow diagram in Miro, then built wireframes in Adobe XD with my marketing colleague. Once validated with stakeholders, the wireframes became low- and then high-fidelity prototypes covering all the main pages. I also redesigned the jobinar template to match the new brand identity.</p>
+            <!-- TODO: add the user flow diagram and wireframe images. If the flow diagram has to be redrawn, caption it "Redrawn from the original (original file no longer available)". -->
         </div>
         <div class="wf-block">
             <span class="label-highlight-pink">Homepage</span>
             <div class="wf-desc">
-                <p>The homepage was redesigned around a single guiding question: <strong>"Am I in the right place, and what should I do next?"</strong> - answered within the first scroll. A split hero section immediately shows candidates and employers their own separate paths.</p>
+                <p>The homepage is built around one question: <strong>"Am I in the right place, and what should I do next?"</strong>, with a split hero for candidates and employers.</p>
             </div>
             <!-- <div class="img-placeholder ph-tall" style="height: 420px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
@@ -210,7 +236,7 @@ get_header(); ?>
         <div class="wf-block">
             <span class="label-highlight-pink">Navigation &amp; IA</span>
             <div class="wf-desc">
-                <p>A major structural shift was separating "For Candidates" and "For Employers" at the navigation level, using a mega-menu structure that surfaces sub-pages and key resources without requiring deep navigation. This alone reduced the average pages-to-conversion from 6 to 3.</p>
+                <p>A mega-menu separates "For Candidates" and "For Employers", surfacing sub-pages and key resources without requiring deep navigation.</p>
             </div>
             <div class="two-column-grid">
                 <div class="img-placeholder">
@@ -228,7 +254,7 @@ get_header(); ?>
         <div class="wf-block">
             <span class="label-highlight-pink">Mobile Responsive</span>
             <div class="wf-desc">
-                <p>Over 60% of traffic came in on mobile, so I designed mobile-first throughout. Everything started at 375px, with extra attention on forms and navigation on iOS.</p>
+                <p>Mobile-first design, starting at 375px.</p>
             </div>
             <div class="">
                 <div class="img-placeholder">
@@ -245,10 +271,6 @@ get_header(); ?>
                     <span>Mobile — Contact / Enquiry</span> -->
                 </div>
             </div>
-        </div>
-        <div class="iterations-note">
-            <span style="font-size: 1.4rem;">💡</span>
-            <p><strong>On iteration:</strong> The wireframe phase had three rounds of stakeholder review. The biggest change came after round two: stakeholders initially wanted one unified homepage, but testing showed that splitting by audience reduced bounce rates.</p>
         </div>
     </section>
     <section id="ui-branding" class="container">
@@ -324,20 +346,20 @@ get_header(); ?>
     <section id="results" class="container">
         <div class="section-shell-burgandy">
             <p class="label-dark">07. Results</p>
-            <h2 class="dark-mode-txt">Design that moved the numbers</h2>
-            <p style="max-width: 560px;">Within three months of launch, every key metric had improved.</p>
+            <h2 class="dark-mode-txt">What changed</h2>
+            <!-- TODO: add real before/after numbers only if Pauline provides them. Otherwise leave out metrics entirely. -->
             <div class="three-column-grid">
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">Accessibility</h3>
-                    <p>Imporved accessibility throughout the intire website</p>
+                    <h3 class="project-stat-num">Self-managed</h3>
+                    <p>A modular WordPress/Elementor system lets the internal team update content without a developer, and much faster than before</p>
                 </div>
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">Bounce Rate</h3>
-                    <p>Proven bounce rate reduction<br>across pages</p>
+                    <h3 class="project-stat-num">Clear paths</h3>
+                    <p>A clearer structure with separate paths for candidates and employers</p>
                 </div>
                 <div class="project-stat-item">
-                    <h3 class="project-stat-num">Approx 5×</h3>
-                    <p>Faster content updates by<br>the internal team</p>
+                    <h3 class="project-stat-num">SEO &amp; A11y</h3>
+                    <p>A site built with SEO and accessibility compliance in mind</p>
                 </div>
             </div>
         </div>

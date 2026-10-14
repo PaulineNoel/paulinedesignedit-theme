@@ -58,6 +58,12 @@ get_header(); ?>
           <span class="skill-tag">Wireframing</span>
           <span class="skill-tag">User Flows</span>
           <span class="skill-tag">Design Systems</span>
+          <span class="skill-tag">Personas</span>
+          <span class="skill-tag">Heuristic Evaluation</span>
+          <span class="skill-tag">Information Architecture</span>
+          <span class="skill-tag">Design Thinking Workshops</span>
+          <span class="skill-tag">Accessibility (WCAG)</span>
+          <span class="skill-tag">Usability Testing (participation)</span>
         </div>
       </div>
 

@@ -31,8 +31,8 @@
       <ul class="site-nav__list">
 
         <?php
-          $is_case_study = is_page( array( 'projects', 'ci-project', 'jobinar-project', 'twc-project', 'flexina-project', 'anita-diamonds-project', 'flyux-project' ) )
-                           || ( is_singular() && in_array( get_post()->post_name, array( 'ci-project', 'jobinar-project', 'twc-project', 'flexina-project', 'anita-diamonds-project', 'flyux-project', 'projects' ) ) );
+          $is_case_study = is_page( array( 'projects', 'ci-project', 'jobinar-project', 'jobinar-project-2026', 'twc-project', 'flexina-project', 'anita-diamonds-project', 'flyux-project' ) )
+                           || ( is_singular() && in_array( get_post()->post_name, array( 'ci-project', 'jobinar-project', 'jobinar-project-2026', 'twc-project', 'flexina-project', 'anita-diamonds-project', 'flyux-project', 'projects' ) ) );
         ?>
 
         <li class="site-nav__item">
@@ -50,6 +50,12 @@
           <div class="site-nav__dropdown" aria-label="Case studies submenu">
             <ul class="dropdown-list">
               <li class="dropdown-item">
+                <a href="<?php echo esc_url( home_url('/jobinar-project-2026/') ); ?>" class="dropdown-link<?php echo is_page('jobinar-project-2026') ? ' is-active' : ''; ?>" role="menuitem">
+                  <span class="dropdown-link__label">Jobinar 2026</span>
+                  <span class="dropdown-link__sub">Flexible job listing experience</span>
+                </a>
+              </li>
+              <li class="dropdown-item">
                 <a href="<?php echo esc_url( home_url('/ci-project/') ); ?>" class="dropdown-link<?php echo is_page('ci-project') ? ' is-active' : ''; ?>" role="menuitem">
                   <span class="dropdown-link__label">Careers International</span>
                   <span class="dropdown-link__sub">Brand &amp; UX transformation</span>
@@ -57,7 +63,7 @@
               </li>
               <li class="dropdown-item">
                 <a href="<?php echo esc_url( home_url('/jobinar-project/') ); ?>" class="dropdown-link<?php echo is_page('jobinar-project') ? ' is-active' : ''; ?>" role="menuitem">
-                  <span class="dropdown-link__label">Jobinar</span>
+                  <span class="dropdown-link__label">Jobinar 2024</span>
                   <span class="dropdown-link__sub">Web strategy &amp; UX overhaul</span>
                 </a>
               </li>
