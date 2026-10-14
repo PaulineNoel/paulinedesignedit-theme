@@ -24,14 +24,14 @@ get_header(); ?>
       <div class="about-hero__text-col">
         <span class="hero-kicker">Based in Brussels, Belgium</span>
         <h1>Hi, I'm Pauline, a <span class="highlight italic">UI/UX Designer</span> and Front-End Developer.</h1>
-        <p class="about-hero__intro">I help companies build digital products that are clear, easy to use and actually perform. I work across the whole project, from research and design through to code and launch.</p>
+        <p class="about-hero__intro">I have 5+ years of experience in user research, user journeys and flow diagrams, prototyping, front-end development and CMS management. I translate business requirements into accessible, production-ready interfaces across enterprise-scale web platforms, and I'm comfortable owning projects end to end, from user needs analysis through launch.</p>
         <div class="about-hero__actions">
           <a href="mailto:info@paulinedesigned.it" class="primary-btn btn">Work with me</a>
           <a href="<?php echo esc_url( home_url('/projects/') ); ?>" class="secondary-btn btn">View my work</a>
         </div>
         <div class="about-hero__langs">
           <span class="about-lang-pill"><span aria-hidden="true">🇫🇷</span> French, native</span>
-          <span class="about-lang-pill"><span aria-hidden="true">🇬🇧</span> English, fluent</span>
+          <span class="about-lang-pill"><span aria-hidden="true">🇬🇧</span> English (C2)</span>
           <span class="about-lang-pill"><span aria-hidden="true">🇧🇪</span> Dutch (B1)</span>
         </div>
       </div>
@@ -50,45 +50,74 @@ get_header(); ?>
     <div class="about-skills__grid">
 
       <div class="skill-group">
-        <p class="skill-group__heading">Design</p>
+        <p class="skill-group__heading">UX/UI Design</p>
         <div class="skill-tags">
-          <span class="skill-tag">UI/UX Design</span>
-          <span class="skill-tag">UX Research</span>
-          <span class="skill-tag">Low to High Fidelity Prototyping</span>
-          <span class="skill-tag">Wireframing</span>
-          <span class="skill-tag">User Flows</span>
-          <span class="skill-tag">Design Systems</span>
-          <span class="skill-tag">Personas</span>
-          <span class="skill-tag">Heuristic Evaluation</span>
+          <span class="skill-tag">User Research</span>
+          <span class="skill-tag">User Personas</span>
+          <span class="skill-tag">User Journeys</span>
+          <span class="skill-tag">Flow Diagrams</span>
           <span class="skill-tag">Information Architecture</span>
+          <span class="skill-tag">Wireframing</span>
+          <span class="skill-tag">Mock-ups & GUIs</span>
+          <span class="skill-tag">Low to High Fidelity Prototyping</span>
+          <span class="skill-tag">Heuristic Evaluations</span>
           <span class="skill-tag">Design Thinking Workshops</span>
-          <span class="skill-tag">Accessibility (WCAG)</span>
           <span class="skill-tag">Usability Testing (participation)</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group__heading">Development</p>
-        <div class="skill-tags">
-          <span class="skill-tag">HTML</span>
-          <span class="skill-tag">CSS & BEM</span>
-          <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">Bootstrap</span>
-          <span class="skill-tag">WordPress</span>
-          <span class="skill-tag">SEO</span>
-          <span class="skill-tag">Adobe & Google Tags</span>
-        </div>
-      </div>
-
-      <div class="skill-group">
-        <p class="skill-group__heading">Tools</p>
-        <div class="skill-tags">
+          <span class="skill-tag">Front-End Specifications</span>
+          <span class="skill-tag">Mobile-First & Responsive Design</span>
           <span class="skill-tag">Figma</span>
           <span class="skill-tag">Adobe XD</span>
+          <span class="skill-tag">Miro</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group__heading">Front-End Development</p>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS (BEM)</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">Bootstrap</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group__heading">CMS Platforms</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Magnolia CMS</span>
+          <span class="skill-tag">WordPress</span>
+          <span class="skill-tag">Sitecore (onboarding)</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group__heading">Quality & Performance</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Accessibility (WCAG)</span>
+          <span class="skill-tag">Technical SEO</span>
+          <span class="skill-tag">Adobe & Google Tag Management</span>
+          <span class="skill-tag">QA/Smoke Testing</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group__heading">Graphic Design & Video</p>
+        <div class="skill-tags">
           <span class="skill-tag">Adobe Photoshop</span>
           <span class="skill-tag">Adobe Illustrator</span>
           <span class="skill-tag">Adobe InDesign</span>
-          <span class="skill-tag">Miro</span>
+          <span class="skill-tag">Brand Identity</span>
+          <span class="skill-tag">Print & Digital Collateral</span>
+          <span class="skill-tag">Adobe Premiere Pro</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <p class="skill-group__heading">AI Tools</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Claude</span>
+          <span class="skill-tag">ChatGPT</span>
+          <span class="skill-tag">Bevel</span>
         </div>
       </div>
 
@@ -108,48 +137,58 @@ get_header(); ?>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2023 - Present</span>
+          <span class="exp-item__date">Oct 2023 - Present</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
           <div class="exp-item__header">
-            <h3 class="exp-item__role">Webmaster & UI/UX Designer</h3>
+            <h3 class="exp-item__role">Webmaster, UI/UX Designer</h3>
             <span class="exp-item__company">Careers International</span>
           </div>
           <ul class="exp-item__list">
-            <li>Web UI/UX design and research</li>
-            <li>Front-end development and web strategy</li>
-            <li>WordPress development and SEO</li>
-            <li>Adobe Suite: social media content, mockups and event posters</li>
-            <li>Complete rebranding of two websites</li>
+            <li>Full web ownership for enterprise clients</li>
+            <li>Single technical point of contact for business stakeholders within an international team, translating requirements into web solutions and technical specifications</li>
+            <li>Prepare and facilitate design thinking workshops with stakeholders; present solutions and concepts</li>
+            <li>Led complete rebranding of two websites, covering front-end development, SEO strategy and accessibility compliance</li>
+            <li>For the website redesign: created a user persona, flow diagrams and user journeys, defined the information architecture, and designed mock-ups and GUIs</li>
+            <li>Perform heuristic evaluations and document front-end specifications for components and templates</li>
+            <li>Manage CMS content updates, component creation and adaptation, personalisation, and quality/smoke testing</li>
+            <li>Act as quality gatekeeper: enforce consistency standards and apply quick fixes directly</li>
+            <li>Create social media content (Adobe Suite): imagery, mockups and event posters</li>
           </ul>
           <div class="exp-item__clients">
+            <span class="exp-client-tag">AXA France</span>
+            <span class="exp-client-tag">Euroclear</span>
+            <span class="exp-client-tag">EIB</span>
             <span class="exp-client-tag">VW Group</span>
             <span class="exp-client-tag">Allianz</span>
             <span class="exp-client-tag">Roland Berger</span>
-            <span class="exp-client-tag">Euroclear</span>
-            <span class="exp-client-tag">EIB</span>
+            <span class="exp-client-tag">Mondelez</span>
+            <span class="exp-client-tag">ENGIE</span>
           </div>
         </div>
       </div>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2021 - Present</span>
+          <span class="exp-item__date">Jan 2020 - Present</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
           <div class="exp-item__header">
-            <h3 class="exp-item__role">Webmaster, Fullstack Developer & UI/UX Designer</h3>
-            <span class="exp-item__company">PND, Freelance</span>
+            <h3 class="exp-item__role">UI/UX Designer & Front-End Developer</h3>
+            <span class="exp-item__company">PND, Independent Design Studio</span>
           </div>
           <ul class="exp-item__list">
-            <li>Web UI/UX design and research</li>
-            <li>Graphic design: flyers, cards and booklets</li>
-            <li>Frontend web developer</li>
+            <li>Run an independent design and development studio, owning client web projects end to end from brief to launch</li>
+            <li>Deliver full-cycle websites: UX research, wireframing, UI design, front-end development and launch</li>
+            <li>Gather requirements, translate business goals into web solutions, and iterate based on client feedback</li>
+            <li>Design brand identity assets, flyers, cards and booklets for print and digital communication</li>
+            <li>Filmed, voiced and edited (Adobe Premiere Pro) a promotional video for a €2.7M villa, produced for a real estate Instagram account</li>
           </ul>
           <div class="exp-item__clients">
             <span class="exp-client-tag">Flexina</span>
+            <span class="exp-client-tag">Stejac</span>
             <span class="exp-client-tag">Anita Diamonds</span>
             <span class="exp-client-tag">Ne-ma</span>
             <span class="exp-client-tag">Dgenious</span>
@@ -160,7 +199,7 @@ get_header(); ?>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2021 - 2023</span>
+          <span class="exp-item__date">Jul 2021 - Sep 2023</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
@@ -169,18 +208,19 @@ get_header(); ?>
             <span class="exp-item__company">Proximus</span>
           </div>
           <ul class="exp-item__list">
-            <li>Built responsive pages in Magnolia CMS to design specs</li>
-            <li>Ensured website accessibility, HTML and content management</li>
-            <li>Produced documentation for onboarding and training</li>
-            <li>Collaborated in an agile team through the full release cycle</li>
-            <li>Streamlined work distribution across multiple teams</li>
+            <li>Built and maintained responsive pages in Magnolia CMS following design specifications and accessibility standards</li>
+            <li>Ensured WCAG compliance across HTML, configuration and content management on a major telecom website</li>
+            <li>Participated in usability tests alongside a Senior UX designer</li>
+            <li>Performed heuristic evaluations and documented front-end specifications, including onboarding documentation</li>
+            <li>Collaborated in agile release cycles within an international, cross-functional team</li>
+            <li>Optimised work distribution across multiple teams, acting as operational hub for web deliverables</li>
           </ul>
         </div>
       </div>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2021</span>
+          <span class="exp-item__date">Jan 2021 - Jul 2021</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
@@ -189,16 +229,15 @@ get_header(); ?>
             <span class="exp-item__company">AddRetail</span>
           </div>
           <ul class="exp-item__list">
-            <li>Coded HTML newsletters for Club, Planet Parfum, Trafic, Deutsche Bank</li>
-            <li>Designed and built websites from scratch</li>
-            <li>Created medium to high fidelity prototypes and wireframes for high-profile clients</li>
+            <li>Coded HTML newsletters (inline CSS, tables) for clients including Club, Planet Parfum, Trafic and Deutsche Bank</li>
+            <li>Designed and developed websites; created medium-to-high fidelity wireframes and prototypes for high-profile clients</li>
           </ul>
         </div>
       </div>
 
       <div class="exp-item">
         <div class="exp-item__meta">
-          <span class="exp-item__date">2019 - 2020</span>
+          <span class="exp-item__date">Jan 2019 - Jan 2020</span>
           <div class="exp-item__dot"></div>
         </div>
         <div class="exp-item__content">
@@ -207,9 +246,9 @@ get_header(); ?>
             <span class="exp-item__company">Cricket & Co</span>
           </div>
           <ul class="exp-item__list">
-            <li>Fashion and packaging design</li>
-            <li>Garment technical packs, production management</li>
-            <li>Promotional graphic design published in press and social media</li>
+            <li>Led fashion and packaging design</li>
+            <li>Managed production: created garment technical packs, coordinated with manufacturers, maintained production files and tracking spreadsheets</li>
+            <li>Designed promotional posters published in national newspapers and on the company's social media platforms</li>
           </ul>
         </div>
       </div>
