@@ -109,17 +109,17 @@ get_header(); ?>
                 <h3>Analytics Review</h3>
                 <p>Drop-offs, exit pages and traffic sources.</p>
             </div>
-            <div class="research-card">
+            <div class="info-card">
                 <div class="research-icon" style="background: var(--color-blue);">🗂️</div>
                 <h3>Internal Records</h3>
                 <p>What the business already knew about its candidates and clients.</p>
             </div>
-            <div class="research-card">
+            <div class="info-card">
                 <div class="research-icon" style="background: #FDE8F0;">🔍</div>
                 <h3>Competitive Benchmarking</h3>
                 <p>How comparable recruitment sites structure navigation and calls to action.</p>
             </div>
-            <div class="research-card">
+            <div class="info-card">
                 <div class="research-icon" style="background: #fff0e8;">🤝</div>
                 <h3>Stakeholder Input</h3>
                 <p>Goals and priorities gathered with the business.</p>
@@ -144,8 +144,14 @@ get_header(); ?>
         <div class="project-research-content">
             <p class="label">Persona</p>
             <h2>Persona</h2>
-            <p>I created a persona based on the analytics, internal records and benchmarking to keep decisions focused on the main candidate need.</p>
-            <!-- TODO: add the persona card: name, role, goals, frustrations and the data it came from. Use only content Pauline provides. -->
+            <p>I created a proto-persona from the site content and the team's knowledge of how candidates arrive, to keep decisions focused on the main candidate need. Lena is a recruited jobinar candidate: most candidates are invited by a recruiter, and others find the jobinar on LinkedIn or through organic search. She wants to know the people and the team before she applies.</p>
+        </div>
+        <?php $ci_persona = get_stylesheet_directory_uri() . '/assets/images/CI Project/CI - User persona.png'; ?>
+        <div class="img-placeholder">
+            <a href="<?php echo esc_url( $ci_persona ); ?>" target="_blank" rel="noopener noreferrer">
+                <img style="width: 100%; height: auto;" src="<?php echo esc_url( $ci_persona ); ?>" alt="User persona Lena Maes, 29, embedded software engineer in Belgium recruited to a jobinar: her goals, frustrations, behaviours, needs from the site, and her journey from invitation to applying">
+            </a>
+            <span>User persona: recruited jobinar candidate</span>
         </div>
     </section>
     <section id="strategy" class="container">
@@ -221,7 +227,46 @@ get_header(); ?>
             <p class="label">05. Wireframes &amp; Prototype</p>
             <h2>From user flow to prototype</h2>
             <p>I began with a user flow diagram in Miro, then built wireframes in Adobe XD with my marketing colleague. Once validated with stakeholders, the wireframes became low- and then high-fidelity prototypes covering all the main pages. I also redesigned the jobinar template to match the new brand identity.</p>
-            <!-- TODO: add the user flow diagram and wireframe images. If the flow diagram has to be redrawn, caption it "Redrawn from the original (original file no longer available)". -->
+        </div>
+        <?php $ci_img = get_stylesheet_directory_uri() . '/assets/images/CI Project/'; ?>
+        <div class="wf-block">
+            <span class="label-highlight-pink">User Flows</span>
+            <div class="img-placeholder">
+                <a href="<?php echo esc_url( $ci_img . 'CI - Candidate journey.png' ); ?>" target="_blank" rel="noopener noreferrer">
+                    <img style="width: 100%; height: auto;" src="<?php echo esc_url( $ci_img . 'CI - Candidate journey.png' ); ?>" alt="Careers International candidate journey: from discovery and the homepage, through Meet Employers, events and employer profiles, to job details, Apply Now, the application form and application sent">
+                </a>
+                <span>Candidate journey. Redrawn from the original (original file no longer available)</span>
+            </div>
+            <div class="img-placeholder">
+                <a href="<?php echo esc_url( $ci_img . 'CI - Jobinar page journey.png' ); ?>" target="_blank" rel="noopener noreferrer">
+                    <img style="width: 100%; height: auto;" src="<?php echo esc_url( $ci_img . 'CI - Jobinar page journey.png' ); ?>" alt="Jobinar page candidate journey in four stages: discover and learn, apply to the jobinar, join the live or watch the replay, then apply to roles within two weeks of the live">
+                </a>
+                <span>Jobinar page journey. Redrawn from the original (original file no longer available)</span>
+            </div>
+        </div>
+        <div class="wf-block">
+            <span class="label-highlight-pink">Wireframes</span>
+            <div class="three-column-grid">
+                <div class="img-placeholder">
+                    <a href="<?php echo esc_url( $ci_img . 'CI - Wireframe - Home.png' ); ?>" target="_blank" rel="noopener noreferrer">
+                        <img class="img-420" src="<?php echo esc_url( $ci_img . 'CI - Wireframe - Home.png' ); ?>" alt="Desktop wireframe of the Careers International homepage">
+                    </a>
+                    <span>Homepage wireframe (desktop)</span>
+                </div>
+                <div class="img-placeholder">
+                    <a href="<?php echo esc_url( $ci_img . 'CI - Wireframe - Meet Employers.png' ); ?>" target="_blank" rel="noopener noreferrer">
+                        <img class="img-420" src="<?php echo esc_url( $ci_img . 'CI - Wireframe - Meet Employers.png' ); ?>" alt="Desktop wireframe of the Meet Employers page">
+                    </a>
+                    <span>Meet Employers wireframe (desktop)</span>
+                </div>
+                <div class="img-placeholder">
+                    <a href="<?php echo esc_url( $ci_img . 'CI - Wireframe - Jobinar page.png' ); ?>" target="_blank" rel="noopener noreferrer">
+                        <img class="img-420" src="<?php echo esc_url( $ci_img . 'CI - Wireframe - Jobinar page.png' ); ?>" alt="Desktop wireframe of the jobinar page">
+                    </a>
+                    <span>Jobinar page wireframe (desktop)</span>
+                </div>
+            </div>
+            <p>Redrawn from the original (original file no longer available). Click an image to view it full size.</p>
         </div>
         <div class="wf-block">
             <span class="label-highlight-pink">Homepage</span>

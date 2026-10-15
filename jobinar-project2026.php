@@ -162,6 +162,14 @@ get_header(); ?>
             </div>
         </div>
 
+        <?php $jobinar_journey = get_stylesheet_directory_uri() . '/assets/images/CI Project/CI - Jobinar page journey.png'; ?>
+        <div class="img-placeholder">
+            <a href="<?php echo esc_url( $jobinar_journey ); ?>" target="_blank" rel="noopener noreferrer">
+                <img style="width: 100%; height: auto;" src="<?php echo esc_url( $jobinar_journey ); ?>" alt="Jobinar page candidate journey in four stages: discover and learn, apply to the jobinar, join the live or watch the replay, then apply to roles within two weeks of the live">
+            </a>
+            <span>Jobinar page candidate journey. Redrawn from the original (original file no longer available)</span>
+        </div>
+
         <div class="section-shell-pink">
             <p class="label-action">Key Insights</p>
             <h2>What the research revealed</h2>

@@ -166,6 +166,14 @@ get_header(); ?>
             </div>
         </div>
 
+        <?php $jobinar_journey = get_stylesheet_directory_uri() . '/assets/images/CI Project/CI - Jobinar page journey.png'; ?>
+        <div class="img-placeholder">
+            <a href="<?php echo esc_url( $jobinar_journey ); ?>" target="_blank" rel="noopener noreferrer">
+                <img style="width: 100%; height: auto;" src="<?php echo esc_url( $jobinar_journey ); ?>" alt="Jobinar page candidate journey in four stages: discover and learn, apply to the jobinar, join the live or watch the replay, then apply to roles within two weeks of the live">
+            </a>
+            <span>Jobinar page candidate journey. Redrawn from the original (original file no longer available)</span>
+        </div>
+
         <!-- <div class="two-column-grid">
             <div class="img-placeholder" style="height: 320px;">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><path d="M21 15l-5-5L5 21"></path></svg>
